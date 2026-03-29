@@ -364,16 +364,18 @@
         .metric-value {
             font-weight: 600;
             color: #1f2937;
-            font-family: 'Courier New', monospace;
+            font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
+            font-variant-numeric: tabular-nums;
         }
-        
+
         .metric-frequency {
             color: #666;
             font-size: 12px;
         }
-        
+
         .metric-wow, .metric-yoy, .metric-5year-avg {
-            font-family: 'Courier New', monospace;
+            font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
+            font-variant-numeric: tabular-nums;
             font-weight: 500;
         }
         
@@ -857,11 +859,13 @@
         function formatSummaryText(text) {
             if (!text) return '';
             // 先去除原有换行和多余空白，再按 1）2）3）分割成多行
+            // 同时处理 "XXX产业链：" 这样的标题前添加换行
             return text
                 .replace(/\s+/g, ' ')
                 .replace(/\s*([1-9][）\)])/g, '<br><strong>$1</strong>')
+                .replace(/\s*([^\s]+产业链[：:])/g, '<br><br><strong>$1</strong>')
                 .trim()
-                .replace(/^<br>/, '');  // 移除开头的换行
+                .replace(/^<br>+/, '');  // 移除开头的换行
         }
 
         // 选择总览日期
@@ -1135,7 +1139,8 @@
         function buildTrendOption(chartData) {
             const series = chartData.series.filter(s => s.data && s.data.length > 0);
             const isDualAxis = chartData.dualAxis;
-            
+            const isMobile = window.innerWidth <= 768;
+
             const echartsSeries = series.map(s => ({
                 name: s.label,
                 type: 'line',
@@ -1146,17 +1151,17 @@
                 itemStyle: { color: s.color },
                 yAxisIndex: isDualAxis && s.axis === 'y2' ? 1 : 0,
             }));
-            
+
             const yAxisConfig = {
                 type: 'value',
                 scale: true,  // 不强制从0开始，自动缩放
                 axisLine: { lineStyle: { color: '#e0e0e0' } },
-                axisLabel: { color: '#666', fontSize: 11 },
+                axisLabel: { color: '#666', fontSize: isMobile ? 10 : 11 },
                 splitLine: { lineStyle: { color: '#f0f0f0' } },
                 name: chartData.yaxis.title || '',
-                nameTextStyle: { color: '#666', fontSize: 11 }
+                nameTextStyle: { color: '#666', fontSize: isMobile ? 10 : 11 }
             };
-            
+
             const yAxes = [yAxisConfig];
             if (isDualAxis && chartData.yaxis2) {
                 yAxes.push({
@@ -1166,14 +1171,16 @@
                     splitLine: { show: false }
                 });
             }
-            
+
             return {
                 backgroundColor: 'transparent',
-                grid: { top: 30, bottom: 60, left: 55, right: isDualAxis ? 55 : 15 },
+                grid: { top: 30, bottom: isMobile ? 80 : 60, left: isMobile ? 45 : 55, right: isDualAxis ? (isMobile ? 45 : 55) : 15 },
                 legend: {
                     data: series.map(s => s.label),
                     bottom: 0,
-                    textStyle: { color: '#666', fontSize: 10 }
+                    textStyle: { color: '#666', fontSize: isMobile ? 9 : 10 },
+                    itemWidth: isMobile ? 12 : 16,
+                    itemHeight: isMobile ? 8 : 10
                 },
                 tooltip: {
                     trigger: 'axis',
@@ -1209,7 +1216,8 @@
         function buildSeasonalOption(chartData) {
             const series = chartData.series.filter(s => s.data && s.data.length > 0);
             const currentYear = new Date().getFullYear();
-            
+            const isMobile = window.innerWidth <= 768;
+
             const echartsSeries = [];
             
             series.forEach(s => {
@@ -1249,10 +1257,12 @@
             
             return {
                 backgroundColor: 'transparent',
-                grid: { top: 30, bottom: 60, left: 55, right: 15 },
+                grid: { top: 30, bottom: isMobile ? 80 : 60, left: isMobile ? 45 : 55, right: 15 },
                 legend: {
                     bottom: 0,
-                    textStyle: { color: '#666', fontSize: 10 }
+                    textStyle: { color: '#666', fontSize: isMobile ? 9 : 10 },
+                    itemWidth: isMobile ? 12 : 16,
+                    itemHeight: isMobile ? 8 : 10
                 },
                 tooltip: {
                     trigger: 'axis',
