@@ -1008,21 +1008,21 @@
                     ? (metric.wow >= 0 ? '+' : '') + (metric.wow * 100).toFixed(1) + '%'
                     : '--';
                 const wowColor = metric.wow !== null
-                    ? ((metric.wow >= 0) === (metric.direction > 0) ? '#52c41a' : '#ff4d4f')
+                    ? (metric.wow >= 0 ? '#ff4d4f' : '#52c41a')
                     : '#999';
 
                 const yoyStr = metric.yoy !== null
                     ? (metric.yoy >= 0 ? '+' : '') + (metric.yoy * 100).toFixed(1) + '%'
                     : '--';
                 const yoyColor = metric.yoy !== null
-                    ? ((metric.yoy >= 0) === (metric.direction > 0) ? '#52c41a' : '#ff4d4f')
+                    ? (metric.yoy >= 0 ? '#ff4d4f' : '#52c41a')
                     : '#999';
 
                 const vs5YearAvgStr = metric.vs5YearAvg !== null
                     ? (metric.vs5YearAvg >= 0 ? '+' : '') + (metric.vs5YearAvg * 100).toFixed(1) + '%'
                     : '--';
                 const vs5YearAvgColor = metric.vs5YearAvg !== null
-                    ? ((metric.vs5YearAvg >= 0) === (metric.direction > 0) ? '#52c41a' : '#ff4d4f')
+                    ? (metric.vs5YearAvg >= 0 ? '#ff4d4f' : '#52c41a')
                     : '#999';
 
                 // 处理类别单元格合并
