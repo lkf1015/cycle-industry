@@ -860,7 +860,7 @@
             // 同时处理 "XXX产业链：" 这样的标题前添加换行
             return text
                 .replace(/\s+/g, ' ')
-                .replace(/\s*([1-9][）\)])/g, '<br><strong>$1</strong>')
+                .replace(/(?<![.\d])\s*([1-9][）\)])/g, '<br><strong>$1</strong>')
                 .replace(/\s*([^\s]+产业链[：:])/g, '<br><br><strong>$1</strong>')
                 .trim()
                 .replace(/^<br>+/, '');  // 移除开头的换行
