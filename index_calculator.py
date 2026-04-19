@@ -38,12 +38,14 @@ def _rolling_percentile(yoy_series: pd.Series, window: int = 260) -> pd.Series:
     5年（260周）滚动历史分位数变换
     当前YoY值在过去window期中处于什么百分位（0-100）
     """
+    min_periods = min(52, window)
+
     def pct_score(x):
         if len(x) < 10:
             return np.nan
         return stats.percentileofscore(x[:-1], x[-1], kind='rank')
 
-    return yoy_series.rolling(window, min_periods=52).apply(pct_score, raw=True)
+    return yoy_series.rolling(window, min_periods=min_periods).apply(pct_score, raw=True)
 
 
 def _compute_industry(industry: str, data: dict, window: int = 260) -> pd.Series:
@@ -70,7 +72,11 @@ def _compute_industry(industry: str, data: dict, window: int = 260) -> pd.Series
 
         weekly = _to_weekly(raw)
         yoy = _yoy_transform(weekly, ind['yoy_type'])
-        pct = _rolling_percentile(yoy, window)
+        # 对数据不足window的指标，缩小窗口到实际可用长度
+        actual_window = min(window, len(yoy.dropna()))
+        if actual_window < 52:
+            actual_window = min(52, len(yoy.dropna()))
+        pct = _rolling_percentile(yoy, actual_window)
 
         if ind['direction'] == 'negative':
             pct = 100 - pct
@@ -84,11 +90,18 @@ def _compute_industry(industry: str, data: dict, window: int = 260) -> pd.Series
     df = pd.DataFrame(percentile_cols)
     df = df.dropna(how='all')
 
+    # 截断：只保留至少2个指标有数据的最后一周
+    # 避免只有1个指标的未来周污染整体得分
+    valid_mask = df.count(axis=1) >= 2
+    if valid_mask.any():
+        last_valid_idx = valid_mask[valid_mask].index[-1]
+        df = df[df.index <= last_valid_idx]
+
     # 只使用所有指标都有数据的行做PCA
     df_full = df.dropna()
 
     if len(df_full) < 20:
-        # 数据不足，用简单平均
+        # 数据不足PCA所需，用简单平均
         return df.mean(axis=1)
 
     # PCA提取第一主成分
@@ -153,7 +166,6 @@ def _compute_industry(industry: str, data: dict, window: int = 260) -> pd.Series
         return df.mean(axis=1)
 
 
-@lru_cache(maxsize=1)
 def compute_all(window: int = 260) -> dict:
     """
     计算所有行业的景气指数（带缓存）
