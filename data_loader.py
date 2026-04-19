@@ -205,58 +205,50 @@ def _read_nonferrous():
 
 def _read_petrochem():
     path = os.path.join(DATA_DIR, '石化.xlsx')
+    xls = pd.ExcelFile(path)
 
-    # === 价格 sheet ===
-    # 行0=空，行1=名，行2=单位，行3=频率；数据从行3（注意：实际数据从行3开始）
-    # 左：col1=NYMEX日期，col2=NYMEX天然气
-    # 右：col3=布伦特日期，col4=布伦特原油
-    df_price = pd.read_excel(path, sheet_name='价格', header=None)
-    nymex_gas = _ts(df_price, 1, 2, 3)
-    brent = _ts(df_price, 3, 4, 3)
+    # === 价格 sheet (index 0) ===
+    # 行1=名，行2=频率，行3=单位，行4=指标ID，行5=来源；数据从行6
+    # 左：col2=日期, col3=布伦特原油
+    # 右：col6=日期, col7=NYMEX天然气
+    df_price = pd.read_excel(xls, sheet_name=0, header=None)
+    brent = _ts(df_price, 1, 2, 5)
+    nymex_gas = _ts(df_price, 5, 6, 5)
 
-    # === 开工&需求 sheet ===
-    # 行0=空，行1=名，行2=数据起始（各子表独立）
-    # 子表1: col1=日期, col2=山东地炼开工率（从行2）
-    # 子表2: col4=日期, col5=主营炼厂开工率（从行2）
-    # 子表3: col7=日期, col8=美国炼厂开工率（从行2）
-    # 子表4: col10=日期, col11=汽油供应, col12=柴油供应, col13=合计（从行3）
-    df_op = pd.read_excel(path, sheet_name='开工&需求', header=None)
-    shandong_op = _ts(df_op, 1, 2, 2)
-    major_refinery_op = _ts(df_op, 4, 5, 2)
-    us_refinery_op = _ts(df_op, 7, 8, 2)
-    us_gasoline_demand = _ts(df_op, 10, 11, 3)
-    us_diesel_demand = _ts(df_op, 10, 12, 3)
-    us_total_demand = _ts(df_op, 10, 13, 3)
+    # === 库存&需求 sheet (index 1, 合并了之前的开工&需求和库存) ===
+    # 行1=名，行2=单位，行3=更新时间；数据从行4（0-indexed）
+    # col3(2)=日期, col4(3)=商业原油, col5(4)=汽油, col6(5)=柴油, col7(6)=煤油
+    # col8(7)=美国炼厂开工率, col9(8)=成品油需求
+    # 右侧子表: col29(28)=日期, col30(29)=山东地炼开工率
+    df_op = pd.read_excel(xls, sheet_name=1, header=None)
+    us_crude_inv = _ts(df_op, 2, 3, 4)
+    us_gasoline_inv = _ts(df_op, 2, 4, 4)
+    us_diesel_inv = _ts(df_op, 2, 5, 4)
+    us_refinery_op = _ts(df_op, 2, 7, 4)
+    us_gasoline_demand = _ts(df_op, 2, 8, 4)
+    shandong_op = _ts(df_op, 28, 29, 4)
 
-    # === 库存 sheet ===
-    # 行0=空，行1=名，行2=单位；数据从行3
-    # 列：1=日期，2=商业原油，3=汽油，4=柴油，5=煤油，6=成品油
-    df_inv = pd.read_excel(path, sheet_name='库存', header=None)
-    us_crude_inv = _ts(df_inv, 1, 2, 3)
-    us_gasoline_inv = _ts(df_inv, 1, 3, 3)
-    us_diesel_inv = _ts(df_inv, 1, 4, 3)
-
-    # === 价差 sheet ===
-    # 行0=空，行1=名，行2=单位；数据从行3
-    # 列：1=日期，2=汽油裂解价差，3=柴油裂解价差，4=乙烯毛利
-    df_spread = pd.read_excel(path, sheet_name='价差', header=None)
-    gasoline_spread = _ts(df_spread, 1, 2, 3)
-    diesel_spread = _ts(df_spread, 1, 3, 3)
-    ethylene_margin = _ts(df_spread, 1, 4, 3)
+    # === 价差 sheet (index 2) ===
+    # 行0=名；数据从行1
+    # col1(0)=日期, col2(1)=汽油裂解价差, col3(2)=柴油裂解价差, col4(3)=乙烯毛利
+    df_spread = pd.read_excel(xls, sheet_name=2, header=None)
+    gasoline_spread = _ts(df_spread, 0, 1, 1)
+    diesel_spread = _ts(df_spread, 0, 2, 1)
+    ethylene_margin = _ts(df_spread, 0, 3, 1)
 
     return {
         'NYMEX天然气': nymex_gas,
         '布伦特原油': brent,
         '山东地炼开工率': shandong_op,
-        '主营炼厂开工率': major_refinery_op,
+        '主营炼厂开工率': pd.Series(dtype=float),
         '美国炼厂开工率': us_refinery_op,
         '美国汽油需求': us_gasoline_demand,
-        '美国柴油需求': us_diesel_demand,
-        '美国成品油需求': us_total_demand,
+        '美国柴油需求': pd.Series(dtype=float),
+        '美国成品油需求': pd.Series(dtype=float),
         '美国商业原油库存': us_crude_inv,
         '美国汽油库存': us_gasoline_inv,
         '美国柴油库存': us_diesel_inv,
-        '美国成品油库存': us_gasoline_inv,  # 使用汽油库存作为成品油库存近似
+        '美国成品油库存': us_gasoline_inv,
         '汽油裂解价差': gasoline_spread,
         '柴油裂解价差': diesel_spread,
         '乙烯裂解毛利': ethylene_margin,
