@@ -11,8 +11,8 @@
       "name": "煤炭",
       "color": "#4e8fd4",
       "summaryText": "本周秦港现货煤环比下降2.1%至729元/吨。最新一期旬度发电量（2月下旬）火电发电量同比下降11.2%，与春节错位有一定关系。淡季已至，电厂补库尚未开启，节后价格反弹告一段落。",
-      "currentScore": 78.0,
-      "scoreWow": 10.2,
+      "currentScore": 66.0,
+      "scoreWow": -1.4,
       "prosperityLevel": "景气",
       "levelColor": "#98c379",
       "kpiCards": [
@@ -21,36 +21,36 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 773.0,
-          "wow": 0.0131,
-          "yoy": 0.2651
+          "currentValue": 827.0,
+          "wow": 0.0535,
+          "yoy": 0.358
         },
         {
           "label": "秦皇岛港库存",
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 583.0,
-          "wow": -0.0443,
-          "yoy": -0.2206
+          "currentValue": 586.0,
+          "wow": 0.0616,
+          "yoy": -0.1053
         },
         {
           "label": "25省电厂库存",
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 10754.3,
-          "wow": 0.0097,
-          "yoy": -0.0612
+          "currentValue": 10872.5,
+          "wow": 0.0232,
+          "yoy": -0.0659
         },
         {
           "label": "25省电厂日耗",
           "unit": "万吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 503.4,
-          "wow": 0.0405,
-          "yoy": -0.0106
+          "currentValue": 437.1,
+          "wow": -0.0496,
+          "yoy": -0.1039
         }
       ],
       "tableMetrics": [
@@ -60,11 +60,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 773.0,
-          "wow": 0.0131,
-          "yoy": 0.2651,
-          "vs5YearAvg": -0.1238,
-          "updateTime": "2026-04-23",
+          "currentValue": 827.0,
+          "wow": 0.0535,
+          "yoy": 0.358,
+          "vs5YearAvg": -0.0899,
+          "updateTime": "2026-05-07",
           "frequency": "日度"
         },
         {
@@ -73,11 +73,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1369.0,
-          "wow": 0.0081,
-          "yoy": 0.2879,
-          "vs5YearAvg": -0.2164,
-          "updateTime": "2026-04-23",
+          "currentValue": 1377.0,
+          "wow": 0.0036,
+          "yoy": 0.3527,
+          "vs5YearAvg": -0.1842,
+          "updateTime": "2026-05-07",
           "frequency": "日度"
         },
         {
@@ -99,11 +99,11 @@
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 6698.3,
-          "wow": -0.0065,
-          "yoy": -0.1395,
-          "vs5YearAvg": 0.0608,
-          "updateTime": "2026-04-20",
+          "currentValue": 6956.5,
+          "wow": 0.0385,
+          "yoy": -0.0808,
+          "vs5YearAvg": 0.0912,
+          "updateTime": "2026-05-04",
           "frequency": "周度"
         },
         {
@@ -112,11 +112,11 @@
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 583.0,
-          "wow": -0.0443,
-          "yoy": -0.2206,
-          "vs5YearAvg": 0.1338,
-          "updateTime": "2026-04-23",
+          "currentValue": 586.0,
+          "wow": 0.0616,
+          "yoy": -0.1053,
+          "vs5YearAvg": 0.0438,
+          "updateTime": "2026-05-08",
           "frequency": "日度"
         },
         {
@@ -125,11 +125,11 @@
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 10754.3,
-          "wow": 0.0097,
-          "yoy": -0.0612,
-          "vs5YearAvg": 0.1095,
-          "updateTime": "2026-04-22",
+          "currentValue": 10872.5,
+          "wow": 0.0232,
+          "yoy": -0.0659,
+          "vs5YearAvg": 0.0957,
+          "updateTime": "2026-04-28",
           "frequency": "日度"
         },
         {
@@ -138,11 +138,11 @@
           "unit": "万吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 503.4,
-          "wow": 0.0405,
-          "yoy": -0.0106,
-          "vs5YearAvg": 0.0608,
-          "updateTime": "2026-04-22",
+          "currentValue": 437.1,
+          "wow": -0.0496,
+          "yoy": -0.1039,
+          "vs5YearAvg": -0.0708,
+          "updateTime": "2026-05-06",
           "frequency": "日度"
         }
       ],
@@ -11289,6 +11289,34 @@
                 {
                   "date": "2026-04-23",
                   "value": 773.0
+                },
+                {
+                  "date": "2026-04-24",
+                  "value": 779.0
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 785.0
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": 794.0
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": 803.0
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 811.0
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 819.0
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 827.0
                 }
               ]
             }
@@ -21944,6 +21972,30 @@
                 {
                   "date": "2026-04-22",
                   "value": 10754.3
+                },
+                {
+                  "date": "2026-04-23",
+                  "value": 10777.8
+                },
+                {
+                  "date": "2026-04-24",
+                  "value": 10795.8
+                },
+                {
+                  "date": "2026-04-25",
+                  "value": 10847.3
+                },
+                {
+                  "date": "2026-04-26",
+                  "value": 10884.099999999999
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 10920.3
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": 10872.5
                 }
               ]
             }
@@ -38483,6 +38535,58 @@
                 {
                   "date": "2026-04-23",
                   "value": 583.0
+                },
+                {
+                  "date": "2026-04-24",
+                  "value": 578.0
+                },
+                {
+                  "date": "2026-04-25",
+                  "value": 575.0
+                },
+                {
+                  "date": "2026-04-26",
+                  "value": 578.0
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 566.0
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": 552.0
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": 555.0
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 550.0
+                },
+                {
+                  "date": "2026-05-01",
+                  "value": 563.0
+                },
+                {
+                  "date": "2026-05-04",
+                  "value": 597.0
+                },
+                {
+                  "date": "2026-05-05",
+                  "value": 574.0
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 588.0
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 588.0
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 586.0
                 }
               ]
             }
@@ -49142,6 +49246,62 @@
                 {
                   "date": "2026-04-22",
                   "value": 503.4
+                },
+                {
+                  "date": "2026-04-23",
+                  "value": 483.6
+                },
+                {
+                  "date": "2026-04-24",
+                  "value": 465.1
+                },
+                {
+                  "date": "2026-04-25",
+                  "value": 447.6
+                },
+                {
+                  "date": "2026-04-26",
+                  "value": 459.90000000000003
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 478.6
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": 488.1
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": 470.6
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 420.3
+                },
+                {
+                  "date": "2026-05-01",
+                  "value": 408.29999999999995
+                },
+                {
+                  "date": "2026-05-02",
+                  "value": 432.9
+                },
+                {
+                  "date": "2026-05-03",
+                  "value": 432.59999999999997
+                },
+                {
+                  "date": "2026-05-04",
+                  "value": 416.6
+                },
+                {
+                  "date": "2026-05-05",
+                  "value": 407.0
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 437.1
                 }
               ]
             }
@@ -49149,14 +49309,6 @@
         }
       ],
       "scoreHistory": [
-        {
-          "date": "2025-04-27",
-          "value": 34.105534105534105
-        },
-        {
-          "date": "2025-05-04",
-          "value": 29.858429858429858
-        },
         {
           "date": "2025-05-11",
           "value": 27.54182754182754
@@ -49359,7 +49511,15 @@
         },
         {
           "date": "2026-04-26",
-          "value": 77.99227799227799
+          "value": 66.40926640926641
+        },
+        {
+          "date": "2026-05-03",
+          "value": 67.43886743886743
+        },
+        {
+          "date": "2026-05-10",
+          "value": 66.02316602316603
         }
       ]
     },
@@ -49367,28 +49527,28 @@
       "name": "钢铁",
       "color": "#e06c75",
       "summaryText": "价格方面，本周钢材价格有所回升，螺纹3250元/吨，热卷3280元/吨。旺季逐步开启，五大材表需提升15.4%，表观需求回升。五大材社会和厂库库存提升1.2%，库存提速放缓，但去库拐点尚未到来。当前黑色供需基本平衡，矛盾不大，价格震荡运行。",
-      "currentScore": 49.2,
-      "scoreWow": 4.5,
-      "prosperityLevel": "中性",
-      "levelColor": "#61afef",
+      "currentScore": 64.4,
+      "scoreWow": 21.1,
+      "prosperityLevel": "景气",
+      "levelColor": "#98c379",
       "kpiCards": [
         {
           "label": "上海热卷",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 3380.0,
-          "wow": 0.0305,
-          "yoy": 0.0368
+          "currentValue": 3510.0,
+          "wow": 0.0385,
+          "yoy": 0.0969
         },
         {
           "label": "上海螺纹",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 3260.0,
-          "wow": 0.0124,
-          "yoy": 0.0252
+          "currentValue": 3320.0,
+          "wow": 0.0215,
+          "yoy": 0.0641
         },
         {
           "label": "五大材库存",
@@ -49404,9 +49564,9 @@
           "unit": "%",
           "direction": 1,
           "scale": 1,
-          "currentValue": 83.2,
-          "wow": 0.0016,
-          "yoy": -0.0113
+          "currentValue": 83.26,
+          "wow": 0.0025,
+          "yoy": -0.0036
         }
       ],
       "tableMetrics": [
@@ -49416,11 +49576,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 3380.0,
-          "wow": 0.0305,
-          "yoy": 0.0368,
-          "vs5YearAvg": -0.2265,
-          "updateTime": "2026-04-24",
+          "currentValue": 3510.0,
+          "wow": 0.0385,
+          "yoy": 0.0969,
+          "vs5YearAvg": -0.2059,
+          "updateTime": "2026-05-08",
           "frequency": "日度"
         },
         {
@@ -49429,11 +49589,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 3260.0,
-          "wow": 0.0124,
-          "yoy": 0.0252,
-          "vs5YearAvg": -0.2227,
-          "updateTime": "2026-04-24",
+          "currentValue": 3320.0,
+          "wow": 0.0215,
+          "yoy": 0.0641,
+          "vs5YearAvg": -0.2203,
+          "updateTime": "2026-05-08",
           "frequency": "日度"
         },
         {
@@ -49442,11 +49602,11 @@
           "unit": "美元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 107.6,
-          "wow": 0.0146,
-          "yoy": 0.0792,
-          "vs5YearAvg": -0.1813,
-          "updateTime": "2026-04-23",
+          "currentValue": 111.65,
+          "wow": 0.041,
+          "yoy": 0.1618,
+          "vs5YearAvg": -0.1635,
+          "updateTime": "2026-05-08",
           "frequency": "日度"
         },
         {
@@ -49468,11 +49628,11 @@
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 1751.5,
-          "wow": 0.0586,
-          "yoy": 0.1454,
-          "vs5YearAvg": 0.0113,
-          "updateTime": "2026-04-10",
+          "currentValue": 1862.95,
+          "wow": 0.0636,
+          "yoy": 0.1603,
+          "vs5YearAvg": 0.0473,
+          "updateTime": "2026-04-20",
           "frequency": "旬度"
         },
         {
@@ -49481,11 +49641,11 @@
           "unit": "万吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 239.5,
-          "wow": 0.0089,
-          "yoy": -0.0215,
-          "vs5YearAvg": 0.0142,
-          "updateTime": "2026-04-17",
+          "currentValue": 238.91,
+          "wow": -0.0017,
+          "yoy": -0.012,
+          "vs5YearAvg": -0.0041,
+          "updateTime": "2026-05-08",
           "frequency": "周度"
         },
         {
@@ -49494,11 +49654,11 @@
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 8320.0,
-          "wow": 0.0016,
-          "yoy": -0.0113,
-          "vs5YearAvg": 0.0112,
-          "updateTime": "2026-04-17",
+          "currentValue": 8326.0,
+          "wow": 0.0025,
+          "yoy": -0.0036,
+          "vs5YearAvg": -0.001,
+          "updateTime": "2026-05-08",
           "frequency": "周度"
         },
         {
@@ -49507,11 +49667,11 @@
           "unit": "万吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 863.22,
-          "wow": 0.0055,
-          "yoy": -0.0106,
-          "vs5YearAvg": -0.0917,
-          "updateTime": "2026-04-27",
+          "currentValue": 839.83,
+          "wow": -0.0271,
+          "yoy": -0.0461,
+          "vs5YearAvg": -0.1213,
+          "updateTime": "2026-05-11",
           "frequency": "周度"
         },
         {
@@ -49520,11 +49680,11 @@
           "unit": "万吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 863.22,
-          "wow": 0.0055,
-          "yoy": -0.0106,
-          "vs5YearAvg": -0.0917,
-          "updateTime": "2026-04-27",
+          "currentValue": 839.83,
+          "wow": -0.0271,
+          "yoy": -0.0461,
+          "vs5YearAvg": -0.1213,
+          "updateTime": "2026-05-11",
           "frequency": "周度"
         },
         {
@@ -49546,11 +49706,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 95.0,
-          "wow": 0.2667,
-          "yoy": 0.0795,
-          "vs5YearAvg": -0.252,
-          "updateTime": "2026-04-24",
+          "currentValue": 135.0,
+          "wow": 0.4516,
+          "yoy": 0.3636,
+          "vs5YearAvg": 0.0019,
+          "updateTime": "2026-05-08",
           "frequency": "日度"
         },
         {
@@ -49559,11 +49719,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 69.0,
-          "wow": 1.5556,
-          "yoy": 0.725,
-          "vs5YearAvg": -0.4052,
-          "updateTime": "2026-04-24",
+          "currentValue": 135.0,
+          "wow": 0.9014,
+          "yoy": 3.0909,
+          "vs5YearAvg": 0.4136,
+          "updateTime": "2026-05-08",
           "frequency": "日度"
         }
       ],
@@ -60866,6 +61026,46 @@
                 {
                   "date": "2026-04-24",
                   "value": 3380.0
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 3390.0
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": 3380.0
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": 3400.0
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 3430.0
+                },
+                {
+                  "date": "2026-05-01",
+                  "value": 3430.0
+                },
+                {
+                  "date": "2026-05-04",
+                  "value": 3430.0
+                },
+                {
+                  "date": "2026-05-05",
+                  "value": 3430.0
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 3490.0
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 3500.0
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 3510.0
                 }
               ]
             },
@@ -72156,6 +72356,46 @@
                 {
                   "date": "2026-04-24",
                   "value": 3260.0
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 3260.0
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": 3250.0
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": 3250.0
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 3260.0
+                },
+                {
+                  "date": "2026-05-01",
+                  "value": 3260.0
+                },
+                {
+                  "date": "2026-05-04",
+                  "value": 3260.0
+                },
+                {
+                  "date": "2026-05-05",
+                  "value": 3260.0
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 3300.0
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 3310.0
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 3320.0
                 }
               ]
             }
@@ -73911,6 +74151,14 @@
                 {
                   "date": "2026-04-27",
                   "value": 863.22
+                },
+                {
+                  "date": "2026-05-04",
+                  "value": 854.8299999999999
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 839.8299999999999
                 }
               ]
             }
@@ -79885,7 +80133,47 @@
                 },
                 {
                   "date": "2026-04-24",
-                  "value": 95.0
+                  "value": 94.0
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 99.0
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": 93.0
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": 103.0
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 114.0
+                },
+                {
+                  "date": "2026-05-01",
+                  "value": 114.0
+                },
+                {
+                  "date": "2026-05-04",
+                  "value": 114.0
+                },
+                {
+                  "date": "2026-05-05",
+                  "value": 114.0
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 120.0
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 135.0
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 135.0
                 }
               ]
             },
@@ -84079,7 +84367,47 @@
                 },
                 {
                   "date": "2026-04-24",
-                  "value": 69.0
+                  "value": 67.0
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 79.0
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": 71.0
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": 86.0
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 98.0
+                },
+                {
+                  "date": "2026-05-01",
+                  "value": 98.0
+                },
+                {
+                  "date": "2026-05-04",
+                  "value": 98.0
+                },
+                {
+                  "date": "2026-05-05",
+                  "value": 98.0
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 128.0
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 135.0
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 135.0
                 }
               ]
             }
@@ -84087,14 +84415,6 @@
         }
       ],
       "scoreHistory": [
-        {
-          "date": "2025-04-27",
-          "value": 64.0926640926641
-        },
-        {
-          "date": "2025-05-04",
-          "value": 62.934362934362944
-        },
         {
           "date": "2025-05-11",
           "value": 58.94465894465895
@@ -84297,7 +84617,15 @@
         },
         {
           "date": "2026-04-26",
-          "value": 49.180659064379995
+          "value": 41.312741312741316
+        },
+        {
+          "date": "2026-05-03",
+          "value": 43.37194337194337
+        },
+        {
+          "date": "2026-05-10",
+          "value": 64.42994718856788
         }
       ]
     },
@@ -84305,8 +84633,8 @@
       "name": "有色",
       "color": "#98c379",
       "summaryText": "价格方面，1#铜现货环比下降0.2%至100945元/吨，铝价抬升2.7%为25115元/吨，铜社会库存下降0.6%，为57.4万吨但交易所库存继续大幅增加。有色板块走势分化，铜受美元走强与需求预期冲击影响，价格环比回落。中东地缘冲突加剧，影响区域产能开工率，市场预期铝供应收紧，成为价格核心推手。",
-      "currentScore": 73.6,
-      "scoreWow": -12.9,
+      "currentScore": 69.8,
+      "scoreWow": -13.8,
       "prosperityLevel": "景气",
       "levelColor": "#98c379",
       "kpiCards": [
@@ -84315,36 +84643,36 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 24745.0,
-          "wow": 0.0,
-          "yoy": 0.2145
+          "currentValue": 24215.0,
+          "wow": -0.0102,
+          "yoy": 0.1973
         },
         {
           "label": "1#铜价",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 102760.0,
-          "wow": 0.0162,
-          "yoy": 0.315
+          "currentValue": 102965.0,
+          "wow": 0.0076,
+          "yoy": 0.3054
         },
         {
           "label": "铜社会库存",
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 25.89,
-          "wow": -0.1364,
-          "yoy": 0.8506
+          "currentValue": 25.29,
+          "wow": -0.0232,
+          "yoy": 0.6529
         },
         {
           "label": "电解铝利润",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 8360.69,
-          "wow": 0.0576,
-          "yoy": 1.4481
+          "currentValue": 7487.08,
+          "wow": -0.1077,
+          "yoy": 1.4688
         }
       ],
       "tableMetrics": [
@@ -84354,11 +84682,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 24745.0,
-          "wow": 0.0,
-          "yoy": 0.2145,
-          "vs5YearAvg": 0.2494,
-          "updateTime": "2026-04-24",
+          "currentValue": 24215.0,
+          "wow": -0.0102,
+          "yoy": 0.1973,
+          "vs5YearAvg": 0.2368,
+          "updateTime": "2026-05-08",
           "frequency": "日度"
         },
         {
@@ -84367,11 +84695,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 102760.0,
-          "wow": 0.0162,
-          "yoy": 0.315,
-          "vs5YearAvg": 0.3919,
-          "updateTime": "2026-04-24",
+          "currentValue": 102965.0,
+          "wow": 0.0076,
+          "yoy": 0.3054,
+          "vs5YearAvg": 0.3838,
+          "updateTime": "2026-05-08",
           "frequency": "日度"
         },
         {
@@ -84380,11 +84708,11 @@
           "unit": "美元/盎司",
           "direction": 1,
           "scale": 1,
-          "currentValue": 4708.62,
-          "wow": -0.0276,
-          "yoy": 0.4025,
-          "vs5YearAvg": 1.0711,
-          "updateTime": "2026-04-24",
+          "currentValue": 4713.56,
+          "wow": 0.0255,
+          "yoy": 0.4243,
+          "vs5YearAvg": 1.0799,
+          "updateTime": "2026-05-08",
           "frequency": "日度"
         },
         {
@@ -84393,11 +84721,11 @@
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 25.89,
-          "wow": -0.1364,
-          "yoy": 0.8506,
-          "vs5YearAvg": 0.067,
-          "updateTime": "2026-04-23",
+          "currentValue": 25.29,
+          "wow": -0.0232,
+          "yoy": 0.6529,
+          "vs5YearAvg": 0.0871,
+          "updateTime": "2026-05-06",
           "frequency": "周度"
         },
         {
@@ -84406,11 +84734,11 @@
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 146.5,
-          "wow": 0.0216,
-          "yoy": 1.6302,
-          "vs5YearAvg": 0.6168,
-          "updateTime": "2026-04-23",
+          "currentValue": 144.1,
+          "wow": -0.0164,
+          "yoy": 1.8591,
+          "vs5YearAvg": 0.6578,
+          "updateTime": "2026-05-08",
           "frequency": "周度"
         },
         {
@@ -84419,11 +84747,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 8360.69,
-          "wow": 0.0576,
-          "yoy": 1.4481,
-          "vs5YearAvg": 1.49,
-          "updateTime": "2026-04-23",
+          "currentValue": 7487.08,
+          "wow": -0.1077,
+          "yoy": 1.4688,
+          "vs5YearAvg": 1.3412,
+          "updateTime": "2026-05-07",
           "frequency": "日度"
         },
         {
@@ -84432,11 +84760,11 @@
           "unit": "美元/干吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": -81.06,
-          "wow": -0.0392,
-          "yoy": -0.8319,
-          "vs5YearAvg": -3.5096,
-          "updateTime": "2026-04-24",
+          "currentValue": -92.03,
+          "wow": -0.1353,
+          "yoy": -1.1402,
+          "vs5YearAvg": -3.9272,
+          "updateTime": "2026-05-08",
           "frequency": "日度"
         },
         {
@@ -84445,11 +84773,11 @@
           "unit": "美分/磅",
           "direction": 1,
           "scale": 1,
-          "currentValue": -8.11,
-          "wow": -0.0392,
-          "yoy": -0.8319,
-          "vs5YearAvg": -3.5096,
-          "updateTime": "2026-04-24",
+          "currentValue": -9.2,
+          "wow": -0.1353,
+          "yoy": -1.1402,
+          "vs5YearAvg": -3.9272,
+          "updateTime": "2026-05-08",
           "frequency": "日度"
         }
       ],
@@ -96424,6 +96752,34 @@
                 {
                   "date": "2026-04-24",
                   "value": 102760.0
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 103025.0
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": 102185.0
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": 101795.0
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 101685.0
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 102675.0
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 102895.0
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 102965.0
                 }
               ]
             }
@@ -98495,6 +98851,18 @@
                 {
                   "date": "2026-04-23",
                   "value": 25.89
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 24.86
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 24.3
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 25.29
                 }
               ]
             }
@@ -100570,6 +100938,22 @@
                 {
                   "date": "2026-04-23",
                   "value": 146.5
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 146.5
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 143.2
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 145.6
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 144.1
                 }
               ]
             }
@@ -112466,6 +112850,34 @@
                 {
                   "date": "2026-04-24",
                   "value": -81.06
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": -81.06
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": -81.06
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": -81.06
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": -84.66
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": -84.66
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": -84.66
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": -92.03
                 }
               ]
             }
@@ -112473,14 +112885,6 @@
         }
       ],
       "scoreHistory": [
-        {
-          "date": "2025-04-27",
-          "value": 21.814671814671815
-        },
-        {
-          "date": "2025-05-04",
-          "value": 19.305019305019307
-        },
         {
           "date": "2025-05-11",
           "value": 20.077220077220076
@@ -112683,7 +113087,15 @@
         },
         {
           "date": "2026-04-26",
-          "value": 73.62699815970845
+          "value": 84.16988416988417
+        },
+        {
+          "date": "2026-05-03",
+          "value": 83.59073359073359
+        },
+        {
+          "date": "2026-05-10",
+          "value": 69.78585728585729
         }
       ]
     },
@@ -112691,46 +113103,46 @@
       "name": "石化",
       "color": "#c678dd",
       "summaryText": "价格方面，本周布伦特原油价格上涨11.3%至103.1美元/桶，NYMEX HH天然气价格下跌1.6%至3.13美元/百万英热。霍尔木兹海峡中断，全球原油产量受损近7%，油价继续上涨。美国炼厂开工率提升至90.8%，国内山东地炼开工率63.1%，短期内开工率受影响有限。",
-      "currentScore": 58.7,
-      "scoreWow": 10.3,
-      "prosperityLevel": "中性",
-      "levelColor": "#61afef",
+      "currentScore": 79.6,
+      "scoreWow": -20.4,
+      "prosperityLevel": "景气",
+      "levelColor": "#98c379",
       "kpiCards": [
         {
           "label": "布伦特原油",
           "unit": "美元/桶",
           "direction": 1,
           "scale": 1,
-          "currentValue": 105.07,
-          "wow": 0.0575,
-          "yoy": 0.6305
+          "currentValue": 100.06,
+          "wow": -0.0755,
+          "yoy": 0.5314
         },
         {
           "label": "NYMEX天然气",
           "unit": "美元/百万英热",
           "direction": 1,
           "scale": 1,
-          "currentValue": 2.6,
-          "wow": -0.0114,
-          "yoy": -0.2104
+          "currentValue": 2.78,
+          "wow": 0.0944,
+          "yoy": -0.2399
         },
         {
           "label": "美国原油库存",
           "unit": "千桶",
           "direction": -1,
           "scale": 1,
-          "currentValue": 465729.0,
-          "wow": 0.0022,
-          "yoy": 0.0509
+          "currentValue": 457182.0,
+          "wow": -0.0184,
+          "yoy": 0.0484
         },
         {
           "label": "汽油裂解价差",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": -281.84,
-          "wow": -1.3871,
-          "yoy": -1.2444
+          "currentValue": -37.26,
+          "wow": 0.9291,
+          "yoy": -1.0329
         }
       ],
       "tableMetrics": [
@@ -112740,11 +113152,11 @@
           "unit": "美元/桶",
           "direction": 1,
           "scale": 1,
-          "currentValue": 105.07,
-          "wow": 0.0575,
-          "yoy": 0.6305,
-          "vs5YearAvg": 0.2812,
-          "updateTime": "2026-04-23",
+          "currentValue": 100.06,
+          "wow": -0.0755,
+          "yoy": 0.5314,
+          "vs5YearAvg": 0.2447,
+          "updateTime": "2026-05-07",
           "frequency": "日度"
         },
         {
@@ -112753,11 +113165,11 @@
           "unit": "美元/百万英热",
           "direction": 1,
           "scale": 1,
-          "currentValue": 2.6,
-          "wow": -0.0114,
-          "yoy": -0.2104,
-          "vs5YearAvg": -0.2034,
-          "updateTime": "2026-04-23",
+          "currentValue": 2.78,
+          "wow": 0.0944,
+          "yoy": -0.2399,
+          "vs5YearAvg": -0.2697,
+          "updateTime": "2026-05-07",
           "frequency": "日度"
         },
         {
@@ -112766,11 +113178,11 @@
           "unit": "千桶",
           "direction": -1,
           "scale": 1,
-          "currentValue": 465729.0,
-          "wow": 0.0022,
-          "yoy": 0.0509,
-          "vs5YearAvg": 0.0261,
-          "updateTime": "2026-04-17",
+          "currentValue": 457182.0,
+          "wow": -0.0184,
+          "yoy": 0.0484,
+          "vs5YearAvg": 0.0122,
+          "updateTime": "2026-05-01",
           "frequency": "周度"
         },
         {
@@ -112779,11 +113191,11 @@
           "unit": "千桶",
           "direction": -1,
           "scale": 1,
-          "currentValue": 228374.0,
-          "wow": -0.0455,
-          "yoy": 0.0126,
-          "vs5YearAvg": -0.0046,
-          "updateTime": "2026-04-17",
+          "currentValue": 219795.0,
+          "wow": -0.0376,
+          "yoy": -0.0373,
+          "vs5YearAvg": -0.0368,
+          "updateTime": "2026-05-01",
           "frequency": "周度"
         },
         {
@@ -112792,11 +113204,11 @@
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 6028.0,
-          "wow": 0.0136,
-          "yoy": 0.1817,
-          "vs5YearAvg": 0.0146,
-          "updateTime": "2026-04-22",
+          "currentValue": 5991.0,
+          "wow": -0.0061,
+          "yoy": 0.2189,
+          "vs5YearAvg": 0.0075,
+          "updateTime": "2026-05-06",
           "frequency": "周度"
         },
         {
@@ -112805,11 +113217,11 @@
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 8910.0,
-          "wow": -0.0315,
-          "yoy": -0.0176,
-          "vs5YearAvg": 0.0043,
-          "updateTime": "2026-04-17",
+          "currentValue": 9010.0,
+          "wow": 0.0112,
+          "yoy": -0.0353,
+          "vs5YearAvg": 0.0167,
+          "updateTime": "2026-05-01",
           "frequency": "周度"
         },
         {
@@ -112831,11 +113243,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": -281.84,
-          "wow": -1.3871,
-          "yoy": -1.2444,
-          "vs5YearAvg": -1.2318,
-          "updateTime": "2026-04-23",
+          "currentValue": -37.26,
+          "wow": 0.9291,
+          "yoy": -1.0329,
+          "vs5YearAvg": -1.0321,
+          "updateTime": "2026-05-08",
           "frequency": "日度"
         },
         {
@@ -112844,11 +113256,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": -227.4,
-          "wow": -1.3597,
-          "yoy": -1.2216,
-          "vs5YearAvg": -1.2405,
-          "updateTime": "2026-04-23",
+          "currentValue": -22.5,
+          "wow": 0.9514,
+          "yoy": -1.0218,
+          "vs5YearAvg": -1.0244,
+          "updateTime": "2026-05-08",
           "frequency": "日度"
         },
         {
@@ -112857,11 +113269,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 214.09,
-          "wow": -0.8389,
-          "yoy": -0.3239,
-          "vs5YearAvg": 1.3606,
-          "updateTime": "2026-04-24",
+          "currentValue": -56.78,
+          "wow": 0.9458,
+          "yoy": -2.53,
+          "vs5YearAvg": -1.2551,
+          "updateTime": "2026-05-09",
           "frequency": "日度"
         }
       ],
@@ -151570,6 +151982,46 @@
                 {
                   "date": "2026-04-23",
                   "value": 105.07
+                },
+                {
+                  "date": "2026-04-24",
+                  "value": 105.33
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 108.23
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": 111.26
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": 118.03
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 114.01
+                },
+                {
+                  "date": "2026-05-01",
+                  "value": 108.17
+                },
+                {
+                  "date": "2026-05-04",
+                  "value": 114.44
+                },
+                {
+                  "date": "2026-05-05",
+                  "value": 109.87
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 101.27
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 100.06
                 }
               ]
             },
@@ -187700,6 +188152,46 @@
                 {
                   "date": "2026-04-23",
                   "value": 2.597
+                },
+                {
+                  "date": "2026-04-24",
+                  "value": 2.524
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 2.542
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": 2.554
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": 2.648
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 2.758
+                },
+                {
+                  "date": "2026-05-01",
+                  "value": 2.789
+                },
+                {
+                  "date": "2026-05-04",
+                  "value": 2.856
+                },
+                {
+                  "date": "2026-05-05",
+                  "value": 2.781
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 2.722
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 2.782
                 }
               ]
             }
@@ -196811,6 +197303,14 @@
                 {
                   "date": "2026-04-17",
                   "value": 465729.0
+                },
+                {
+                  "date": "2026-04-24",
+                  "value": 459495.0
+                },
+                {
+                  "date": "2026-05-01",
+                  "value": 457182.0
                 }
               ]
             }
@@ -199302,6 +199802,14 @@
                 {
                   "date": "2026-04-22",
                   "value": 60.28
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": 59.99
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 59.91
                 }
               ]
             },
@@ -206716,6 +207224,14 @@
                 {
                   "date": "2026-04-17",
                   "value": 89.1
+                },
+                {
+                  "date": "2026-04-24",
+                  "value": 89.6
+                },
+                {
+                  "date": "2026-05-01",
+                  "value": 90.1
                 }
               ]
             }
@@ -212992,6 +213508,38 @@
                 {
                   "date": "2026-04-23",
                   "value": -281.84
+                },
+                {
+                  "date": "2026-04-24",
+                  "value": -309.25
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": -415.8
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": -525.66
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": -818.76
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": -517.19
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 67.33
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 68.81
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": -37.26
                 }
               ]
             },
@@ -219254,6 +219802,38 @@
                 {
                   "date": "2026-04-23",
                   "value": -227.4
+                },
+                {
+                  "date": "2026-04-24",
+                  "value": -231.29
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": -344.71
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": -462.95
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": -762.24
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": -473.93
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 62.12
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 59.2
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": -22.5
                 }
               ]
             },
@@ -225552,6 +226132,38 @@
                 {
                   "date": "2026-04-24",
                   "value": 214.09
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 4.18
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": -228.51
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": -1048.2
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": -743.68
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 237.71
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 338.79
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": -56.78
+                },
+                {
+                  "date": "2026-05-09",
+                  "value": -56.78
                 }
               ]
             }
@@ -225560,216 +226172,216 @@
       ],
       "scoreHistory": [
         {
-          "date": "2025-04-27",
-          "value": 37.96653796653796
-        },
-        {
-          "date": "2025-05-04",
-          "value": 38.095238095238095
-        },
-        {
           "date": "2025-05-11",
-          "value": 34.234234234234236
+          "value": 23.14365771971253
         },
         {
           "date": "2025-05-18",
-          "value": 41.184041184041185
+          "value": 38.62793237977448
         },
         {
           "date": "2025-05-25",
-          "value": 41.184041184041185
+          "value": 38.62793237977448
         },
         {
           "date": "2025-06-01",
-          "value": 42.47104247104247
+          "value": 41.495390650156324
         },
         {
           "date": "2025-06-08",
-          "value": 51.351351351351354
+          "value": 61.28085271579105
         },
         {
           "date": "2025-06-15",
-          "value": 54.311454311454305
+          "value": 67.87600673766927
         },
         {
           "date": "2025-06-22",
-          "value": 54.95495495495496
+          "value": 69.3097358728602
         },
         {
           "date": "2025-06-29",
-          "value": 45.688545688545695
+          "value": 48.664036326110946
         },
         {
           "date": "2025-07-06",
-          "value": 45.945945945945944
+          "value": 49.237527980187295
         },
         {
           "date": "2025-07-13",
-          "value": 47.61904761904762
+          "value": 52.9652237316837
         },
         {
           "date": "2025-07-20",
-          "value": 45.688545688545695
+          "value": 48.664036326110946
         },
         {
           "date": "2025-07-27",
-          "value": 42.084942084942085
+          "value": 40.63515316904177
         },
         {
           "date": "2025-08-03",
-          "value": 47.1042471042471
+          "value": 51.81824042353095
         },
         {
           "date": "2025-08-10",
-          "value": 38.48133848133848
+          "value": 32.60627001197261
         },
         {
           "date": "2025-08-17",
-          "value": 41.44144144144144
+          "value": 39.20142403385084
         },
         {
           "date": "2025-08-24",
-          "value": 45.04504504504504
+          "value": 47.23030719092
         },
         {
           "date": "2025-08-31",
-          "value": 43.5006435006435
+          "value": 43.78935726646179
         },
         {
           "date": "2025-09-07",
-          "value": 45.04504504504505
+          "value": 47.23030719092002
         },
         {
           "date": "2025-09-14",
-          "value": 50.57915057915057
+          "value": 59.560377753561916
         },
         {
           "date": "2025-09-21",
-          "value": 48.648648648648646
+          "value": 55.25919034798916
         },
         {
           "date": "2025-09-28",
-          "value": 54.56885456885457
+          "value": 68.44949839174565
         },
         {
           "date": "2025-10-05",
-          "value": 42.5997425997426
+          "value": 41.7821364771945
         },
         {
           "date": "2025-10-12",
-          "value": 39.38223938223938
+          "value": 34.6134908012399
         },
         {
           "date": "2025-10-19",
-          "value": 39.510939510939515
+          "value": 34.900236628278094
         },
         {
           "date": "2025-10-26",
-          "value": 49.2921492921493
+          "value": 56.6929194831801
         },
         {
           "date": "2025-11-02",
-          "value": 48.13384813384814
+          "value": 54.11220703983645
         },
         {
           "date": "2025-11-09",
-          "value": 44.78764478764479
+          "value": 46.65681553684364
         },
         {
           "date": "2025-11-16",
-          "value": 50.7078507078507
+          "value": 59.84712358060011
         },
         {
           "date": "2025-11-23",
-          "value": 44.14414414414415
+          "value": 45.22308640165273
         },
         {
           "date": "2025-11-30",
-          "value": 43.11454311454312
+          "value": 42.929119785347254
         },
         {
           "date": "2025-12-07",
-          "value": 46.46074646074646
+          "value": 50.38451128834004
         },
         {
           "date": "2025-12-14",
-          "value": 41.82754182754183
+          "value": 40.06166151496541
         },
         {
           "date": "2025-12-21",
-          "value": 45.077220077220076
+          "value": 2.7447919762596427
         },
         {
           "date": "2025-12-28",
-          "value": 44.3050193050193
+          "value": 0.0
         },
         {
           "date": "2026-01-04",
-          "value": 42.374517374517374
+          "value": 2.221737259574232
         },
         {
           "date": "2026-01-11",
-          "value": 36.67953667953668
+          "value": 10.362346915693973
         },
         {
           "date": "2026-01-18",
-          "value": 33.59073359073359
+          "value": 15.0648934348296
         },
         {
           "date": "2026-01-25",
-          "value": 36.293436293436294
+          "value": 22.10268233401559
         },
         {
           "date": "2026-02-01",
-          "value": 43.91891891891892
+          "value": 36.67530171153236
         },
         {
           "date": "2026-02-08",
-          "value": 41.988416988416986
+          "value": 36.03528600219485
         },
         {
           "date": "2026-02-15",
-          "value": 49.13127413127413
+          "value": 28.57841583091713
         },
         {
           "date": "2026-02-22",
-          "value": 45.84942084942085
+          "value": 45.972821818722394
         },
         {
           "date": "2026-03-01",
-          "value": 45.75289575289575
+          "value": 52.17992244674432
         },
         {
           "date": "2026-03-08",
-          "value": 48.745173745173744
+          "value": 74.32573469469769
         },
         {
           "date": "2026-03-15",
-          "value": 50.67567567567568
+          "value": 76.36468421340268
         },
         {
           "date": "2026-03-22",
-          "value": 50.1930501930502
+          "value": 83.4812984958535
         },
         {
           "date": "2026-03-29",
-          "value": 52.99227799227799
+          "value": 77.20754978811672
         },
         {
           "date": "2026-04-05",
-          "value": 52.22007722007723
+          "value": 85.18787832895816
         },
         {
           "date": "2026-04-12",
-          "value": 51.15830115830116
+          "value": 72.9560244177813
         },
         {
           "date": "2026-04-19",
-          "value": 48.35907335907336
+          "value": 71.25315724888513
         },
         {
           "date": "2026-04-26",
-          "value": 58.68725868725869
+          "value": 88.38002339082986
+        },
+        {
+          "date": "2026-05-03",
+          "value": 100.0
+        },
+        {
+          "date": "2026-05-10",
+          "value": 79.63258564623484
         }
       ]
     },
@@ -225777,46 +226389,46 @@
       "name": "基础化工",
       "color": "#e5c07b",
       "summaryText": "原油供应紧张预期加强，炼厂预防性减产和成品油保供，炼油和衍生品利润大幅提升。由于霍尔木兹海峡通行能力大幅下降，中东的原油供应减少预计接近2000万桶/日。PX-PTA-涤纶长丝产业链：POY/FDY/DTY价格分别上涨4.7%/4.5%/4.4%，长丝价差收窄9.9%/8.8%/4.5%至1249/1469/2369元/吨。",
-      "currentScore": 72.6,
-      "scoreWow": 27.7,
-      "prosperityLevel": "景气",
-      "levelColor": "#98c379",
+      "currentScore": 38.1,
+      "scoreWow": 14.8,
+      "prosperityLevel": "低迷",
+      "levelColor": "#e06c75",
       "kpiCards": [
         {
           "label": "化工价格指数",
           "unit": "",
           "direction": 1,
           "scale": 1,
-          "currentValue": 5299.0,
-          "wow": -0.0392,
-          "yoy": 0.2707
+          "currentValue": 5201.0,
+          "wow": -0.0185,
+          "yoy": 0.2877
         },
         {
           "label": "PTA库存天数",
           "unit": "天",
           "direction": -1,
           "scale": 1,
-          "currentValue": 5.49,
-          "wow": -0.0144,
-          "yoy": 0.3229
+          "currentValue": 5.01,
+          "wow": -0.0874,
+          "yoy": 0.2463
         },
         {
           "label": "涤纶长丝开工率",
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 8271.0,
-          "wow": 96.1117,
-          "yoy": 90.7471
+          "currentValue": 82.38,
+          "wow": -0.004,
+          "yoy": -0.0786
         },
         {
           "label": "POY价差",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1565.15,
-          "wow": -0.1713,
-          "yoy": 0.2189
+          "currentValue": 1312.32,
+          "wow": -0.1615,
+          "yoy": 0.0127
         }
       ],
       "tableMetrics": [
@@ -225826,11 +226438,11 @@
           "unit": "",
           "direction": 1,
           "scale": 1,
-          "currentValue": 5299.0,
-          "wow": -0.0392,
-          "yoy": 0.2707,
-          "vs5YearAvg": 0.0896,
-          "updateTime": "2026-04-17",
+          "currentValue": 5201.0,
+          "wow": -0.0185,
+          "yoy": 0.2877,
+          "vs5YearAvg": 0.0721,
+          "updateTime": "2026-05-09",
           "frequency": "日度"
         },
         {
@@ -225839,11 +226451,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1565.15,
-          "wow": -0.1713,
-          "yoy": 0.2189,
-          "vs5YearAvg": 0.336,
-          "updateTime": "2026-04-25",
+          "currentValue": 1312.32,
+          "wow": -0.1615,
+          "yoy": 0.0127,
+          "vs5YearAvg": 0.1579,
+          "updateTime": "2026-05-09",
           "frequency": "日度"
         },
         {
@@ -225852,11 +226464,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 10270.0,
-          "wow": -0.0096,
-          "yoy": 0.271,
-          "vs5YearAvg": 0.1652,
-          "updateTime": "2026-04-19",
+          "currentValue": 9812.5,
+          "wow": -0.0445,
+          "yoy": 0.2003,
+          "vs5YearAvg": 0.1252,
+          "updateTime": "2026-05-03",
           "frequency": "日度"
         },
         {
@@ -225865,11 +226477,11 @@
           "unit": "美元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1401.0,
-          "wow": -0.0345,
-          "yoy": 0.7939,
-          "vs5YearAvg": 0.383,
-          "updateTime": "2026-04-17",
+          "currentValue": 1211.0,
+          "wow": -0.1036,
+          "yoy": 0.5506,
+          "vs5YearAvg": 0.2536,
+          "updateTime": "2026-05-08",
           "frequency": "日度"
         },
         {
@@ -225879,10 +226491,10 @@
           "direction": 1,
           "scale": 1,
           "currentValue": 1890.0,
-          "wow": 0.0053,
-          "yoy": -0.0283,
-          "vs5YearAvg": -0.1895,
-          "updateTime": "2026-04-17",
+          "wow": -0.0026,
+          "yoy": 0.0053,
+          "vs5YearAvg": -0.2125,
+          "updateTime": "2026-05-09",
           "frequency": "日度"
         },
         {
@@ -225891,11 +226503,11 @@
           "unit": "",
           "direction": 1,
           "scale": 1,
-          "currentValue": 103.71,
-          "wow": 0.1307,
-          "yoy": 0.3017,
+          "currentValue": 99.45,
+          "wow": 0.0086,
+          "yoy": 0.2447,
           "vs5YearAvg": null,
-          "updateTime": "2026-04-19",
+          "updateTime": "2026-04-26",
           "frequency": "日度"
         },
         {
@@ -225904,11 +226516,11 @@
           "unit": "天",
           "direction": -1,
           "scale": 1,
-          "currentValue": 5.49,
-          "wow": -0.0144,
-          "yoy": 0.3229,
-          "vs5YearAvg": 0.1791,
-          "updateTime": "2026-04-23",
+          "currentValue": 5.01,
+          "wow": -0.0874,
+          "yoy": 0.2463,
+          "vs5YearAvg": 0.0351,
+          "updateTime": "2026-05-07",
           "frequency": "周度"
         },
         {
@@ -225917,11 +226529,11 @@
           "unit": "天",
           "direction": -1,
           "scale": 1,
-          "currentValue": 28.9,
-          "wow": 0.0824,
-          "yoy": 1.5575,
-          "vs5YearAvg": 0.0906,
-          "updateTime": "2026-04-23",
+          "currentValue": 27.5,
+          "wow": -0.0484,
+          "yoy": 0.6667,
+          "vs5YearAvg": 0.2255,
+          "updateTime": "2026-05-07",
           "frequency": "周度"
         },
         {
@@ -225930,11 +226542,11 @@
           "unit": "天",
           "direction": -1,
           "scale": 1,
-          "currentValue": 34.2,
-          "wow": 0.1068,
-          "yoy": 0.8587,
-          "vs5YearAvg": 0.2771,
-          "updateTime": "2026-04-23",
+          "currentValue": 33.2,
+          "wow": -0.0292,
+          "yoy": 0.537,
+          "vs5YearAvg": 0.3355,
+          "updateTime": "2026-05-07",
           "frequency": "周度"
         },
         {
@@ -225943,11 +226555,11 @@
           "unit": "天",
           "direction": -1,
           "scale": 1,
-          "currentValue": 32.5,
-          "wow": 0.0586,
-          "yoy": 0.2795,
-          "vs5YearAvg": 0.0272,
-          "updateTime": "2026-04-23",
+          "currentValue": 36.3,
+          "wow": 0.1169,
+          "yoy": 0.2782,
+          "vs5YearAvg": 0.223,
+          "updateTime": "2026-05-07",
           "frequency": "周度"
         },
         {
@@ -225956,11 +226568,11 @@
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 8271.0,
-          "wow": 96.1117,
-          "yoy": 90.7471,
-          "vs5YearAvg": 93.8618,
-          "updateTime": "2026-04-23",
+          "currentValue": 82.38,
+          "wow": -0.004,
+          "yoy": -0.0786,
+          "vs5YearAvg": -0.04,
+          "updateTime": "2026-05-07",
           "frequency": "日度"
         },
         {
@@ -225969,11 +226581,11 @@
           "unit": "美元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 150.0,
-          "wow": 4.4145,
-          "yoy": -0.4114,
-          "vs5YearAvg": -0.4995,
-          "updateTime": "2026-04-25",
+          "currentValue": 194.92,
+          "wow": 0.4314,
+          "yoy": -0.2463,
+          "vs5YearAvg": -0.3557,
+          "updateTime": "2026-05-09",
           "frequency": "日度"
         },
         {
@@ -225982,11 +226594,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1565.15,
-          "wow": -0.1713,
-          "yoy": 0.2189,
-          "vs5YearAvg": 0.336,
-          "updateTime": "2026-04-25",
+          "currentValue": 1312.32,
+          "wow": -0.1615,
+          "yoy": 0.0127,
+          "vs5YearAvg": 0.1579,
+          "updateTime": "2026-05-09",
           "frequency": "日度"
         },
         {
@@ -225995,11 +226607,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1965.15,
-          "wow": -0.073,
-          "yoy": 0.2605,
-          "vs5YearAvg": 0.2263,
-          "updateTime": "2026-04-25",
+          "currentValue": 1662.32,
+          "wow": -0.1541,
+          "yoy": 0.0376,
+          "vs5YearAvg": 0.0888,
+          "updateTime": "2026-05-09",
           "frequency": "日度"
         },
         {
@@ -226008,11 +226620,11 @@
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 2715.15,
-          "wow": -0.1009,
-          "yoy": 0.0997,
-          "vs5YearAvg": 0.0559,
-          "updateTime": "2026-04-25",
+          "currentValue": 2362.32,
+          "wow": -0.1299,
+          "yoy": -0.0629,
+          "vs5YearAvg": -0.0505,
+          "updateTime": "2026-05-09",
           "frequency": "日度"
         },
         {
@@ -226021,11 +226633,11 @@
           "unit": "美元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 150.0,
-          "wow": 4.4145,
-          "yoy": -0.4114,
-          "vs5YearAvg": -0.4995,
-          "updateTime": "2026-04-25",
+          "currentValue": 194.92,
+          "wow": 0.4314,
+          "yoy": -0.2463,
+          "vs5YearAvg": -0.3557,
+          "updateTime": "2026-05-09",
           "frequency": "日度"
         }
       ],
@@ -237290,6 +237902,58 @@
                 {
                   "date": "2026-04-17",
                   "value": 5299.0
+                },
+                {
+                  "date": "2026-04-20",
+                  "value": 5261.0
+                },
+                {
+                  "date": "2026-04-21",
+                  "value": 5227.0
+                },
+                {
+                  "date": "2026-04-22",
+                  "value": 5203.0
+                },
+                {
+                  "date": "2026-04-23",
+                  "value": 5213.0
+                },
+                {
+                  "date": "2026-04-24",
+                  "value": 5212.0
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 5218.0
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": 5268.0
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": 5299.0
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 5317.0
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 5344.0
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 5296.0
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 5219.0
+                },
+                {
+                  "date": "2026-05-09",
+                  "value": 5201.0
                 }
               ]
             },
@@ -248912,6 +249576,62 @@
                 {
                   "date": "2026-04-17",
                   "value": 1401.0
+                },
+                {
+                  "date": "2026-04-20",
+                  "value": 1371.0
+                },
+                {
+                  "date": "2026-04-21",
+                  "value": 1371.0
+                },
+                {
+                  "date": "2026-04-22",
+                  "value": 1381.0
+                },
+                {
+                  "date": "2026-04-23",
+                  "value": 1381.0
+                },
+                {
+                  "date": "2026-04-24",
+                  "value": 1381.0
+                },
+                {
+                  "date": "2026-04-27",
+                  "value": 1361.0
+                },
+                {
+                  "date": "2026-04-28",
+                  "value": 1351.0
+                },
+                {
+                  "date": "2026-04-29",
+                  "value": 1321.0
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 1321.0
+                },
+                {
+                  "date": "2026-05-04",
+                  "value": 1281.0
+                },
+                {
+                  "date": "2026-05-05",
+                  "value": 1281.0
+                },
+                {
+                  "date": "2026-05-06",
+                  "value": 1281.0
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 1251.0
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 1211.0
                 }
               ]
             }
@@ -251233,6 +251953,14 @@
                 {
                   "date": "2026-04-23",
                   "value": 28.9
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 22.9
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 27.5
                 }
               ]
             },
@@ -253475,6 +254203,14 @@
                 {
                   "date": "2026-04-23",
                   "value": 5.49
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 5.19
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 5.01
                 }
               ]
             }
@@ -255813,7 +256549,15 @@
                 },
                 {
                   "date": "2026-04-23",
-                  "value": 82.71
+                  "value": 0.8271
+                },
+                {
+                  "date": "2026-04-30",
+                  "value": 0.8188
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 0.8238
                 }
               ]
             }
@@ -257990,7 +258734,15 @@
                 },
                 {
                   "date": "2026-04-25",
-                  "value": 150.0
+                  "value": 136.18000000000006
+                },
+                {
+                  "date": "2026-05-02",
+                  "value": 100.35500000000002
+                },
+                {
+                  "date": "2026-05-09",
+                  "value": 194.92399999999998
                 }
               ]
             },
@@ -260153,6 +260905,14 @@
                 {
                   "date": "2026-04-25",
                   "value": 1565.1490000000001
+                },
+                {
+                  "date": "2026-05-02",
+                  "value": 1041.3300000000002
+                },
+                {
+                  "date": "2026-05-09",
+                  "value": 1312.3174999999997
                 }
               ]
             }
@@ -260161,216 +260921,216 @@
       ],
       "scoreHistory": [
         {
-          "date": "2025-04-27",
-          "value": 54.556801512859195
-        },
-        {
-          "date": "2025-05-04",
-          "value": 50.53233423013476
-        },
-        {
           "date": "2025-05-11",
-          "value": 54.12181957878194
+          "value": 55.107764565790575
         },
         {
           "date": "2025-05-18",
-          "value": 57.09018663238792
+          "value": 57.97476899424259
         },
         {
           "date": "2025-05-25",
-          "value": 69.48841701265688
+          "value": 70.31446474141681
         },
         {
           "date": "2025-06-01",
-          "value": 54.42194203411624
+          "value": 55.453185349840695
         },
         {
           "date": "2025-06-08",
-          "value": 50.476666807203564
+          "value": 51.58235018158804
         },
         {
           "date": "2025-06-15",
-          "value": 50.820799084842335
+          "value": 51.93367888850069
         },
         {
           "date": "2025-06-22",
-          "value": 49.26171821991357
+          "value": 50.09636698864479
         },
         {
           "date": "2025-06-29",
-          "value": 52.3347614429667
+          "value": 53.114101490182875
         },
         {
           "date": "2025-07-06",
-          "value": 54.189242178686214
+          "value": 55.074155860985385
         },
         {
           "date": "2025-07-13",
-          "value": 46.668581734863274
+          "value": 47.687433687737006
         },
         {
           "date": "2025-07-20",
-          "value": 49.13659322199664
+          "value": 50.31274291377742
         },
         {
           "date": "2025-07-27",
-          "value": 47.51388442375269
+          "value": 48.44230217019058
         },
         {
           "date": "2025-08-03",
-          "value": 40.74887420250228
+          "value": 41.58575881754516
         },
         {
           "date": "2025-08-10",
-          "value": 40.9507070133828
+          "value": 41.7398643204625
         },
         {
           "date": "2025-08-17",
-          "value": 42.0238664923681
+          "value": 42.73312781712946
         },
         {
           "date": "2025-08-24",
-          "value": 41.824296859752224
+          "value": 42.79824629345789
         },
         {
           "date": "2025-08-31",
-          "value": 51.61860526129668
+          "value": 52.52464105788529
         },
         {
           "date": "2025-09-07",
-          "value": 47.40451326263216
+          "value": 48.477360531231085
         },
         {
           "date": "2025-09-14",
-          "value": 41.17659054396937
+          "value": 42.430984752880285
         },
         {
           "date": "2025-09-21",
-          "value": 37.99273097632979
+          "value": 39.178850335956675
         },
         {
           "date": "2025-09-28",
-          "value": 44.522964281214804
+          "value": 45.461701158884644
         },
         {
           "date": "2025-10-05",
-          "value": 51.274140510743514
+          "value": 52.081293292705
         },
         {
           "date": "2025-10-12",
-          "value": 38.54258952568025
+          "value": 39.47666742531247
         },
         {
           "date": "2025-10-19",
-          "value": 36.356020947427496
+          "value": 37.427178187321836
         },
         {
           "date": "2025-10-26",
-          "value": 33.50730600576516
+          "value": 34.40534804297511
         },
         {
           "date": "2025-11-02",
-          "value": 28.975078080069416
+          "value": 29.885088653827207
         },
         {
           "date": "2025-11-09",
-          "value": 33.601640366979154
+          "value": 34.22622835213514
         },
         {
           "date": "2025-11-16",
-          "value": 38.80692735967172
+          "value": 39.336894877064076
         },
         {
           "date": "2025-11-23",
-          "value": 47.62991873604142
+          "value": 48.142054099146144
         },
         {
           "date": "2025-11-30",
-          "value": 48.803785876265984
+          "value": 49.16549507065466
         },
         {
           "date": "2025-12-07",
-          "value": 37.592819224674855
+          "value": 37.88877939545832
         },
         {
           "date": "2025-12-14",
-          "value": 33.99401385828827
+          "value": 34.41949706474927
         },
         {
           "date": "2025-12-21",
-          "value": 27.331304179929177
+          "value": 27.965321624943858
         },
         {
           "date": "2025-12-28",
-          "value": 23.734240126837545
+          "value": 24.623390966981933
         },
         {
           "date": "2026-01-04",
-          "value": 27.653447748540692
+          "value": 28.572797269120887
         },
         {
           "date": "2026-01-11",
-          "value": 43.17846925196384
+          "value": 43.96030253284701
         },
         {
           "date": "2026-01-18",
-          "value": 44.7046916164193
+          "value": 45.28450312734
         },
         {
           "date": "2026-01-25",
-          "value": 52.30203961647455
+          "value": 52.828679015142264
         },
         {
           "date": "2026-02-01",
-          "value": 41.938755073103444
+          "value": 42.340284679669544
         },
         {
           "date": "2026-02-08",
-          "value": 40.97839588017774
+          "value": 41.79058882445154
         },
         {
           "date": "2026-02-15",
-          "value": 33.45483494086917
+          "value": 34.206544222299264
         },
         {
           "date": "2026-02-22",
-          "value": 30.504251366226026
+          "value": 31.230655218775677
         },
         {
           "date": "2026-03-01",
-          "value": 21.53959911182118
+          "value": 21.750483483358423
         },
         {
           "date": "2026-03-08",
-          "value": 17.90751126071366
+          "value": 17.419964053828
         },
         {
           "date": "2026-03-15",
-          "value": 45.68190265041247
+          "value": 44.40733089484206
         },
         {
           "date": "2026-03-22",
-          "value": 43.16534186631376
+          "value": 41.876182881509266
         },
         {
           "date": "2026-03-29",
-          "value": 43.07763948429602
+          "value": 41.67382485875816
         },
         {
           "date": "2026-04-05",
-          "value": 43.39433568548164
+          "value": 41.82897558987138
         },
         {
           "date": "2026-04-12",
-          "value": 42.17977336101531
+          "value": 40.62424556710465
         },
         {
           "date": "2026-04-19",
-          "value": 44.87647382300998
+          "value": 43.31626811011666
         },
         {
           "date": "2026-04-26",
-          "value": 72.61430980019855
+          "value": 40.129072969803254
+        },
+        {
+          "date": "2026-05-03",
+          "value": 23.2743618400766
+        },
+        {
+          "date": "2026-05-10",
+          "value": 38.0970754095526
         }
       ]
     }
