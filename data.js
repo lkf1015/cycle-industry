@@ -11,28 +11,28 @@ const INDUSTRY_DATA = {
       "name": "煤炭",
       "color": "#4e8fd4",
       "summaryText": "本周秦港现货煤环比下降2.1%至729元/吨。最新一期旬度发电量（2月下旬）火电发电量同比下降11.2%，与春节错位有一定关系。淡季已至，电厂补库尚未开启，节后价格反弹告一段落。",
-      "currentScore": 66.0,
-      "scoreWow": -1.4,
-      "prosperityLevel": "景气",
-      "levelColor": "#98c379",
+      "currentScore": 87.5,
+      "scoreWow": 7.9,
+      "prosperityLevel": "强景气",
+      "levelColor": "#f8b739",
       "kpiCards": [
         {
           "label": "秦港动力煤",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 827.0,
-          "wow": 0.0535,
-          "yoy": 0.358
+          "currentValue": 835.0,
+          "wow": 0.0296,
+          "yoy": 0.3711
         },
         {
           "label": "秦皇岛港库存",
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 586.0,
-          "wow": 0.0616,
-          "yoy": -0.1053
+          "currentValue": 592.0,
+          "wow": 0.0314,
+          "yoy": -0.0421
         },
         {
           "label": "25省电厂库存",
@@ -48,9 +48,9 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 437.1,
-          "wow": -0.0496,
-          "yoy": -0.1039
+          "currentValue": 519.6,
+          "wow": 0.2011,
+          "yoy": 0.0738
         }
       ],
       "tableMetrics": [
@@ -60,11 +60,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 827.0,
-          "wow": 0.0535,
-          "yoy": 0.358,
-          "vs5YearAvg": -0.0899,
-          "updateTime": "2026-05-07",
+          "currentValue": 835.0,
+          "wow": 0.0296,
+          "yoy": 0.3711,
+          "vs5YearAvg": -0.0943,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         },
         {
@@ -73,11 +73,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1377.0,
-          "wow": 0.0036,
-          "yoy": 0.3527,
-          "vs5YearAvg": -0.1842,
-          "updateTime": "2026-05-07",
+          "currentValue": 1389.0,
+          "wow": 0.0087,
+          "yoy": 0.3793,
+          "vs5YearAvg": -0.1858,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         },
         {
@@ -99,11 +99,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 6956.5,
-          "wow": 0.0385,
-          "yoy": -0.0808,
-          "vs5YearAvg": 0.0912,
-          "updateTime": "2026-05-04",
+          "currentValue": 7165.6,
+          "wow": 0.0474,
+          "yoy": -0.0481,
+          "vs5YearAvg": 0.0898,
+          "updateTime": "2026-05-11",
           "frequency": "周度"
         },
         {
@@ -112,11 +112,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 586.0,
-          "wow": 0.0616,
-          "yoy": -0.1053,
-          "vs5YearAvg": 0.0438,
-          "updateTime": "2026-05-08",
+          "currentValue": 592.0,
+          "wow": 0.0314,
+          "yoy": -0.0421,
+          "vs5YearAvg": 0.0448,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         },
         {
@@ -138,11 +138,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 437.1,
-          "wow": -0.0496,
-          "yoy": -0.1039,
-          "vs5YearAvg": -0.0708,
-          "updateTime": "2026-05-06",
+          "currentValue": 519.6,
+          "wow": 0.2011,
+          "yoy": 0.0738,
+          "vs5YearAvg": 0.1014,
+          "updateTime": "2026-05-13",
           "frequency": "日度"
         }
       ],
@@ -11317,6 +11317,30 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-07",
                   "value": 827.0
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 831.0
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 835.0
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": 835.0
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": 835.0
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": 835.0
+                },
+                {
+                  "date": "2026-05-15",
+                  "value": 835.0
                 }
               ]
             }
@@ -38587,6 +38611,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-08",
                   "value": 586.0
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 586.0
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": 590.0
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": 588.0
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": 593.0
+                },
+                {
+                  "date": "2026-05-15",
+                  "value": 592.0
                 }
               ]
             }
@@ -49302,6 +49346,34 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-06",
                   "value": 437.1
+                },
+                {
+                  "date": "2026-05-07",
+                  "value": 462.29999999999995
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 478.9
+                },
+                {
+                  "date": "2026-05-09",
+                  "value": 480.0
+                },
+                {
+                  "date": "2026-05-10",
+                  "value": 464.3
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 502.8
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": 497.3
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": 519.6
                 }
               ]
             }
@@ -49309,10 +49381,6 @@ const INDUSTRY_DATA = {
         }
       ],
       "scoreHistory": [
-        {
-          "date": "2025-05-11",
-          "value": 27.54182754182754
-        },
         {
           "date": "2025-05-18",
           "value": 37.96653796653796
@@ -49519,7 +49587,11 @@ const INDUSTRY_DATA = {
         },
         {
           "date": "2026-05-10",
-          "value": 66.02316602316603
+          "value": 79.53667953667954
+        },
+        {
+          "date": "2026-05-17",
+          "value": 87.45173745173744
         }
       ]
     },
@@ -49527,19 +49599,19 @@ const INDUSTRY_DATA = {
       "name": "钢铁",
       "color": "#e06c75",
       "summaryText": "价格方面，本周钢材价格有所回升，螺纹3250元/吨，热卷3280元/吨。旺季逐步开启，五大材表需提升15.4%，表观需求回升。五大材社会和厂库库存提升1.2%，库存提速放缓，但去库拐点尚未到来。当前黑色供需基本平衡，矛盾不大，价格震荡运行。",
-      "currentScore": 64.4,
-      "scoreWow": 21.1,
-      "prosperityLevel": "景气",
-      "levelColor": "#98c379",
+      "currentScore": 52.7,
+      "scoreWow": 7.8,
+      "prosperityLevel": "中性",
+      "levelColor": "#61afef",
       "kpiCards": [
         {
           "label": "上海热卷",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 3510.0,
-          "wow": 0.0385,
-          "yoy": 0.0969
+          "currentValue": 3470.0,
+          "wow": 0.0117,
+          "yoy": 0.0912
         },
         {
           "label": "上海螺纹",
@@ -49547,17 +49619,17 @@ const INDUSTRY_DATA = {
           "direction": 1,
           "scale": 1,
           "currentValue": 3320.0,
-          "wow": 0.0215,
-          "yoy": 0.0641
+          "wow": 0.0184,
+          "yoy": 0.0779
         },
         {
           "label": "五大材库存",
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 1702.56,
-          "wow": -0.0609,
-          "yoy": 0.2174
+          "currentValue": 1646.58,
+          "wow": -0.0329,
+          "yoy": 0.2073
         },
         {
           "label": "高炉开工率",
@@ -49576,11 +49648,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 3510.0,
-          "wow": 0.0385,
-          "yoy": 0.0969,
-          "vs5YearAvg": -0.2059,
-          "updateTime": "2026-05-08",
+          "currentValue": 3470.0,
+          "wow": 0.0117,
+          "yoy": 0.0912,
+          "vs5YearAvg": -0.2124,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         },
         {
@@ -49590,10 +49662,10 @@ const INDUSTRY_DATA = {
           "direction": 1,
           "scale": 1,
           "currentValue": 3320.0,
-          "wow": 0.0215,
-          "yoy": 0.0641,
-          "vs5YearAvg": -0.2203,
-          "updateTime": "2026-05-08",
+          "wow": 0.0184,
+          "yoy": 0.0779,
+          "vs5YearAvg": -0.2166,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         },
         {
@@ -49602,11 +49674,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 111.65,
-          "wow": 0.041,
-          "yoy": 0.1618,
-          "vs5YearAvg": -0.1635,
-          "updateTime": "2026-05-08",
+          "currentValue": 111.5,
+          "wow": 0.0272,
+          "yoy": 0.1786,
+          "vs5YearAvg": -0.1607,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         },
         {
@@ -49615,11 +49687,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 1702.56,
-          "wow": -0.0609,
-          "yoy": 0.2174,
-          "vs5YearAvg": -0.1587,
-          "updateTime": "2026-04-27",
+          "currentValue": 1646.58,
+          "wow": -0.0329,
+          "yoy": 0.2073,
+          "vs5YearAvg": -0.1592,
+          "updateTime": "2026-05-11",
           "frequency": "周度"
         },
         {
@@ -49628,11 +49700,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 1862.95,
-          "wow": 0.0636,
-          "yoy": 0.1603,
-          "vs5YearAvg": 0.0473,
-          "updateTime": "2026-04-20",
+          "currentValue": 1688.1,
+          "wow": 0.0938,
+          "yoy": 0.1033,
+          "vs5YearAvg": 0.0123,
+          "updateTime": "2026-05-10",
           "frequency": "旬度"
         },
         {
@@ -49706,11 +49778,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 135.0,
-          "wow": 0.4516,
-          "yoy": 0.3636,
-          "vs5YearAvg": 0.0019,
-          "updateTime": "2026-05-08",
+          "currentValue": 143.0,
+          "wow": 0.2544,
+          "yoy": 0.0593,
+          "vs5YearAvg": 0.1304,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         },
         {
@@ -49719,11 +49791,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 135.0,
-          "wow": 0.9014,
-          "yoy": 3.0909,
-          "vs5YearAvg": 0.4136,
-          "updateTime": "2026-05-08",
+          "currentValue": 188.0,
+          "wow": 0.9184,
+          "yoy": 2.1333,
+          "vs5YearAvg": 0.9432,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         }
       ],
@@ -61065,7 +61137,27 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "2026-05-08",
+                  "value": 3490.0
+                },
+                {
+                  "date": "2026-05-11",
                   "value": 3510.0
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": 3490.0
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": 3490.0
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": 3490.0
+                },
+                {
+                  "date": "2026-05-15",
+                  "value": 3470.0
                 }
               ]
             },
@@ -72396,6 +72488,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-08",
                   "value": 3320.0
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 3340.0
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": 3340.0
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": 3330.0
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": 3320.0
+                },
+                {
+                  "date": "2026-05-15",
+                  "value": 3320.0
                 }
               ]
             }
@@ -75914,6 +76026,14 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-04-27",
                   "value": 1702.5600000000002
+                },
+                {
+                  "date": "2026-05-04",
+                  "value": 1647.9099999999999
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 1646.58
                 }
               ]
             }
@@ -80173,7 +80293,27 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "2026-05-08",
-                  "value": 135.0
+                  "value": 134.0
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 156.0
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": 155.0
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": 150.0
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": 144.0
+                },
+                {
+                  "date": "2026-05-15",
+                  "value": 143.0
                 }
               ]
             },
@@ -84407,7 +84547,27 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "2026-05-08",
-                  "value": 135.0
+                  "value": 133.0
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 160.0
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": 202.0
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": 194.0
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": 193.0
+                },
+                {
+                  "date": "2026-05-15",
+                  "value": 188.0
                 }
               ]
             }
@@ -84415,10 +84575,6 @@ const INDUSTRY_DATA = {
         }
       ],
       "scoreHistory": [
-        {
-          "date": "2025-05-11",
-          "value": 58.94465894465895
-        },
         {
           "date": "2025-05-18",
           "value": 59.33075933075933
@@ -84625,7 +84781,11 @@ const INDUSTRY_DATA = {
         },
         {
           "date": "2026-05-10",
-          "value": 64.42994718856788
+          "value": 44.91634491634492
+        },
+        {
+          "date": "2026-05-17",
+          "value": 52.71557271557271
         }
       ]
     },
@@ -84633,8 +84793,8 @@ const INDUSTRY_DATA = {
       "name": "有色",
       "color": "#98c379",
       "summaryText": "价格方面，1#铜现货环比下降0.2%至100945元/吨，铝价抬升2.7%为25115元/吨，铜社会库存下降0.6%，为57.4万吨但交易所库存继续大幅增加。有色板块走势分化，铜受美元走强与需求预期冲击影响，价格环比回落。中东地缘冲突加剧，影响区域产能开工率，市场预期铝供应收紧，成为价格核心推手。",
-      "currentScore": 69.8,
-      "scoreWow": -13.8,
+      "currentScore": 71.2,
+      "scoreWow": -13.7,
       "prosperityLevel": "景气",
       "levelColor": "#98c379",
       "kpiCards": [
@@ -84643,36 +84803,36 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 24215.0,
-          "wow": -0.0102,
-          "yoy": 0.1973
+          "currentValue": 24365.0,
+          "wow": -0.0008,
+          "yoy": 0.1756
         },
         {
           "label": "1#铜价",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 102965.0,
-          "wow": 0.0076,
-          "yoy": 0.3054
+          "currentValue": 105795.0,
+          "wow": 0.0404,
+          "yoy": 0.3386
         },
         {
           "label": "铜社会库存",
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 25.29,
-          "wow": -0.0232,
-          "yoy": 0.6529
+          "currentValue": 24.33,
+          "wow": 0.0012,
+          "yoy": 0.6802
         },
         {
           "label": "电解铝利润",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 7487.08,
-          "wow": -0.1077,
-          "yoy": 1.4688
+          "currentValue": 8049.97,
+          "wow": 0.0134,
+          "yoy": 1.333
         }
       ],
       "tableMetrics": [
@@ -84682,11 +84842,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 24215.0,
-          "wow": -0.0102,
-          "yoy": 0.1973,
-          "vs5YearAvg": 0.2368,
-          "updateTime": "2026-05-08",
+          "currentValue": 24365.0,
+          "wow": -0.0008,
+          "yoy": 0.1756,
+          "vs5YearAvg": 0.2303,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         },
         {
@@ -84695,11 +84855,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 102965.0,
-          "wow": 0.0076,
-          "yoy": 0.3054,
-          "vs5YearAvg": 0.3838,
-          "updateTime": "2026-05-08",
+          "currentValue": 105795.0,
+          "wow": 0.0404,
+          "yoy": 0.3386,
+          "vs5YearAvg": 0.4242,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         },
         {
@@ -84708,11 +84868,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/盎司",
           "direction": 1,
           "scale": 1,
-          "currentValue": 4713.56,
-          "wow": 0.0255,
-          "yoy": 0.4243,
-          "vs5YearAvg": 1.0799,
-          "updateTime": "2026-05-08",
+          "currentValue": 4539.39,
+          "wow": -0.0036,
+          "yoy": 0.3223,
+          "vs5YearAvg": 1.0062,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         },
         {
@@ -84721,11 +84881,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 25.29,
-          "wow": -0.0232,
-          "yoy": 0.6529,
-          "vs5YearAvg": 0.0871,
-          "updateTime": "2026-05-06",
+          "currentValue": 24.33,
+          "wow": 0.0012,
+          "yoy": 0.6802,
+          "vs5YearAvg": 0.073,
+          "updateTime": "2026-05-14",
           "frequency": "周度"
         },
         {
@@ -84734,11 +84894,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 144.1,
-          "wow": -0.0164,
-          "yoy": 1.8591,
-          "vs5YearAvg": 0.6578,
-          "updateTime": "2026-05-08",
+          "currentValue": 142.8,
+          "wow": -0.0028,
+          "yoy": 2.1043,
+          "vs5YearAvg": 0.7229,
+          "updateTime": "2026-05-14",
           "frequency": "周度"
         },
         {
@@ -84747,11 +84907,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 7487.08,
-          "wow": -0.1077,
-          "yoy": 1.4688,
-          "vs5YearAvg": 1.3412,
-          "updateTime": "2026-05-07",
+          "currentValue": 8049.97,
+          "wow": 0.0134,
+          "yoy": 1.333,
+          "vs5YearAvg": 1.5472,
+          "updateTime": "2026-05-14",
           "frequency": "日度"
         },
         {
@@ -84760,11 +84920,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/干吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": -92.03,
-          "wow": -0.1353,
-          "yoy": -1.1402,
-          "vs5YearAvg": -3.9272,
-          "updateTime": "2026-05-08",
+          "currentValue": -101.95,
+          "wow": -0.2042,
+          "yoy": -1.3271,
+          "vs5YearAvg": -4.1839,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         },
         {
@@ -84773,11 +84933,11 @@ const INDUSTRY_DATA = {
           "unit": "美分/磅",
           "direction": 1,
           "scale": 1,
-          "currentValue": -9.2,
-          "wow": -0.1353,
-          "yoy": -1.1402,
-          "vs5YearAvg": -3.9272,
-          "updateTime": "2026-05-08",
+          "currentValue": -10.2,
+          "wow": -0.2042,
+          "yoy": -1.3271,
+          "vs5YearAvg": -4.1839,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         }
       ],
@@ -96780,6 +96940,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-08",
                   "value": 102965.0
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 104495.0
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": 106745.0
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": 108765.0
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": 107715.0
+                },
+                {
+                  "date": "2026-05-15",
+                  "value": 105795.0
                 }
               ]
             }
@@ -98863,6 +99043,18 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-06",
                   "value": 25.29
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 25.15
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 24.26
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": 24.33
                 }
               ]
             }
@@ -100954,6 +101146,14 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-08",
                   "value": 144.1
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 144.0
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": 142.8
                 }
               ]
             }
@@ -112878,6 +113078,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-08",
                   "value": -92.03
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": -92.03
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": -92.03
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": -92.03
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": -92.03
+                },
+                {
+                  "date": "2026-05-15",
+                  "value": -101.95
                 }
               ]
             }
@@ -112885,10 +113105,6 @@ const INDUSTRY_DATA = {
         }
       ],
       "scoreHistory": [
-        {
-          "date": "2025-05-11",
-          "value": 20.077220077220076
-        },
         {
           "date": "2025-05-18",
           "value": 18.91891891891892
@@ -113095,7 +113311,11 @@ const INDUSTRY_DATA = {
         },
         {
           "date": "2026-05-10",
-          "value": 69.78585728585729
+          "value": 84.94208494208493
+        },
+        {
+          "date": "2026-05-17",
+          "value": 71.19815668202766
         }
       ]
     },
@@ -113103,46 +113323,46 @@ const INDUSTRY_DATA = {
       "name": "石化",
       "color": "#c678dd",
       "summaryText": "价格方面，本周布伦特原油价格上涨11.3%至103.1美元/桶，NYMEX HH天然气价格下跌1.6%至3.13美元/百万英热。霍尔木兹海峡中断，全球原油产量受损近7%，油价继续上涨。美国炼厂开工率提升至90.8%，国内山东地炼开工率63.1%，短期内开工率受影响有限。",
-      "currentScore": 79.6,
-      "scoreWow": -20.4,
-      "prosperityLevel": "景气",
-      "levelColor": "#98c379",
+      "currentScore": 81.6,
+      "scoreWow": -5.6,
+      "prosperityLevel": "强景气",
+      "levelColor": "#f8b739",
       "kpiCards": [
         {
           "label": "布伦特原油",
           "unit": "美元/桶",
           "direction": 1,
           "scale": 1,
-          "currentValue": 100.06,
-          "wow": -0.0755,
-          "yoy": 0.5314
+          "currentValue": 105.72,
+          "wow": -0.0762,
+          "yoy": 0.5242
         },
         {
           "label": "NYMEX天然气",
           "unit": "美元/百万英热",
           "direction": 1,
           "scale": 1,
-          "currentValue": 2.78,
-          "wow": 0.0944,
-          "yoy": -0.2399
+          "currentValue": 2.92,
+          "wow": 0.0224,
+          "yoy": -0.1744
         },
         {
           "label": "美国原油库存",
           "unit": "千桶",
           "direction": -1,
           "scale": 1,
-          "currentValue": 457182.0,
-          "wow": -0.0184,
-          "yoy": 0.0484
+          "currentValue": 452876.0,
+          "wow": -0.0144,
+          "yoy": 0.0473
         },
         {
           "label": "汽油裂解价差",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": -37.26,
-          "wow": 0.9291,
-          "yoy": -1.0329
+          "currentValue": -199.63,
+          "wow": 0.614,
+          "yoy": -1.189
         }
       ],
       "tableMetrics": [
@@ -113152,11 +113372,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/桶",
           "direction": 1,
           "scale": 1,
-          "currentValue": 100.06,
-          "wow": -0.0755,
-          "yoy": 0.5314,
-          "vs5YearAvg": 0.2447,
-          "updateTime": "2026-05-07",
+          "currentValue": 105.72,
+          "wow": -0.0762,
+          "yoy": 0.5242,
+          "vs5YearAvg": 0.3085,
+          "updateTime": "2026-05-14",
           "frequency": "日度"
         },
         {
@@ -113165,11 +113385,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/百万英热",
           "direction": 1,
           "scale": 1,
-          "currentValue": 2.78,
-          "wow": 0.0944,
-          "yoy": -0.2399,
-          "vs5YearAvg": -0.2697,
-          "updateTime": "2026-05-07",
+          "currentValue": 2.92,
+          "wow": 0.0224,
+          "yoy": -0.1744,
+          "vs5YearAvg": -0.2222,
+          "updateTime": "2026-05-14",
           "frequency": "日度"
         },
         {
@@ -113178,11 +113398,11 @@ const INDUSTRY_DATA = {
           "unit": "千桶",
           "direction": -1,
           "scale": 1,
-          "currentValue": 457182.0,
-          "wow": -0.0184,
-          "yoy": 0.0484,
-          "vs5YearAvg": 0.0122,
-          "updateTime": "2026-05-01",
+          "currentValue": 452876.0,
+          "wow": -0.0144,
+          "yoy": 0.0473,
+          "vs5YearAvg": -0.0026,
+          "updateTime": "2026-05-08",
           "frequency": "周度"
         },
         {
@@ -113191,11 +113411,11 @@ const INDUSTRY_DATA = {
           "unit": "千桶",
           "direction": -1,
           "scale": 1,
-          "currentValue": 219795.0,
-          "wow": -0.0376,
-          "yoy": -0.0373,
-          "vs5YearAvg": -0.0368,
-          "updateTime": "2026-05-01",
+          "currentValue": 215711.0,
+          "wow": -0.0296,
+          "yoy": -0.0613,
+          "vs5YearAvg": -0.0483,
+          "updateTime": "2026-05-08",
           "frequency": "周度"
         },
         {
@@ -113204,11 +113424,11 @@ const INDUSTRY_DATA = {
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 5991.0,
-          "wow": -0.0061,
-          "yoy": 0.2189,
-          "vs5YearAvg": 0.0075,
-          "updateTime": "2026-05-06",
+          "currentValue": 5860.0,
+          "wow": -0.0232,
+          "yoy": 0.2163,
+          "vs5YearAvg": 0.0031,
+          "updateTime": "2026-05-13",
           "frequency": "周度"
         },
         {
@@ -113217,11 +113437,11 @@ const INDUSTRY_DATA = {
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 9010.0,
-          "wow": 0.0112,
-          "yoy": -0.0353,
-          "vs5YearAvg": 0.0167,
-          "updateTime": "2026-05-01",
+          "currentValue": 9170.0,
+          "wow": 0.0234,
+          "yoy": -0.0276,
+          "vs5YearAvg": 0.0241,
+          "updateTime": "2026-05-08",
           "frequency": "周度"
         },
         {
@@ -113243,11 +113463,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": -37.26,
-          "wow": 0.9291,
-          "yoy": -1.0329,
-          "vs5YearAvg": -1.0321,
-          "updateTime": "2026-05-08",
+          "currentValue": -199.63,
+          "wow": 0.614,
+          "yoy": -1.189,
+          "vs5YearAvg": -1.1963,
+          "updateTime": "2026-05-14",
           "frequency": "日度"
         },
         {
@@ -113256,11 +113476,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": -22.5,
-          "wow": 0.9514,
-          "yoy": -1.0218,
-          "vs5YearAvg": -1.0244,
-          "updateTime": "2026-05-08",
+          "currentValue": -163.48,
+          "wow": 0.6551,
+          "yoy": -1.1726,
+          "vs5YearAvg": -1.1968,
+          "updateTime": "2026-05-14",
           "frequency": "日度"
         },
         {
@@ -113269,11 +113489,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": -56.78,
-          "wow": 0.9458,
-          "yoy": -2.53,
-          "vs5YearAvg": -1.2551,
-          "updateTime": "2026-05-09",
+          "currentValue": -1253.8,
+          "wow": -0.6859,
+          "yoy": -1.6264,
+          "vs5YearAvg": -18.2524,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         }
       ],
@@ -152022,6 +152242,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-07",
                   "value": 100.06
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 101.29
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 104.21
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": 107.77
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": 105.63
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": 105.72
                 }
               ]
             },
@@ -188192,6 +188432,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-07",
                   "value": 2.782
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 2.75
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 2.931
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": 2.834
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": 2.868
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": 2.92
                 }
               ]
             }
@@ -197311,6 +197571,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-01",
                   "value": 457182.0
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 452876.0
                 }
               ]
             }
@@ -199810,6 +200074,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-06",
                   "value": 59.91
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": 58.6
                 }
               ]
             },
@@ -207232,6 +207500,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-01",
                   "value": 90.1
+                },
+                {
+                  "date": "2026-05-08",
+                  "value": 91.7
                 }
               ]
             }
@@ -213540,6 +213812,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-08",
                   "value": -37.26
+                },
+                {
+                  "date": "2026-05-09",
+                  "value": -59.12
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": -181.55
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": -331.96
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": -193.59
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": -199.63
                 }
               ]
             },
@@ -219834,6 +220126,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-08",
                   "value": -22.5
+                },
+                {
+                  "date": "2026-05-09",
+                  "value": -32.09
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": -143.95
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": -296.3
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": -149.97
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": -163.48
                 }
               ]
             },
@@ -226164,6 +226476,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-09",
                   "value": -56.78
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": -575.32
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": -841.65
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": -979.19
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": -982.38
+                },
+                {
+                  "date": "2026-05-15",
+                  "value": -1253.8
                 }
               ]
             }
@@ -226172,136 +226504,132 @@ const INDUSTRY_DATA = {
       ],
       "scoreHistory": [
         {
-          "date": "2025-05-11",
-          "value": 23.14365771971253
-        },
-        {
           "date": "2025-05-18",
-          "value": 38.62793237977448
+          "value": 40.04436780575438
         },
         {
           "date": "2025-05-25",
-          "value": 38.62793237977448
+          "value": 40.04436780575438
         },
         {
           "date": "2025-06-01",
-          "value": 41.495390650156324
+          "value": 42.93084973660534
         },
         {
           "date": "2025-06-08",
-          "value": 61.28085271579105
+          "value": 62.84757505947688
         },
         {
           "date": "2025-06-15",
-          "value": 67.87600673766927
+          "value": 69.48648350043405
         },
         {
           "date": "2025-06-22",
-          "value": 69.3097358728602
+          "value": 70.92972446585952
         },
         {
           "date": "2025-06-29",
-          "value": 48.664036326110946
+          "value": 50.147054563732716
         },
         {
           "date": "2025-07-06",
-          "value": 49.237527980187295
+          "value": 50.724350949902885
         },
         {
           "date": "2025-07-13",
-          "value": 52.9652237316837
+          "value": 54.476777460009124
         },
         {
           "date": "2025-07-20",
-          "value": 48.664036326110946
+          "value": 50.147054563732716
         },
         {
           "date": "2025-07-27",
-          "value": 40.63515316904177
+          "value": 42.06490515735005
         },
         {
           "date": "2025-08-03",
-          "value": 51.81824042353095
+          "value": 53.32218468766874
         },
         {
           "date": "2025-08-10",
-          "value": 32.60627001197261
+          "value": 33.9827557509674
         },
         {
           "date": "2025-08-17",
-          "value": 39.20142403385084
+          "value": 40.62166419192457
         },
         {
           "date": "2025-08-24",
-          "value": 47.23030719092
+          "value": 48.70381359830722
         },
         {
           "date": "2025-08-31",
-          "value": 43.78935726646179
+          "value": 45.24003528128608
         },
         {
           "date": "2025-09-07",
-          "value": 47.23030719092002
+          "value": 48.70381359830724
         },
         {
           "date": "2025-09-14",
-          "value": 59.560377753561916
+          "value": 61.115685900966284
         },
         {
           "date": "2025-09-21",
-          "value": 55.25919034798916
+          "value": 56.785963004689876
         },
         {
           "date": "2025-09-28",
-          "value": 68.44949839174565
+          "value": 70.06377988660424
         },
         {
           "date": "2025-10-05",
-          "value": 41.7821364771945
+          "value": 43.21949792969042
         },
         {
           "date": "2025-10-12",
-          "value": 34.6134908012399
+          "value": 36.00329310256306
         },
         {
           "date": "2025-10-19",
-          "value": 34.900236628278094
+          "value": 36.29194129564816
         },
         {
           "date": "2025-10-26",
-          "value": 56.6929194831801
+          "value": 58.229203970115364
         },
         {
           "date": "2025-11-02",
-          "value": 54.11220703983645
+          "value": 55.63137023234952
         },
         {
           "date": "2025-11-09",
-          "value": 46.65681553684364
+          "value": 48.12651721213704
         },
         {
           "date": "2025-11-16",
-          "value": 59.84712358060011
+          "value": 61.40433409405139
         },
         {
           "date": "2025-11-23",
-          "value": 45.22308640165273
+          "value": 46.68327624671158
         },
         {
           "date": "2025-11-30",
-          "value": 42.929119785347254
+          "value": 44.37409070203081
         },
         {
           "date": "2025-12-07",
-          "value": 50.38451128834004
+          "value": 51.87894372224328
         },
         {
           "date": "2025-12-14",
-          "value": 40.06166151496541
+          "value": 41.487608771179865
         },
         {
           "date": "2025-12-21",
-          "value": 2.7447919762596427
+          "value": 2.728667513824634
         },
         {
           "date": "2025-12-28",
@@ -226309,71 +226637,71 @@ const INDUSTRY_DATA = {
         },
         {
           "date": "2026-01-04",
-          "value": 2.221737259574232
+          "value": 2.3389285156928787
         },
         {
           "date": "2026-01-11",
-          "value": 10.362346915693973
+          "value": 10.645482181442842
         },
         {
           "date": "2026-01-18",
-          "value": 15.0648934348296
+          "value": 15.41555840554575
         },
         {
           "date": "2026-01-25",
-          "value": 22.10268233401559
+          "value": 22.486452512427352
         },
         {
           "date": "2026-02-01",
-          "value": 36.67530171153236
+          "value": 37.172990082719444
         },
         {
           "date": "2026-02-08",
-          "value": 36.03528600219485
+          "value": 36.469184701545316
         },
         {
           "date": "2026-02-15",
-          "value": 28.57841583091713
+          "value": 29.227506460316132
         },
         {
           "date": "2026-02-22",
-          "value": 45.972821818722394
+          "value": 46.136301884679234
         },
         {
           "date": "2026-03-01",
-          "value": 52.17992244674432
+          "value": 52.39021733729183
         },
         {
           "date": "2026-03-08",
-          "value": 74.32573469469769
+          "value": 74.45842130001738
         },
         {
           "date": "2026-03-15",
-          "value": 76.36468421340268
+          "value": 76.35250996939578
         },
         {
           "date": "2026-03-22",
-          "value": 83.4812984958535
+          "value": 83.41460345905942
         },
         {
           "date": "2026-03-29",
-          "value": 77.20754978811672
+          "value": 76.99204577594054
         },
         {
           "date": "2026-04-05",
-          "value": 85.18787832895816
+          "value": 85.0007559694569
         },
         {
           "date": "2026-04-12",
-          "value": 72.9560244177813
+          "value": 72.77551848132579
         },
         {
           "date": "2026-04-19",
-          "value": 71.25315724888513
+          "value": 71.17449804275094
         },
         {
           "date": "2026-04-26",
-          "value": 88.38002339082986
+          "value": 88.43642316493214
         },
         {
           "date": "2026-05-03",
@@ -226381,7 +226709,11 @@ const INDUSTRY_DATA = {
         },
         {
           "date": "2026-05-10",
-          "value": 79.63258564623484
+          "value": 87.22394395475617
+        },
+        {
+          "date": "2026-05-17",
+          "value": 81.60970761000803
         }
       ]
     },
@@ -226389,46 +226721,46 @@ const INDUSTRY_DATA = {
       "name": "基础化工",
       "color": "#e5c07b",
       "summaryText": "原油供应紧张预期加强，炼厂预防性减产和成品油保供，炼油和衍生品利润大幅提升。由于霍尔木兹海峡通行能力大幅下降，中东的原油供应减少预计接近2000万桶/日。PX-PTA-涤纶长丝产业链：POY/FDY/DTY价格分别上涨4.7%/4.5%/4.4%，长丝价差收窄9.9%/8.8%/4.5%至1249/1469/2369元/吨。",
-      "currentScore": 38.1,
-      "scoreWow": 14.8,
-      "prosperityLevel": "低迷",
-      "levelColor": "#e06c75",
+      "currentScore": 82.4,
+      "scoreWow": 0.8,
+      "prosperityLevel": "强景气",
+      "levelColor": "#f8b739",
       "kpiCards": [
         {
           "label": "化工价格指数",
           "unit": "",
           "direction": 1,
           "scale": 1,
-          "currentValue": 5201.0,
-          "wow": -0.0185,
-          "yoy": 0.2877
+          "currentValue": 5125.0,
+          "wow": -0.0361,
+          "yoy": 0.2664
         },
         {
           "label": "PTA库存天数",
           "unit": "天",
           "direction": -1,
           "scale": 1,
-          "currentValue": 5.01,
-          "wow": -0.0874,
-          "yoy": 0.2463
+          "currentValue": 5.5,
+          "wow": null,
+          "yoy": null
         },
         {
           "label": "涤纶长丝开工率",
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 82.38,
-          "wow": -0.004,
-          "yoy": -0.0786
+          "currentValue": 51.82,
+          "wow": null,
+          "yoy": null
         },
         {
           "label": "POY价差",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1312.32,
-          "wow": -0.1615,
-          "yoy": 0.0127
+          "currentValue": 1347.77,
+          "wow": 0.2943,
+          "yoy": 0.1049
         }
       ],
       "tableMetrics": [
@@ -226438,11 +226770,11 @@ const INDUSTRY_DATA = {
           "unit": "",
           "direction": 1,
           "scale": 1,
-          "currentValue": 5201.0,
-          "wow": -0.0185,
-          "yoy": 0.2877,
-          "vs5YearAvg": 0.0721,
-          "updateTime": "2026-05-09",
+          "currentValue": 5125.0,
+          "wow": -0.0361,
+          "yoy": 0.2664,
+          "vs5YearAvg": 0.0505,
+          "updateTime": "2026-05-14",
           "frequency": "日度"
         },
         {
@@ -226451,11 +226783,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1312.32,
-          "wow": -0.1615,
-          "yoy": 0.0127,
-          "vs5YearAvg": 0.1579,
-          "updateTime": "2026-05-09",
+          "currentValue": 1347.77,
+          "wow": 0.2943,
+          "yoy": 0.1049,
+          "vs5YearAvg": 0.1342,
+          "updateTime": "2026-05-16",
           "frequency": "日度"
         },
         {
@@ -226464,11 +226796,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 9812.5,
-          "wow": -0.0445,
-          "yoy": 0.2003,
-          "vs5YearAvg": 0.1252,
-          "updateTime": "2026-05-03",
+          "currentValue": 9787.5,
+          "wow": -0.0153,
+          "yoy": 0.1972,
+          "vs5YearAvg": 0.1209,
+          "updateTime": "2026-05-10",
           "frequency": "日度"
         },
         {
@@ -226477,11 +226809,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1211.0,
-          "wow": -0.1036,
-          "yoy": 0.5506,
-          "vs5YearAvg": 0.2536,
-          "updateTime": "2026-05-08",
+          "currentValue": 1181.0,
+          "wow": -0.0781,
+          "yoy": 0.493,
+          "vs5YearAvg": 0.2315,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         },
         {
@@ -226490,11 +226822,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1890.0,
-          "wow": -0.0026,
-          "yoy": 0.0053,
-          "vs5YearAvg": -0.2125,
-          "updateTime": "2026-05-09",
+          "currentValue": 1870.0,
+          "wow": -0.0132,
+          "yoy": 0.0331,
+          "vs5YearAvg": -0.2349,
+          "updateTime": "2026-05-15",
           "frequency": "日度"
         },
         {
@@ -226503,11 +226835,11 @@ const INDUSTRY_DATA = {
           "unit": "",
           "direction": 1,
           "scale": 1,
-          "currentValue": 99.45,
-          "wow": 0.0086,
-          "yoy": 0.2447,
+          "currentValue": 99.51,
+          "wow": 0.0006,
+          "yoy": 0.2285,
           "vs5YearAvg": null,
-          "updateTime": "2026-04-26",
+          "updateTime": "2026-05-10",
           "frequency": "日度"
         },
         {
@@ -226516,11 +226848,11 @@ const INDUSTRY_DATA = {
           "unit": "天",
           "direction": -1,
           "scale": 1,
-          "currentValue": 5.01,
-          "wow": -0.0874,
-          "yoy": 0.2463,
-          "vs5YearAvg": 0.0351,
-          "updateTime": "2026-05-07",
+          "currentValue": 5.5,
+          "wow": null,
+          "yoy": null,
+          "vs5YearAvg": null,
+          "updateTime": "1970-01-01",
           "frequency": "周度"
         },
         {
@@ -226529,11 +226861,11 @@ const INDUSTRY_DATA = {
           "unit": "天",
           "direction": -1,
           "scale": 1,
-          "currentValue": 27.5,
-          "wow": -0.0484,
-          "yoy": 0.6667,
-          "vs5YearAvg": 0.2255,
-          "updateTime": "2026-05-07",
+          "currentValue": 18.0,
+          "wow": null,
+          "yoy": null,
+          "vs5YearAvg": null,
+          "updateTime": "1970-01-01",
           "frequency": "周度"
         },
         {
@@ -226542,11 +226874,11 @@ const INDUSTRY_DATA = {
           "unit": "天",
           "direction": -1,
           "scale": 1,
-          "currentValue": 33.2,
-          "wow": -0.0292,
-          "yoy": 0.537,
-          "vs5YearAvg": 0.3355,
-          "updateTime": "2026-05-07",
+          "currentValue": null,
+          "wow": null,
+          "yoy": null,
+          "vs5YearAvg": null,
+          "updateTime": null,
           "frequency": "周度"
         },
         {
@@ -226555,11 +226887,11 @@ const INDUSTRY_DATA = {
           "unit": "天",
           "direction": -1,
           "scale": 1,
-          "currentValue": 36.3,
-          "wow": 0.1169,
-          "yoy": 0.2782,
-          "vs5YearAvg": 0.223,
-          "updateTime": "2026-05-07",
+          "currentValue": 8.5,
+          "wow": null,
+          "yoy": null,
+          "vs5YearAvg": null,
+          "updateTime": "1970-01-01",
           "frequency": "周度"
         },
         {
@@ -226568,11 +226900,11 @@ const INDUSTRY_DATA = {
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 82.38,
-          "wow": -0.004,
-          "yoy": -0.0786,
-          "vs5YearAvg": -0.04,
-          "updateTime": "2026-05-07",
+          "currentValue": 51.82,
+          "wow": null,
+          "yoy": null,
+          "vs5YearAvg": null,
+          "updateTime": "1970-01-01",
           "frequency": "日度"
         },
         {
@@ -226581,11 +226913,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 194.92,
-          "wow": 0.4314,
-          "yoy": -0.2463,
-          "vs5YearAvg": -0.3557,
-          "updateTime": "2026-05-09",
+          "currentValue": 138.93,
+          "wow": 0.3844,
+          "yoy": -0.4021,
+          "vs5YearAvg": -0.5667,
+          "updateTime": "2026-05-16",
           "frequency": "日度"
         },
         {
@@ -226594,11 +226926,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1312.32,
-          "wow": -0.1615,
-          "yoy": 0.0127,
-          "vs5YearAvg": 0.1579,
-          "updateTime": "2026-05-09",
+          "currentValue": 1347.77,
+          "wow": 0.2943,
+          "yoy": 0.1049,
+          "vs5YearAvg": 0.1342,
+          "updateTime": "2026-05-16",
           "frequency": "日度"
         },
         {
@@ -226607,11 +226939,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1662.32,
-          "wow": -0.1541,
-          "yoy": 0.0376,
-          "vs5YearAvg": 0.0888,
-          "updateTime": "2026-05-09",
+          "currentValue": 1792.77,
+          "wow": 0.2174,
+          "yoy": 0.1796,
+          "vs5YearAvg": 0.1168,
+          "updateTime": "2026-05-16",
           "frequency": "日度"
         },
         {
@@ -226620,11 +226952,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 2362.32,
-          "wow": -0.1299,
-          "yoy": -0.0629,
-          "vs5YearAvg": -0.0505,
-          "updateTime": "2026-05-09",
+          "currentValue": 2397.77,
+          "wow": 0.0639,
+          "yoy": -0.0311,
+          "vs5YearAvg": -0.0448,
+          "updateTime": "2026-05-16",
           "frequency": "日度"
         },
         {
@@ -226633,11 +226965,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 194.92,
-          "wow": 0.4314,
-          "yoy": -0.2463,
-          "vs5YearAvg": -0.3557,
-          "updateTime": "2026-05-09",
+          "currentValue": 138.93,
+          "wow": 0.3844,
+          "yoy": -0.4021,
+          "vs5YearAvg": -0.5667,
+          "updateTime": "2026-05-16",
           "frequency": "日度"
         }
       ],
@@ -237893,15 +238225,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "2026-04-15",
-                  "value": 5305.0
+                  "value": 5304.0
                 },
                 {
                   "date": "2026-04-16",
-                  "value": 5313.0
+                  "value": 5311.0
                 },
                 {
                   "date": "2026-04-17",
-                  "value": 5299.0
+                  "value": 5296.0
                 },
                 {
                   "date": "2026-04-20",
@@ -237953,7 +238285,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "2026-05-09",
-                  "value": 5201.0
+                  "value": 5190.0
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 5186.0
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": 5188.0
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": 5156.0
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": 5125.0
                 }
               ]
             },
@@ -249538,7 +249886,7 @@ const INDUSTRY_DATA = {
                   "value": 1451.0
                 },
                 {
-                  "date": "2026-04-03",
+                  "date": "2026-04-06",
                   "value": 1451.0
                 },
                 {
@@ -249632,6 +249980,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-08",
                   "value": 1211.0
+                },
+                {
+                  "date": "2026-05-11",
+                  "value": 1211.0
+                },
+                {
+                  "date": "2026-05-12",
+                  "value": 1201.0
+                },
+                {
+                  "date": "2026-05-13",
+                  "value": 1201.0
+                },
+                {
+                  "date": "2026-05-14",
+                  "value": 1181.0
+                },
+                {
+                  "date": "2026-05-15",
+                  "value": 1181.0
                 }
               ]
             }
@@ -249659,2308 +250027,2308 @@ const INDUSTRY_DATA = {
               "axis": "y1",
               "data": [
                 {
-                  "date": "2015-01-09",
-                  "value": 10.0
+                  "date": "1970-01-01",
+                  "value": 19.5
                 },
                 {
-                  "date": "2015-01-16",
-                  "value": 7.0
-                },
-                {
-                  "date": "2015-01-23",
-                  "value": 3.0
-                },
-                {
-                  "date": "2015-01-30",
-                  "value": 4.5
-                },
-                {
-                  "date": "2015-02-06",
-                  "value": 6.5
-                },
-                {
-                  "date": "2015-02-13",
-                  "value": 5.5
-                },
-                {
-                  "date": "2015-02-27",
-                  "value": 12.5
-                },
-                {
-                  "date": "2015-03-02",
-                  "value": 8.5
-                },
-                {
-                  "date": "2015-03-13",
-                  "value": 8.5
-                },
-                {
-                  "date": "2015-03-20",
-                  "value": 11.5
-                },
-                {
-                  "date": "2015-03-27",
-                  "value": 11.5
-                },
-                {
-                  "date": "2015-04-03",
-                  "value": 12.5
-                },
-                {
-                  "date": "2015-04-10",
-                  "value": 9.5
-                },
-                {
-                  "date": "2015-04-17",
-                  "value": 7.0
-                },
-                {
-                  "date": "2015-04-24",
-                  "value": 8.0
-                },
-                {
-                  "date": "2015-04-30",
-                  "value": 9.0
-                },
-                {
-                  "date": "2015-05-08",
-                  "value": 8.5
-                },
-                {
-                  "date": "2015-05-15",
-                  "value": 8.5
-                },
-                {
-                  "date": "2015-05-22",
-                  "value": 11.5
-                },
-                {
-                  "date": "2015-05-29",
-                  "value": 13.5
-                },
-                {
-                  "date": "2015-06-05",
-                  "value": 12.5
-                },
-                {
-                  "date": "2015-06-12",
-                  "value": 12.5
-                },
-                {
-                  "date": "2015-06-19",
-                  "value": 14.0
-                },
-                {
-                  "date": "2015-06-26",
-                  "value": 12.0
-                },
-                {
-                  "date": "2015-07-03",
-                  "value": 10.0
-                },
-                {
-                  "date": "2015-07-10",
-                  "value": 10.0
-                },
-                {
-                  "date": "2015-07-17",
-                  "value": 11.0
-                },
-                {
-                  "date": "2015-07-24",
-                  "value": 13.0
-                },
-                {
-                  "date": "2015-07-31",
-                  "value": 11.0
-                },
-                {
-                  "date": "2015-08-07",
-                  "value": 12.0
-                },
-                {
-                  "date": "2015-08-14",
-                  "value": 13.0
-                },
-                {
-                  "date": "2015-08-21",
-                  "value": 10.0
-                },
-                {
-                  "date": "2015-08-28",
-                  "value": 11.0
-                },
-                {
-                  "date": "2015-09-06",
-                  "value": 13.0
-                },
-                {
-                  "date": "2015-09-11",
-                  "value": 12.5
-                },
-                {
-                  "date": "2015-09-18",
-                  "value": 11.0
-                },
-                {
-                  "date": "2015-09-25",
-                  "value": 13.0
-                },
-                {
-                  "date": "2015-10-09",
-                  "value": 11.0
-                },
-                {
-                  "date": "2015-10-16",
-                  "value": 10.0
-                },
-                {
-                  "date": "2015-10-23",
-                  "value": 13.0
-                },
-                {
-                  "date": "2015-10-30",
-                  "value": 10.0
-                },
-                {
-                  "date": "2015-11-06",
-                  "value": 9.0
-                },
-                {
-                  "date": "2015-11-13",
-                  "value": 11.0
-                },
-                {
-                  "date": "2015-11-20",
-                  "value": 12.0
-                },
-                {
-                  "date": "2015-11-27",
-                  "value": 11.0
-                },
-                {
-                  "date": "2015-12-04",
-                  "value": 10.0
-                },
-                {
-                  "date": "2015-12-11",
-                  "value": 12.0
-                },
-                {
-                  "date": "2015-12-18",
-                  "value": 14.0
-                },
-                {
-                  "date": "2015-12-25",
-                  "value": 13.0
-                },
-                {
-                  "date": "2015-12-31",
-                  "value": 13.0
-                },
-                {
-                  "date": "2016-01-08",
-                  "value": 11.0
-                },
-                {
-                  "date": "2016-01-15",
-                  "value": 10.5
-                },
-                {
-                  "date": "2016-01-22",
-                  "value": 11.5
-                },
-                {
-                  "date": "2016-01-29",
-                  "value": 12.0
-                },
-                {
-                  "date": "2016-02-05",
-                  "value": 14.0
-                },
-                {
-                  "date": "2016-02-19",
-                  "value": 20.5
-                },
-                {
-                  "date": "2016-02-26",
-                  "value": 20.0
-                },
-                {
-                  "date": "2016-03-04",
-                  "value": 18.5
-                },
-                {
-                  "date": "2016-03-11",
-                  "value": 15.0
-                },
-                {
-                  "date": "2016-03-18",
-                  "value": 16.0
-                },
-                {
-                  "date": "2016-03-25",
-                  "value": 15.0
-                },
-                {
-                  "date": "2016-04-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "2016-04-08",
-                  "value": 16.0
-                },
-                {
-                  "date": "2016-04-15",
-                  "value": 14.0
-                },
-                {
-                  "date": "2016-04-22",
-                  "value": 12.0
-                },
-                {
-                  "date": "2016-04-29",
-                  "value": 14.0
-                },
-                {
-                  "date": "2016-05-06",
-                  "value": 13.0
-                },
-                {
-                  "date": "2016-05-13",
-                  "value": 15.0
-                },
-                {
-                  "date": "2016-05-20",
-                  "value": 14.0
-                },
-                {
-                  "date": "2016-05-27",
-                  "value": 14.0
-                },
-                {
-                  "date": "2016-06-03",
-                  "value": 14.0
-                },
-                {
-                  "date": "2016-06-10",
-                  "value": 15.0
-                },
-                {
-                  "date": "2016-06-17",
-                  "value": 15.5
-                },
-                {
-                  "date": "2016-06-24",
-                  "value": 15.5
-                },
-                {
-                  "date": "2016-07-01",
-                  "value": 14.5
-                },
-                {
-                  "date": "2016-07-08",
-                  "value": 15.0
-                },
-                {
-                  "date": "2016-07-15",
-                  "value": 14.0
-                },
-                {
-                  "date": "2016-07-22",
-                  "value": 12.0
-                },
-                {
-                  "date": "2016-07-29",
-                  "value": 12.0
-                },
-                {
-                  "date": "2016-08-05",
-                  "value": 13.0
-                },
-                {
-                  "date": "2016-08-12",
-                  "value": 12.0
-                },
-                {
-                  "date": "2016-08-19",
-                  "value": 12.0
-                },
-                {
-                  "date": "2016-08-26",
-                  "value": 11.0
-                },
-                {
-                  "date": "2016-09-02",
-                  "value": 11.5
-                },
-                {
-                  "date": "2016-09-09",
-                  "value": 11.5
-                },
-                {
-                  "date": "2016-09-23",
-                  "value": 12.0
-                },
-                {
-                  "date": "2016-09-29",
-                  "value": 11.0
-                },
-                {
-                  "date": "2016-10-13",
-                  "value": 8.0
-                },
-                {
-                  "date": "2016-10-20",
-                  "value": 7.0
-                },
-                {
-                  "date": "2016-10-27",
-                  "value": 8.0
-                },
-                {
-                  "date": "2016-11-03",
-                  "value": 8.5
-                },
-                {
-                  "date": "2016-11-10",
-                  "value": 7.0
-                },
-                {
-                  "date": "2016-11-17",
-                  "value": 6.0
-                },
-                {
-                  "date": "2016-11-24",
-                  "value": 7.0
-                },
-                {
-                  "date": "2016-12-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "2016-12-08",
-                  "value": 4.0
-                },
-                {
-                  "date": "2016-12-15",
-                  "value": 2.0
-                },
-                {
-                  "date": "2016-12-22",
-                  "value": 4.0
-                },
-                {
-                  "date": "2016-12-29",
-                  "value": 4.0
-                },
-                {
-                  "date": "2017-01-05",
-                  "value": 7.0
-                },
-                {
-                  "date": "2017-01-12",
-                  "value": 9.0
-                },
-                {
-                  "date": "2017-01-19",
-                  "value": 7.0
-                },
-                {
-                  "date": "2017-02-09",
-                  "value": 12.0
-                },
-                {
-                  "date": "2017-02-16",
-                  "value": 12.5
-                },
-                {
-                  "date": "2017-02-23",
-                  "value": 13.8
-                },
-                {
-                  "date": "2017-03-02",
-                  "value": 14.3
-                },
-                {
-                  "date": "2017-03-09",
-                  "value": 17.3
-                },
-                {
-                  "date": "2017-03-16",
-                  "value": 20.0
-                },
-                {
-                  "date": "2017-03-23",
-                  "value": 20.7
-                },
-                {
-                  "date": "2017-03-30",
-                  "value": 20.8
-                },
-                {
-                  "date": "2017-04-06",
-                  "value": 17.0
-                },
-                {
-                  "date": "2017-04-13",
-                  "value": 15.0
-                },
-                {
-                  "date": "2017-04-20",
-                  "value": 15.0
-                },
-                {
-                  "date": "2017-04-27",
-                  "value": 15.0
-                },
-                {
-                  "date": "2017-05-04",
-                  "value": 16.5
-                },
-                {
-                  "date": "2017-05-11",
-                  "value": 14.0
-                },
-                {
-                  "date": "2017-05-18",
-                  "value": 12.5
-                },
-                {
-                  "date": "2017-05-25",
-                  "value": 9.5
-                },
-                {
-                  "date": "2017-06-02",
-                  "value": 9.5
-                },
-                {
-                  "date": "2017-06-08",
-                  "value": 7.5
-                },
-                {
-                  "date": "2017-06-15",
-                  "value": 7.0
-                },
-                {
-                  "date": "2017-06-22",
-                  "value": 7.5
-                },
-                {
-                  "date": "2017-06-29",
-                  "value": 7.0
-                },
-                {
-                  "date": "2017-07-06",
-                  "value": 6.0
-                },
-                {
-                  "date": "2017-07-13",
-                  "value": 6.0
-                },
-                {
-                  "date": "2017-07-20",
-                  "value": 7.0
-                },
-                {
-                  "date": "2017-07-27",
-                  "value": 9.5
-                },
-                {
-                  "date": "2017-08-03",
-                  "value": 11.0
-                },
-                {
-                  "date": "2017-08-10",
-                  "value": 11.0
-                },
-                {
-                  "date": "2017-08-17",
-                  "value": 8.5
-                },
-                {
-                  "date": "2017-08-24",
-                  "value": 5.5
-                },
-                {
-                  "date": "2017-08-31",
-                  "value": 5.0
-                },
-                {
-                  "date": "2017-09-07",
-                  "value": 3.5
-                },
-                {
-                  "date": "2017-09-14",
-                  "value": 5.0
-                },
-                {
-                  "date": "2017-09-21",
-                  "value": 7.0
-                },
-                {
-                  "date": "2017-09-28",
-                  "value": 6.0
-                },
-                {
-                  "date": "2017-10-12",
-                  "value": 9.0
-                },
-                {
-                  "date": "2017-10-19",
-                  "value": 8.5
-                },
-                {
-                  "date": "2017-10-26",
-                  "value": 8.5
-                },
-                {
-                  "date": "2017-11-02",
-                  "value": 8.5
-                },
-                {
-                  "date": "2017-11-09",
-                  "value": 6.5
-                },
-                {
-                  "date": "2017-11-16",
-                  "value": 6.5
-                },
-                {
-                  "date": "2017-11-23",
-                  "value": 7.0
-                },
-                {
-                  "date": "2017-11-30",
-                  "value": 8.5
-                },
-                {
-                  "date": "2017-12-07",
-                  "value": 9.0
-                },
-                {
-                  "date": "2017-12-14",
-                  "value": 10.0
-                },
-                {
-                  "date": "2017-12-21",
-                  "value": 8.5
-                },
-                {
-                  "date": "2017-12-28",
-                  "value": 7.5
-                },
-                {
-                  "date": "2018-01-04",
-                  "value": 6.0
-                },
-                {
-                  "date": "2018-01-11",
-                  "value": 5.5
-                },
-                {
-                  "date": "2018-01-18",
-                  "value": 7.5
-                },
-                {
-                  "date": "2018-01-25",
-                  "value": 8.0
-                },
-                {
-                  "date": "2018-02-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "2018-02-08",
-                  "value": 8.0
-                },
-                {
-                  "date": "2018-02-24",
-                  "value": 15.0
-                },
-                {
-                  "date": "2018-03-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "2018-03-08",
-                  "value": 15.0
-                },
-                {
-                  "date": "2018-03-15",
-                  "value": 14.0
-                },
-                {
-                  "date": "2018-03-22",
-                  "value": 14.0
-                },
-                {
-                  "date": "2018-03-29",
-                  "value": 14.0
-                },
-                {
-                  "date": "2018-04-04",
-                  "value": 14.0
-                },
-                {
-                  "date": "2018-04-12",
-                  "value": 10.0
-                },
-                {
-                  "date": "2018-04-19",
-                  "value": 7.5
-                },
-                {
-                  "date": "2018-04-26",
-                  "value": 7.5
-                },
-                {
-                  "date": "2018-05-04",
-                  "value": 11.5
-                },
-                {
-                  "date": "2018-05-11",
-                  "value": 9.5
-                },
-                {
-                  "date": "2018-05-18",
-                  "value": 11.5
-                },
-                {
-                  "date": "2018-05-25",
-                  "value": 12.5
-                },
-                {
-                  "date": "2018-06-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "2018-06-08",
-                  "value": 11.0
-                },
-                {
-                  "date": "2018-06-15",
-                  "value": 9.0
-                },
-                {
-                  "date": "2018-06-22",
-                  "value": 10.0
-                },
-                {
-                  "date": "2018-06-29",
-                  "value": 7.5
-                },
-                {
-                  "date": "2018-07-06",
-                  "value": 7.5
-                },
-                {
-                  "date": "2018-07-12",
-                  "value": 8.0
-                },
-                {
-                  "date": "2018-07-19",
-                  "value": 8.0
-                },
-                {
-                  "date": "2018-07-26",
-                  "value": 8.0
-                },
-                {
-                  "date": "2018-08-02",
-                  "value": 6.5
-                },
-                {
-                  "date": "2018-08-09",
-                  "value": 6.5
-                },
-                {
-                  "date": "2018-08-16",
-                  "value": 6.5
-                },
-                {
-                  "date": "2018-08-23",
-                  "value": 6.5
-                },
-                {
-                  "date": "2018-08-30",
-                  "value": 6.0
-                },
-                {
-                  "date": "2018-09-06",
-                  "value": 7.0
-                },
-                {
-                  "date": "2018-09-13",
-                  "value": 11.0
-                },
-                {
-                  "date": "2018-09-20",
-                  "value": 12.0
-                },
-                {
-                  "date": "2018-09-27",
-                  "value": 13.0
-                },
-                {
-                  "date": "2018-10-11",
-                  "value": 12.0
-                },
-                {
-                  "date": "2018-10-18",
-                  "value": 14.0
-                },
-                {
-                  "date": "2018-10-25",
-                  "value": 15.0
-                },
-                {
-                  "date": "2018-11-02",
-                  "value": 15.0
-                },
-                {
-                  "date": "2018-11-08",
-                  "value": 17.0
-                },
-                {
-                  "date": "2018-11-15",
-                  "value": 15.0
-                },
-                {
-                  "date": "2018-11-22",
-                  "value": 16.0
-                },
-                {
-                  "date": "2018-11-29",
-                  "value": 17.0
-                },
-                {
-                  "date": "2018-12-06",
-                  "value": 14.0
-                },
-                {
-                  "date": "2018-12-13",
-                  "value": 12.0
-                },
-                {
-                  "date": "2018-12-20",
-                  "value": 13.0
-                },
-                {
-                  "date": "2018-12-27",
-                  "value": 11.0
-                },
-                {
-                  "date": "2019-01-04",
-                  "value": 14.0
-                },
-                {
-                  "date": "2019-01-10",
-                  "value": 9.0
-                },
-                {
-                  "date": "2019-01-17",
-                  "value": 4.0
-                },
-                {
-                  "date": "2019-01-24",
-                  "value": 3.0
-                },
-                {
-                  "date": "2019-01-31",
-                  "value": 2.0
-                },
-                {
-                  "date": "2019-02-14",
-                  "value": 6.0
-                },
-                {
-                  "date": "2019-02-21",
-                  "value": 9.0
-                },
-                {
-                  "date": "2019-02-28",
-                  "value": 14.0
-                },
-                {
-                  "date": "2019-03-07",
-                  "value": 10.0
-                },
-                {
-                  "date": "2019-03-14",
-                  "value": 14.0
-                },
-                {
-                  "date": "2019-03-22",
-                  "value": 9.0
-                },
-                {
-                  "date": "2019-03-28",
-                  "value": 10.0
-                },
-                {
-                  "date": "2019-04-04",
-                  "value": 10.5
-                },
-                {
-                  "date": "2019-04-11",
-                  "value": 10.0
-                },
-                {
-                  "date": "2019-04-18",
-                  "value": 11.0
-                },
-                {
-                  "date": "2019-04-25",
-                  "value": 14.0
-                },
-                {
-                  "date": "2019-04-30",
-                  "value": 12.0
-                },
-                {
-                  "date": "2019-05-09",
-                  "value": 16.0
-                },
-                {
-                  "date": "2019-05-16",
-                  "value": 18.0
-                },
-                {
-                  "date": "2019-05-23",
-                  "value": 18.5
-                },
-                {
-                  "date": "2019-05-30",
-                  "value": 11.0
-                },
-                {
-                  "date": "2019-06-06",
-                  "value": 12.0
-                },
-                {
-                  "date": "2019-06-13",
-                  "value": 8.5
-                },
-                {
-                  "date": "2019-06-20",
-                  "value": 6.0
-                },
-                {
-                  "date": "2019-06-27",
-                  "value": 1.0
-                },
-                {
-                  "date": "2019-07-04",
-                  "value": 1.5
-                },
-                {
-                  "date": "2019-07-11",
-                  "value": 4.5
-                },
-                {
-                  "date": "2019-07-18",
-                  "value": 7.0
-                },
-                {
-                  "date": "2019-07-25",
-                  "value": 8.0
-                },
-                {
-                  "date": "2019-08-01",
-                  "value": 6.5
-                },
-                {
-                  "date": "2019-08-08",
-                  "value": 5.0
-                },
-                {
-                  "date": "2019-08-15",
-                  "value": 3.0
-                },
-                {
-                  "date": "2019-08-22",
-                  "value": 5.5
-                },
-                {
-                  "date": "2019-08-29",
-                  "value": 6.0
-                },
-                {
-                  "date": "2019-09-05",
-                  "value": 4.0
-                },
-                {
-                  "date": "2019-09-12",
-                  "value": 5.0
-                },
-                {
-                  "date": "2019-09-19",
-                  "value": 5.5
-                },
-                {
-                  "date": "2019-09-26",
-                  "value": 6.5
-                },
-                {
-                  "date": "2019-10-08",
-                  "value": 9.0
-                },
-                {
-                  "date": "2019-10-10",
-                  "value": 9.5
-                },
-                {
-                  "date": "2019-10-17",
-                  "value": 11.5
-                },
-                {
-                  "date": "2019-10-24",
-                  "value": 10.5
-                },
-                {
-                  "date": "2019-10-31",
-                  "value": 9.0
-                },
-                {
-                  "date": "2019-11-07",
-                  "value": 9.5
-                },
-                {
-                  "date": "2019-11-14",
-                  "value": 8.5
-                },
-                {
-                  "date": "2019-11-21",
-                  "value": 9.5
-                },
-                {
-                  "date": "2019-11-28",
-                  "value": 9.5
-                },
-                {
-                  "date": "2019-12-05",
-                  "value": 8.5
-                },
-                {
-                  "date": "2019-12-12",
-                  "value": 7.5
-                },
-                {
-                  "date": "2019-12-19",
-                  "value": 7.8
-                },
-                {
-                  "date": "2019-12-26",
-                  "value": 8.0
-                },
-                {
-                  "date": "2020-01-02",
-                  "value": 7.5
-                },
-                {
-                  "date": "2020-01-09",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-01-16",
-                  "value": 8.5
-                },
-                {
-                  "date": "2020-01-23",
-                  "value": 11.5
-                },
-                {
-                  "date": "2020-02-06",
-                  "value": 18.5
-                },
-                {
-                  "date": "2020-02-13",
-                  "value": 24.0
-                },
-                {
-                  "date": "2020-02-20",
-                  "value": 29.0
-                },
-                {
-                  "date": "2020-02-27",
-                  "value": 29.0
-                },
-                {
-                  "date": "2020-03-05",
-                  "value": 24.0
-                },
-                {
-                  "date": "2020-03-12",
-                  "value": 21.0
-                },
-                {
-                  "date": "2020-03-16",
-                  "value": 22.0
-                },
-                {
-                  "date": "2020-03-19",
-                  "value": 28.5
-                },
-                {
-                  "date": "2020-03-26",
-                  "value": 35.0
-                },
-                {
-                  "date": "2020-04-02",
-                  "value": 34.5
-                },
-                {
-                  "date": "2020-04-07",
-                  "value": 7.5
-                },
-                {
-                  "date": "2020-04-09",
-                  "value": 10.0
-                },
-                {
-                  "date": "2020-04-13",
-                  "value": 12.0
-                },
-                {
-                  "date": "2020-04-16",
-                  "value": 14.5
-                },
-                {
-                  "date": "2020-04-20",
-                  "value": 16.5
-                },
-                {
-                  "date": "2020-04-23",
-                  "value": 18.5
-                },
-                {
-                  "date": "2020-04-27",
-                  "value": 16.5
-                },
-                {
-                  "date": "2020-04-30",
-                  "value": 16.0
-                },
-                {
-                  "date": "2020-05-08",
-                  "value": 14.5
-                },
-                {
-                  "date": "2020-05-11",
-                  "value": 16.0
-                },
-                {
-                  "date": "2020-05-14",
-                  "value": 17.0
-                },
-                {
-                  "date": "2020-05-21",
-                  "value": 14.0
-                },
-                {
-                  "date": "2020-05-28",
-                  "value": 14.5
-                },
-                {
-                  "date": "2020-06-04",
-                  "value": 15.0
-                },
-                {
-                  "date": "2020-06-08",
-                  "value": 16.5
-                },
-                {
-                  "date": "2020-06-11",
-                  "value": 17.5
-                },
-                {
-                  "date": "2020-06-18",
-                  "value": 19.0
-                },
-                {
-                  "date": "2020-06-24",
-                  "value": 20.5
-                },
-                {
-                  "date": "2020-07-02",
+                  "date": "1970-01-01",
                   "value": 22.5
                 },
                 {
-                  "date": "2020-07-09",
-                  "value": 20.28
+                  "date": "1970-01-01",
+                  "value": 20.0
                 },
                 {
-                  "date": "2020-07-16",
-                  "value": 27.0
+                  "date": "1970-01-01",
+                  "value": 20.0
                 },
                 {
-                  "date": "2020-07-23",
-                  "value": 28.0
-                },
-                {
-                  "date": "2020-07-30",
-                  "value": 27.0
-                },
-                {
-                  "date": "2020-08-06",
-                  "value": 25.5
-                },
-                {
-                  "date": "2020-08-13",
-                  "value": 27.5
-                },
-                {
-                  "date": "2020-08-20",
-                  "value": 28.0
-                },
-                {
-                  "date": "2020-08-27",
-                  "value": 27.0
-                },
-                {
-                  "date": "2020-09-03",
-                  "value": 27.0
-                },
-                {
-                  "date": "2020-09-10",
-                  "value": 30.0
-                },
-                {
-                  "date": "2020-09-17",
-                  "value": 30.5
-                },
-                {
-                  "date": "2020-09-24",
-                  "value": 29.0
-                },
-                {
-                  "date": "2020-09-30",
-                  "value": 26.5
-                },
-                {
-                  "date": "2020-10-15",
-                  "value": 17.5
-                },
-                {
-                  "date": "2020-10-22",
-                  "value": 16.0
-                },
-                {
-                  "date": "2020-10-29",
-                  "value": 18.0
-                },
-                {
-                  "date": "2020-11-05",
-                  "value": 18.0
-                },
-                {
-                  "date": "2020-11-12",
-                  "value": 18.0
-                },
-                {
-                  "date": "2020-11-19",
+                  "date": "1970-01-01",
                   "value": 18.5
                 },
                 {
-                  "date": "2020-11-26",
-                  "value": 17.0
-                },
-                {
-                  "date": "2020-12-03",
-                  "value": 18.5
-                },
-                {
-                  "date": "2020-12-10",
+                  "date": "1970-01-01",
                   "value": 17.5
                 },
                 {
-                  "date": "2020-12-17",
+                  "date": "1970-01-01",
                   "value": 17.5
                 },
                 {
-                  "date": "2020-12-24",
-                  "value": 15.5
+                  "date": "1970-01-01",
+                  "value": 20.0
                 },
                 {
-                  "date": "2020-12-31",
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 15.0
                 },
                 {
-                  "date": "2021-01-07",
-                  "value": 9.5
+                  "date": "1970-01-01",
+                  "value": 15.0
                 },
                 {
-                  "date": "2021-01-14",
-                  "value": 9.5
-                },
-                {
-                  "date": "2021-01-21",
+                  "date": "1970-01-01",
                   "value": 11.0
                 },
                 {
-                  "date": "2021-01-28",
-                  "value": 8.3
-                },
-                {
-                  "date": "2021-02-04",
-                  "value": 8.0
-                },
-                {
-                  "date": "2021-02-10",
-                  "value": 11.5
-                },
-                {
-                  "date": "2021-02-25",
-                  "value": 9.0
-                },
-                {
-                  "date": "2021-03-04",
-                  "value": 10.5
-                },
-                {
-                  "date": "2021-03-11",
-                  "value": 12.3
-                },
-                {
-                  "date": "2021-03-18",
-                  "value": 16.5
-                },
-                {
-                  "date": "2021-03-25",
-                  "value": 19.5
-                },
-                {
-                  "date": "2021-04-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "2021-04-08",
-                  "value": 21.3
-                },
-                {
-                  "date": "2021-04-15",
-                  "value": 15.5
-                },
-                {
-                  "date": "2021-04-22",
-                  "value": 15.0
-                },
-                {
-                  "date": "2021-04-29",
-                  "value": 14.5
-                },
-                {
-                  "date": "2021-05-08",
-                  "value": 16.0
-                },
-                {
-                  "date": "2021-05-13",
-                  "value": 19.0
-                },
-                {
-                  "date": "2021-05-20",
-                  "value": 23.5
-                },
-                {
-                  "date": "2021-05-27",
-                  "value": 24.0
-                },
-                {
-                  "date": "2021-06-03",
-                  "value": 22.3
-                },
-                {
-                  "date": "2021-06-10",
-                  "value": 17.5
-                },
-                {
-                  "date": "2021-06-17",
-                  "value": 15.8
-                },
-                {
-                  "date": "2021-06-24",
-                  "value": 16.2
-                },
-                {
-                  "date": "2021-07-01",
-                  "value": 9.5
-                },
-                {
-                  "date": "2021-07-08",
-                  "value": 10.0
-                },
-                {
-                  "date": "2021-07-15",
-                  "value": 11.8
-                },
-                {
-                  "date": "2021-07-22",
-                  "value": 12.7
-                },
-                {
-                  "date": "2021-07-29",
-                  "value": 13.5
-                },
-                {
-                  "date": "2021-08-05",
-                  "value": 15.5
-                },
-                {
-                  "date": "2021-08-12",
-                  "value": 17.2
-                },
-                {
-                  "date": "2021-08-19",
-                  "value": 19.5
-                },
-                {
-                  "date": "2021-08-26",
-                  "value": 21.5
-                },
-                {
-                  "date": "2021-09-02",
-                  "value": 17.5
-                },
-                {
-                  "date": "2021-09-09",
-                  "value": 18.0
-                },
-                {
-                  "date": "2021-09-16",
-                  "value": 18.6
-                },
-                {
-                  "date": "2021-09-23",
-                  "value": 19.8
-                },
-                {
-                  "date": "2021-09-30",
-                  "value": 17.9
-                },
-                {
-                  "date": "2021-10-14",
+                  "date": "1970-01-01",
                   "value": 12.5
                 },
                 {
-                  "date": "2021-10-21",
-                  "value": 13.3
-                },
-                {
-                  "date": "2021-10-28",
-                  "value": 15.5
-                },
-                {
-                  "date": "2021-11-04",
-                  "value": 17.0
-                },
-                {
-                  "date": "2021-11-11",
-                  "value": 18.8
-                },
-                {
-                  "date": "2021-11-18",
-                  "value": 20.5
-                },
-                {
-                  "date": "2021-11-25",
-                  "value": 17.5
-                },
-                {
-                  "date": "2021-12-02",
-                  "value": 20.5
-                },
-                {
-                  "date": "2021-12-09",
-                  "value": 21.5
-                },
-                {
-                  "date": "2021-12-16",
-                  "value": 21.5
-                },
-                {
-                  "date": "2021-12-23",
-                  "value": 19.0
-                },
-                {
-                  "date": "2021-12-30",
-                  "value": 17.8
-                },
-                {
-                  "date": "2022-01-06",
-                  "value": 16.5
-                },
-                {
-                  "date": "2022-01-13",
+                  "date": "1970-01-01",
                   "value": 14.0
                 },
                 {
-                  "date": "2022-01-20",
-                  "value": 14.7
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
-                  "date": "2022-01-27",
-                  "value": 16.5
+                  "date": "1970-01-01",
+                  "value": 17.5
                 },
                 {
-                  "date": "2022-02-10",
-                  "value": 24.5
+                  "date": "1970-01-01",
+                  "value": 16.0
                 },
                 {
-                  "date": "2022-02-17",
-                  "value": 26.8
+                  "date": "1970-01-01",
+                  "value": 16.0
                 },
                 {
-                  "date": "2022-02-24",
-                  "value": 27.2
+                  "date": "1970-01-01",
+                  "value": 22.5
                 },
                 {
-                  "date": "2022-03-03",
-                  "value": 26.5
+                  "date": "1970-01-01",
+                  "value": 22.5
                 },
                 {
-                  "date": "2022-03-10",
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 25.0
                 },
                 {
-                  "date": "2022-03-17",
-                  "value": 26.5
+                  "date": "1970-01-01",
+                  "value": 27.0
                 },
                 {
-                  "date": "2022-03-24",
-                  "value": 27.8
+                  "date": "1970-01-01",
+                  "value": 16.0
                 },
                 {
-                  "date": "2022-03-31",
-                  "value": 29.5
-                },
-                {
-                  "date": "2022-04-07",
-                  "value": 31.8
-                },
-                {
-                  "date": "2022-04-14",
-                  "value": 33.5
-                },
-                {
-                  "date": "2022-04-21",
-                  "value": 34.7
-                },
-                {
-                  "date": "2022-04-28",
-                  "value": 27.7
-                },
-                {
-                  "date": "2022-05-05",
-                  "value": 30.2
-                },
-                {
-                  "date": "2022-05-12",
-                  "value": 31.5
-                },
-                {
-                  "date": "2022-05-19",
-                  "value": 32.2
-                },
-                {
-                  "date": "2022-05-26",
-                  "value": 34.5
-                },
-                {
-                  "date": "2022-06-02",
-                  "value": 32.5
-                },
-                {
-                  "date": "2022-06-09",
-                  "value": 29.5
-                },
-                {
-                  "date": "2022-06-16",
-                  "value": 31.0
-                },
-                {
-                  "date": "2022-06-23",
-                  "value": 33.7
-                },
-                {
-                  "date": "2022-06-30",
-                  "value": 32.9
-                },
-                {
-                  "date": "2022-07-07",
-                  "value": 35.7
-                },
-                {
-                  "date": "2022-07-14",
-                  "value": 36.8
-                },
-                {
-                  "date": "2022-07-21",
-                  "value": 33.2
-                },
-                {
-                  "date": "2022-07-28",
-                  "value": 33.3
-                },
-                {
-                  "date": "2022-08-04",
-                  "value": 35.4
-                },
-                {
-                  "date": "2022-08-11",
-                  "value": 36.8
-                },
-                {
-                  "date": "2022-08-18",
-                  "value": 37.8
-                },
-                {
-                  "date": "2022-08-25",
-                  "value": 35.5
-                },
-                {
-                  "date": "2022-09-01",
-                  "value": 28.5
-                },
-                {
-                  "date": "2022-09-08",
-                  "value": 28.2
-                },
-                {
-                  "date": "2022-09-15",
-                  "value": 28.8
-                },
-                {
-                  "date": "2022-09-22",
-                  "value": 29.2
-                },
-                {
-                  "date": "2022-09-29",
-                  "value": 27.5
-                },
-                {
-                  "date": "2022-10-13",
-                  "value": 29.8
-                },
-                {
-                  "date": "2022-10-20",
-                  "value": 31.3
-                },
-                {
-                  "date": "2022-10-27",
-                  "value": 32.1
-                },
-                {
-                  "date": "2022-11-03",
-                  "value": 32.6
-                },
-                {
-                  "date": "2022-11-10",
-                  "value": 32.8
-                },
-                {
-                  "date": "2022-11-17",
-                  "value": 33.6
-                },
-                {
-                  "date": "2022-11-24",
-                  "value": 34.7
-                },
-                {
-                  "date": "2022-12-01",
-                  "value": 33.4
-                },
-                {
-                  "date": "2022-12-08",
-                  "value": 29.8
-                },
-                {
-                  "date": "2022-12-15",
-                  "value": 23.7
-                },
-                {
-                  "date": "2022-12-22",
-                  "value": 23.3
-                },
-                {
-                  "date": "2022-12-29",
-                  "value": 20.1
-                },
-                {
-                  "date": "2023-01-05",
-                  "value": 21.5
-                },
-                {
-                  "date": "2023-01-12",
-                  "value": 17.9
-                },
-                {
-                  "date": "2023-01-19",
-                  "value": 19.8
-                },
-                {
-                  "date": "2023-02-02",
-                  "value": 21.9
-                },
-                {
-                  "date": "2023-02-16",
-                  "value": 25.1
-                },
-                {
-                  "date": "2023-02-23",
-                  "value": 26.0
-                },
-                {
-                  "date": "2023-03-02",
-                  "value": 20.5
-                },
-                {
-                  "date": "2023-03-09",
-                  "value": 20.8
-                },
-                {
-                  "date": "2023-03-16",
-                  "value": 22.5
-                },
-                {
-                  "date": "2023-03-23",
-                  "value": 18.6
-                },
-                {
-                  "date": "2023-03-30",
-                  "value": 19.4
-                },
-                {
-                  "date": "2023-04-06",
-                  "value": 18.9
-                },
-                {
-                  "date": "2023-04-13",
-                  "value": 20.6
-                },
-                {
-                  "date": "2023-04-20",
-                  "value": 21.1
-                },
-                {
-                  "date": "2023-04-27",
-                  "value": 19.2
-                },
-                {
-                  "date": "2023-05-01",
-                  "value": 19.8
-                },
-                {
-                  "date": "2023-05-04",
-                  "value": 20.4
-                },
-                {
-                  "date": "2023-05-11",
-                  "value": 19.8
-                },
-                {
-                  "date": "2023-05-18",
-                  "value": 17.1
-                },
-                {
-                  "date": "2023-05-25",
-                  "value": 17.6
-                },
-                {
-                  "date": "2023-06-01",
-                  "value": 13.2
-                },
-                {
-                  "date": "2023-06-08",
-                  "value": 14.0
-                },
-                {
-                  "date": "2023-06-15",
-                  "value": 11.6
-                },
-                {
-                  "date": "2023-06-21",
-                  "value": 12.5
-                },
-                {
-                  "date": "2023-06-29",
-                  "value": 11.6
-                },
-                {
-                  "date": "2023-07-06",
-                  "value": 13.7
-                },
-                {
-                  "date": "2023-07-13",
-                  "value": 12.8
-                },
-                {
-                  "date": "2023-07-20",
-                  "value": 13.1
-                },
-                {
-                  "date": "2023-07-21",
-                  "value": 12.6
-                },
-                {
-                  "date": "2023-07-27",
-                  "value": 10.5
-                },
-                {
-                  "date": "2023-08-03",
-                  "value": 11.3
-                },
-                {
-                  "date": "2023-08-10",
-                  "value": 13.2
-                },
-                {
-                  "date": "2023-08-17",
-                  "value": 13.0
-                },
-                {
-                  "date": "2023-08-24",
-                  "value": 12.3
-                },
-                {
-                  "date": "2023-08-31",
-                  "value": 10.8
-                },
-                {
-                  "date": "2023-09-07",
-                  "value": 11.3
-                },
-                {
-                  "date": "2023-09-14",
-                  "value": 10.4
-                },
-                {
-                  "date": "2023-09-21",
-                  "value": 11.3
-                },
-                {
-                  "date": "2023-09-28",
-                  "value": 9.5
-                },
-                {
-                  "date": "2023-10-12",
-                  "value": 15.6
-                },
-                {
-                  "date": "2023-10-19",
-                  "value": 15.9
-                },
-                {
-                  "date": "2023-10-26",
-                  "value": 16.8
-                },
-                {
-                  "date": "2023-11-02",
-                  "value": 16.4
-                },
-                {
-                  "date": "2023-11-09",
-                  "value": 16.8
-                },
-                {
-                  "date": "2023-11-16",
-                  "value": 17.2
-                },
-                {
-                  "date": "2023-11-23",
-                  "value": 17.7
-                },
-                {
-                  "date": "2023-11-30",
-                  "value": 12.4
-                },
-                {
-                  "date": "2023-12-07",
-                  "value": 13.6
-                },
-                {
-                  "date": "2023-12-14",
-                  "value": 15.0
-                },
-                {
-                  "date": "2023-12-21",
-                  "value": 11.3
-                },
-                {
-                  "date": "2023-12-28",
-                  "value": 13.8
-                },
-                {
-                  "date": "2024-01-04",
-                  "value": 15.4
-                },
-                {
-                  "date": "2024-01-11",
-                  "value": 16.8
-                },
-                {
-                  "date": "2024-01-18",
-                  "value": 16.5
-                },
-                {
-                  "date": "2024-01-25",
-                  "value": 10.4
-                },
-                {
-                  "date": "2024-02-01",
-                  "value": 11.2
-                },
-                {
-                  "date": "2024-02-08",
-                  "value": 13.8
-                },
-                {
-                  "date": "2024-02-22",
-                  "value": 22.5
-                },
-                {
-                  "date": "2024-02-29",
-                  "value": 28.1
-                },
-                {
-                  "date": "2024-03-07",
-                  "value": 29.8
-                },
-                {
-                  "date": "2024-03-14",
-                  "value": 29.5
-                },
-                {
-                  "date": "2024-03-21",
-                  "value": 31.7
-                },
-                {
-                  "date": "2024-03-28",
-                  "value": 28.9
-                },
-                {
-                  "date": "2024-04-07",
-                  "value": 30.4
-                },
-                {
-                  "date": "2024-04-11",
-                  "value": 30.4
-                },
-                {
-                  "date": "2024-04-18",
-                  "value": 30.0
-                },
-                {
-                  "date": "2024-04-25",
-                  "value": 33.5
-                },
-                {
-                  "date": "2024-04-30",
-                  "value": 26.7
-                },
-                {
-                  "date": "2024-05-09",
-                  "value": 28.5
-                },
-                {
-                  "date": "2024-05-16",
-                  "value": 32.4
-                },
-                {
-                  "date": "2024-05-23",
-                  "value": 22.6
-                },
-                {
-                  "date": "2024-05-30",
-                  "value": 23.5
-                },
-                {
-                  "date": "2024-06-06",
-                  "value": 25.3
-                },
-                {
-                  "date": "2024-06-13",
-                  "value": 26.5
-                },
-                {
-                  "date": "2024-06-20",
-                  "value": 28.6
-                },
-                {
-                  "date": "2024-06-27",
-                  "value": 26.8
-                },
-                {
-                  "date": "2024-07-04",
+                  "date": "1970-01-01",
                   "value": 27.4
                 },
                 {
-                  "date": "2024-07-11",
-                  "value": 28.4
+                  "date": "1970-01-01",
+                  "value": 27.0
                 },
                 {
-                  "date": "2024-07-18",
-                  "value": 29.3
+                  "date": "1970-01-01",
+                  "value": 27.4
                 },
                 {
-                  "date": "2024-07-25",
-                  "value": 19.2
+                  "date": "1970-01-01",
+                  "value": 27.5
                 },
                 {
-                  "date": "2024-08-01",
-                  "value": 20.7
+                  "date": "1970-01-01",
+                  "value": 24.5
                 },
                 {
-                  "date": "2024-08-08",
-                  "value": 22.5
+                  "date": "1970-01-01",
+                  "value": 23.5
                 },
                 {
-                  "date": "2024-08-15",
-                  "value": 15.3
+                  "date": "1970-01-01",
+                  "value": 24.5
                 },
                 {
-                  "date": "2024-08-22",
-                  "value": 19.2
-                },
-                {
-                  "date": "2024-08-29",
-                  "value": 11.8
-                },
-                {
-                  "date": "2024-09-05",
-                  "value": 14.7
-                },
-                {
-                  "date": "2024-09-12",
-                  "value": 18.2
-                },
-                {
-                  "date": "2024-09-19",
-                  "value": 18.5
-                },
-                {
-                  "date": "2024-09-26",
-                  "value": 10.7
-                },
-                {
-                  "date": "2024-10-10",
-                  "value": 8.7
-                },
-                {
-                  "date": "2024-10-17",
-                  "value": 15.3
-                },
-                {
-                  "date": "2024-10-24",
-                  "value": 17.2
-                },
-                {
-                  "date": "2024-10-31",
-                  "value": 13.7
-                },
-                {
-                  "date": "2024-11-07",
-                  "value": 15.1
-                },
-                {
-                  "date": "2024-11-14",
-                  "value": 17.6
-                },
-                {
-                  "date": "2024-11-21",
-                  "value": 16.9
-                },
-                {
-                  "date": "2024-11-28",
-                  "value": 17.3
-                },
-                {
-                  "date": "2024-12-05",
-                  "value": 11.6
-                },
-                {
-                  "date": "2024-12-12",
-                  "value": 9.3
-                },
-                {
-                  "date": "2024-12-19",
-                  "value": 2.6
-                },
-                {
-                  "date": "2024-12-26",
-                  "value": 4.7
-                },
-                {
-                  "date": "2025-01-02",
-                  "value": 2.9
-                },
-                {
-                  "date": "2025-01-09",
-                  "value": 4.6
-                },
-                {
-                  "date": "2025-01-16",
-                  "value": 5.8
-                },
-                {
-                  "date": "2025-01-23",
-                  "value": 7.5
-                },
-                {
-                  "date": "2025-02-06",
-                  "value": 13.2
-                },
-                {
-                  "date": "2025-02-13",
-                  "value": 15.3
-                },
-                {
-                  "date": "2025-02-20",
-                  "value": 17.6
-                },
-                {
-                  "date": "2025-02-27",
-                  "value": 20.0
-                },
-                {
-                  "date": "2025-03-06",
-                  "value": 22.6
-                },
-                {
-                  "date": "2025-03-13",
-                  "value": 24.1
-                },
-                {
-                  "date": "2025-03-20",
+                  "date": "1970-01-01",
                   "value": 25.0
                 },
                 {
-                  "date": "2025-03-27",
-                  "value": 23.1
+                  "date": "1970-01-01",
+                  "value": 25.0
                 },
                 {
-                  "date": "2025-04-03",
-                  "value": 22.8
+                  "date": "1970-01-01",
+                  "value": 22.5
                 },
                 {
-                  "date": "2025-04-10",
-                  "value": 26.8
-                },
-                {
-                  "date": "2025-04-17",
-                  "value": 29.44
-                },
-                {
-                  "date": "2025-04-24",
-                  "value": 28.2
-                },
-                {
-                  "date": "2025-04-30",
-                  "value": 14.8
-                },
-                {
-                  "date": "2025-05-08",
-                  "value": 17.1
-                },
-                {
-                  "date": "2025-05-15",
-                  "value": 8.9
-                },
-                {
-                  "date": "2025-05-22",
-                  "value": 11.3
-                },
-                {
-                  "date": "2025-05-29",
-                  "value": 13.8
-                },
-                {
-                  "date": "2025-06-05",
-                  "value": 16.5
-                },
-                {
-                  "date": "2025-06-12",
-                  "value": 17.9
-                },
-                {
-                  "date": "2025-06-19",
-                  "value": 16.3
-                },
-                {
-                  "date": "2025-06-26",
-                  "value": 17.2
-                },
-                {
-                  "date": "2025-07-03",
-                  "value": 21.7
-                },
-                {
-                  "date": "2025-07-10",
-                  "value": 24.2
-                },
-                {
-                  "date": "2025-07-17",
-                  "value": 25.4
-                },
-                {
-                  "date": "2025-07-24",
-                  "value": 15.5
-                },
-                {
-                  "date": "2025-07-31",
-                  "value": 18.1
-                },
-                {
-                  "date": "2025-08-07",
-                  "value": 19.7
-                },
-                {
-                  "date": "2025-08-14",
-                  "value": 16.1
-                },
-                {
-                  "date": "2025-08-21",
-                  "value": 13.8
-                },
-                {
-                  "date": "2025-08-28",
-                  "value": 15.3
-                },
-                {
-                  "date": "2025-09-04",
-                  "value": 17.4
-                },
-                {
-                  "date": "2025-09-11",
-                  "value": 19.3
-                },
-                {
-                  "date": "2025-09-18",
-                  "value": 20.6
-                },
-                {
-                  "date": "2025-09-25",
-                  "value": 18.8
-                },
-                {
-                  "date": "2025-10-09",
-                  "value": 13.6
-                },
-                {
-                  "date": "2025-10-16",
-                  "value": 16.8
-                },
-                {
-                  "date": "2025-10-23",
-                  "value": 11.8
-                },
-                {
-                  "date": "2025-10-30",
-                  "value": 8.5
-                },
-                {
-                  "date": "2025-11-06",
-                  "value": 11.6
-                },
-                {
-                  "date": "2025-11-13",
-                  "value": 12.2
-                },
-                {
-                  "date": "2025-11-20",
-                  "value": 14.1
-                },
-                {
-                  "date": "2025-11-27",
-                  "value": 14.7
-                },
-                {
-                  "date": "2025-12-04",
-                  "value": 16.3
-                },
-                {
-                  "date": "2025-12-11",
-                  "value": 16.7
-                },
-                {
-                  "date": "2025-12-18",
-                  "value": 19.0
-                },
-                {
-                  "date": "2025-12-25",
-                  "value": 8.4
-                },
-                {
-                  "date": "2026-01-04",
-                  "value": 10.6
-                },
-                {
-                  "date": "2026-01-08",
-                  "value": 11.7
-                },
-                {
-                  "date": "2026-01-15",
-                  "value": 12.8
-                },
-                {
-                  "date": "2026-01-22",
-                  "value": 13.9
-                },
-                {
-                  "date": "2026-01-29",
-                  "value": 14.0
-                },
-                {
-                  "date": "2026-02-05",
-                  "value": 12.7
-                },
-                {
-                  "date": "2026-02-12",
-                  "value": 11.4
-                },
-                {
-                  "date": "2026-02-26",
-                  "value": 18.7
-                },
-                {
-                  "date": "2026-03-05",
-                  "value": 17.5
-                },
-                {
-                  "date": "2026-03-12",
-                  "value": 23.3
-                },
-                {
-                  "date": "2026-03-19",
-                  "value": 26.6
-                },
-                {
-                  "date": "2026-03-26",
-                  "value": 24.8
-                },
-                {
-                  "date": "2026-04-02",
-                  "value": 26.2
-                },
-                {
-                  "date": "2026-04-09",
-                  "value": 26.7
-                },
-                {
-                  "date": "2026-04-16",
+                  "date": "1970-01-01",
                   "value": 28.5
                 },
                 {
-                  "date": "2026-04-23",
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 36.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 42.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 39.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 40.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 40.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 38.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 28.9
                 },
                 {
-                  "date": "2026-04-30",
+                  "date": "1970-01-01",
+                  "value": 28.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 41.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 37.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.94
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 40.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 38.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 37.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 38.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 37.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 38.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 36.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 39.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 40.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 39.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 36.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 36.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 42.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 37.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 22.9
                 },
                 {
-                  "date": "2026-05-07",
+                  "date": "1970-01-01",
+                  "value": 24.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 41.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 40.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 43.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 36.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 43.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 39.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 37.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 38.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 42.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 36.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 38.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 41.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.2
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 40.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 40.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 40.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 40.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
                 }
               ]
             },
@@ -251973,2244 +252341,2312 @@ const INDUSTRY_DATA = {
               "axis": "y2",
               "data": [
                 {
-                  "date": "2015-01-09",
-                  "value": 4.5
+                  "date": "1970-01-01",
+                  "value": 10.0
                 },
                 {
-                  "date": "2015-01-16",
-                  "value": 5.5
+                  "date": "1970-01-01",
+                  "value": 7.5
                 },
                 {
-                  "date": "2015-01-23",
-                  "value": 5.0
+                  "date": "1970-01-01",
+                  "value": 7.0
                 },
                 {
-                  "date": "2015-01-30",
-                  "value": 5.0
+                  "date": "1970-01-01",
+                  "value": 6.0
                 },
                 {
-                  "date": "2015-02-06",
-                  "value": 5.0
+                  "date": "1970-01-01",
+                  "value": 6.0
                 },
                 {
-                  "date": "2015-02-13",
-                  "value": 4.5
+                  "date": "1970-01-01",
+                  "value": 7.0
                 },
                 {
-                  "date": "2015-02-27",
-                  "value": 4.5
-                },
-                {
-                  "date": "2015-03-06",
-                  "value": 4.5
-                },
-                {
-                  "date": "2015-03-13",
-                  "value": 5.0
-                },
-                {
-                  "date": "2015-03-20",
-                  "value": 5.5
-                },
-                {
-                  "date": "2015-03-27",
-                  "value": 5.5
-                },
-                {
-                  "date": "2015-04-03",
-                  "value": 5.5
-                },
-                {
-                  "date": "2015-04-10",
-                  "value": 5.0
-                },
-                {
-                  "date": "2015-04-17",
-                  "value": 5.0
-                },
-                {
-                  "date": "2015-04-24",
-                  "value": 5.0
-                },
-                {
-                  "date": "2015-04-30",
-                  "value": 5.0
-                },
-                {
-                  "date": "2015-05-07",
-                  "value": 4.0
-                },
-                {
-                  "date": "2015-05-15",
-                  "value": 4.0
-                },
-                {
-                  "date": "2015-05-22",
-                  "value": 4.0
-                },
-                {
-                  "date": "2015-05-29",
-                  "value": 4.0
-                },
-                {
-                  "date": "2015-06-05",
-                  "value": 4.0
-                },
-                {
-                  "date": "2015-06-12",
-                  "value": 4.0
-                },
-                {
-                  "date": "2015-06-19",
-                  "value": 4.0
-                },
-                {
-                  "date": "2015-06-26",
-                  "value": 4.0
-                },
-                {
-                  "date": "2015-07-03",
-                  "value": 4.0
-                },
-                {
-                  "date": "2015-07-10",
-                  "value": 3.5
-                },
-                {
-                  "date": "2015-07-17",
-                  "value": 3.5
-                },
-                {
-                  "date": "2015-07-24",
-                  "value": 3.5
-                },
-                {
-                  "date": "2015-07-31",
-                  "value": 3.5
-                },
-                {
-                  "date": "2015-08-07",
-                  "value": 3.5
-                },
-                {
-                  "date": "2015-08-14",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-08-21",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-08-28",
-                  "value": 3.0
-                },
-                {
-                  "date": "2015-09-04",
-                  "value": 3.0
-                },
-                {
-                  "date": "2015-09-11",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-09-18",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-09-25",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-10-09",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-10-16",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-10-23",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-10-30",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-11-06",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-11-13",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-11-20",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-11-27",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-12-04",
-                  "value": 1.5
-                },
-                {
-                  "date": "2015-12-11",
-                  "value": 1.5
-                },
-                {
-                  "date": "2015-12-18",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-12-25",
-                  "value": 2.0
-                },
-                {
-                  "date": "2015-12-31",
-                  "value": 2.0
-                },
-                {
-                  "date": "2016-01-08",
-                  "value": 2.5
-                },
-                {
-                  "date": "2016-01-15",
-                  "value": 2.5
-                },
-                {
-                  "date": "2016-01-22",
-                  "value": 2.5
-                },
-                {
-                  "date": "2016-01-29",
-                  "value": 3.0
-                },
-                {
-                  "date": "2016-02-19",
-                  "value": 2.0
-                },
-                {
-                  "date": "2016-02-26",
-                  "value": 2.5
-                },
-                {
-                  "date": "2016-03-04",
-                  "value": 1.5
-                },
-                {
-                  "date": "2016-03-11",
-                  "value": 1.5
-                },
-                {
-                  "date": "2016-03-18",
-                  "value": 1.5
-                },
-                {
-                  "date": "2016-03-25",
-                  "value": 1.5
-                },
-                {
-                  "date": "2016-04-01",
-                  "value": 1.5
-                },
-                {
-                  "date": "2016-04-08",
-                  "value": 1.5
-                },
-                {
-                  "date": "2016-04-15",
-                  "value": 1.5
-                },
-                {
-                  "date": "2016-04-22",
-                  "value": 1.5
-                },
-                {
-                  "date": "2016-04-29",
-                  "value": 1.5
-                },
-                {
-                  "date": "2016-05-06",
-                  "value": 2.0
-                },
-                {
-                  "date": "2016-05-13",
-                  "value": 2.5
-                },
-                {
-                  "date": "2016-05-20",
-                  "value": 4.0
-                },
-                {
-                  "date": "2016-05-27",
-                  "value": 3.0
-                },
-                {
-                  "date": "2016-06-03",
-                  "value": 3.0
-                },
-                {
-                  "date": "2016-06-10",
-                  "value": 3.0
-                },
-                {
-                  "date": "2016-06-17",
-                  "value": 2.5
-                },
-                {
-                  "date": "2016-06-24",
-                  "value": 2.5
-                },
-                {
-                  "date": "2016-07-01",
-                  "value": 2.5
-                },
-                {
-                  "date": "2016-07-08",
-                  "value": 2.5
-                },
-                {
-                  "date": "2016-07-15",
-                  "value": 2.5
-                },
-                {
-                  "date": "2016-07-29",
-                  "value": 2.0
-                },
-                {
-                  "date": "2016-08-05",
-                  "value": 2.5
-                },
-                {
-                  "date": "2016-08-12",
-                  "value": 2.5
-                },
-                {
-                  "date": "2016-08-19",
-                  "value": 3.5
-                },
-                {
-                  "date": "2016-08-26",
-                  "value": 4.0
-                },
-                {
-                  "date": "2016-09-02",
-                  "value": 4.0
-                },
-                {
-                  "date": "2016-09-09",
-                  "value": 3.5
-                },
-                {
-                  "date": "2016-09-16",
-                  "value": 3.5
-                },
-                {
-                  "date": "2016-09-23",
-                  "value": 3.5
-                },
-                {
-                  "date": "2016-09-30",
-                  "value": 3.0
-                },
-                {
-                  "date": "2016-10-14",
-                  "value": 3.5
-                },
-                {
-                  "date": "2016-10-21",
-                  "value": 4.0
-                },
-                {
-                  "date": "2016-10-28",
-                  "value": 4.0
-                },
-                {
-                  "date": "2016-11-04",
-                  "value": 4.0
-                },
-                {
-                  "date": "2016-11-11",
-                  "value": 3.5
-                },
-                {
-                  "date": "2016-11-18",
-                  "value": 3.0
-                },
-                {
-                  "date": "2016-11-25",
-                  "value": 3.0
-                },
-                {
-                  "date": "2016-12-09",
-                  "value": 3.0
-                },
-                {
-                  "date": "2016-12-16",
-                  "value": 3.0
-                },
-                {
-                  "date": "2016-12-23",
-                  "value": 2.5
-                },
-                {
-                  "date": "2016-12-30",
-                  "value": 2.5
-                },
-                {
-                  "date": "2017-01-06",
-                  "value": 2.5
-                },
-                {
-                  "date": "2017-01-13",
-                  "value": 2.5
-                },
-                {
-                  "date": "2017-01-20",
-                  "value": 2.5
-                },
-                {
-                  "date": "2017-02-10",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-02-17",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-02-24",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-03-03",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-03-10",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-03-17",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-03-24",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-03-31",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-04-07",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-04-14",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-04-21",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-04-28",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-05-05",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-05-12",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-05-19",
-                  "value": 2.5
-                },
-                {
-                  "date": "2017-05-26",
-                  "value": 2.5
-                },
-                {
-                  "date": "2017-06-02",
-                  "value": 2.5
-                },
-                {
-                  "date": "2017-06-09",
-                  "value": 1.5
-                },
-                {
-                  "date": "2017-06-16",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-06-23",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-06-30",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-07-07",
-                  "value": 3.0
-                },
-                {
-                  "date": "2017-07-14",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-07-21",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-08-04",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-08-11",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-08-18",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-08-25",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-09-01",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-09-07",
-                  "value": 1.5
-                },
-                {
-                  "date": "2017-09-14",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-09-21",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-09-28",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-10-13",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-10-20",
-                  "value": 1.5
-                },
-                {
-                  "date": "2017-10-27",
-                  "value": 1.5
-                },
-                {
-                  "date": "2017-11-03",
-                  "value": 2.5
-                },
-                {
-                  "date": "2017-11-10",
-                  "value": 2.5
-                },
-                {
-                  "date": "2017-11-17",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-11-24",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-12-01",
-                  "value": 2.5
-                },
-                {
-                  "date": "2017-12-08",
-                  "value": 1.0
-                },
-                {
-                  "date": "2017-12-15",
-                  "value": 2.0
-                },
-                {
-                  "date": "2017-12-22",
-                  "value": 1.5
-                },
-                {
-                  "date": "2017-12-29",
-                  "value": 2.0
-                },
-                {
-                  "date": "2018-01-05",
-                  "value": 2.0
-                },
-                {
-                  "date": "2018-01-12",
-                  "value": 1.5
-                },
-                {
-                  "date": "2018-01-19",
-                  "value": 1.0
-                },
-                {
-                  "date": "2018-01-26",
-                  "value": 2.0
-                },
-                {
-                  "date": "2018-02-02",
-                  "value": 1.5
-                },
-                {
-                  "date": "2018-02-09",
-                  "value": 2.0
-                },
-                {
-                  "date": "2018-02-23",
-                  "value": 2.0
-                },
-                {
-                  "date": "2018-03-02",
-                  "value": 1.5
-                },
-                {
-                  "date": "2018-03-09",
-                  "value": 2.0
-                },
-                {
-                  "date": "2018-03-16",
-                  "value": 2.0
-                },
-                {
-                  "date": "2018-03-23",
-                  "value": 2.0
-                },
-                {
-                  "date": "2018-03-30",
-                  "value": 2.0
-                },
-                {
-                  "date": "2018-04-06",
-                  "value": 3.5
-                },
-                {
-                  "date": "2018-04-13",
-                  "value": 3.5
-                },
-                {
-                  "date": "2018-04-20",
-                  "value": 3.0
-                },
-                {
-                  "date": "2018-04-27",
-                  "value": 3.5
-                },
-                {
-                  "date": "2018-05-04",
-                  "value": 5.0
-                },
-                {
-                  "date": "2018-05-11",
-                  "value": 5.0
-                },
-                {
-                  "date": "2018-05-18",
-                  "value": 4.5
-                },
-                {
-                  "date": "2018-05-24",
-                  "value": 4.0
-                },
-                {
-                  "date": "2018-06-01",
-                  "value": 4.0
-                },
-                {
-                  "date": "2018-06-08",
-                  "value": 4.0
-                },
-                {
-                  "date": "2018-06-15",
-                  "value": 4.5
-                },
-                {
-                  "date": "2018-06-22",
-                  "value": 4.0
-                },
-                {
-                  "date": "2018-06-28",
-                  "value": 4.0
-                },
-                {
-                  "date": "2018-07-06",
-                  "value": 3.5
-                },
-                {
-                  "date": "2018-07-13",
-                  "value": 4.0
-                },
-                {
-                  "date": "2018-07-20",
-                  "value": 4.5
-                },
-                {
-                  "date": "2018-07-27",
-                  "value": 4.0
-                },
-                {
-                  "date": "2018-08-03",
-                  "value": 3.5
-                },
-                {
-                  "date": "2018-08-10",
-                  "value": 2.5
-                },
-                {
-                  "date": "2018-08-17",
-                  "value": 2.5
-                },
-                {
-                  "date": "2018-08-24",
-                  "value": 1.5
-                },
-                {
-                  "date": "2018-08-31",
-                  "value": 1.5
-                },
-                {
-                  "date": "2018-09-07",
-                  "value": 1.5
-                },
-                {
-                  "date": "2018-09-21",
-                  "value": 3.5
-                },
-                {
-                  "date": "2018-09-28",
-                  "value": 3.0
-                },
-                {
-                  "date": "2018-10-12",
-                  "value": 3.0
-                },
-                {
-                  "date": "2018-10-19",
-                  "value": 3.5
-                },
-                {
-                  "date": "2018-10-26",
-                  "value": 3.5
-                },
-                {
-                  "date": "2018-11-02",
-                  "value": 4.0
-                },
-                {
-                  "date": "2018-11-09",
-                  "value": 3.0
-                },
-                {
-                  "date": "2018-11-16",
-                  "value": 3.5
-                },
-                {
-                  "date": "2018-11-23",
-                  "value": 3.5
-                },
-                {
-                  "date": "2018-11-30",
-                  "value": 4.0
-                },
-                {
-                  "date": "2018-12-07",
-                  "value": 4.0
-                },
-                {
-                  "date": "2018-12-14",
-                  "value": 4.0
-                },
-                {
-                  "date": "2018-12-21",
-                  "value": 4.0
-                },
-                {
-                  "date": "2018-12-28",
-                  "value": 3.0
-                },
-                {
-                  "date": "2019-01-04",
-                  "value": 3.0
-                },
-                {
-                  "date": "2019-01-11",
-                  "value": 3.0
-                },
-                {
-                  "date": "2019-01-18",
-                  "value": 3.0
-                },
-                {
-                  "date": "2019-01-25",
-                  "value": 3.5
-                },
-                {
-                  "date": "2019-02-01",
-                  "value": 3.0
-                },
-                {
-                  "date": "2019-02-15",
-                  "value": 5.0
-                },
-                {
-                  "date": "2019-02-22",
-                  "value": 4.5
-                },
-                {
-                  "date": "2019-03-01",
-                  "value": 4.5
-                },
-                {
-                  "date": "2019-03-08",
-                  "value": 4.5
-                },
-                {
-                  "date": "2019-03-15",
-                  "value": 3.5
-                },
-                {
-                  "date": "2019-03-22",
-                  "value": 3.5
-                },
-                {
-                  "date": "2019-03-29",
-                  "value": 2.5
-                },
-                {
-                  "date": "2019-04-04",
-                  "value": 2.5
-                },
-                {
-                  "date": "2019-04-12",
-                  "value": 3.5
-                },
-                {
-                  "date": "2019-04-19",
-                  "value": 3.5
-                },
-                {
-                  "date": "2019-04-26",
-                  "value": 4.0
-                },
-                {
-                  "date": "2019-04-30",
-                  "value": 4.0
-                },
-                {
-                  "date": "2019-05-10",
-                  "value": 4.5
-                },
-                {
-                  "date": "2019-05-17",
-                  "value": 4.5
-                },
-                {
-                  "date": "2019-05-24",
-                  "value": 4.0
-                },
-                {
-                  "date": "2019-05-31",
-                  "value": 3.5
-                },
-                {
-                  "date": "2019-06-06",
-                  "value": 3.0
-                },
-                {
-                  "date": "2019-06-14",
-                  "value": 3.0
-                },
-                {
-                  "date": "2019-06-21",
-                  "value": 3.0
-                },
-                {
-                  "date": "2019-06-28",
-                  "value": 2.5
-                },
-                {
-                  "date": "2019-07-05",
-                  "value": 2.5
-                },
-                {
-                  "date": "2019-07-12",
-                  "value": 1.5
-                },
-                {
-                  "date": "2019-07-19",
-                  "value": 1.0
-                },
-                {
-                  "date": "2019-07-26",
-                  "value": 1.5
-                },
-                {
-                  "date": "2019-08-02",
-                  "value": 2.0
-                },
-                {
-                  "date": "2019-08-09",
-                  "value": 2.0
-                },
-                {
-                  "date": "2019-08-16",
-                  "value": 2.0
-                },
-                {
-                  "date": "2019-08-23",
-                  "value": 2.0
-                },
-                {
-                  "date": "2019-08-30",
-                  "value": 2.0
-                },
-                {
-                  "date": "2019-09-06",
-                  "value": 2.0
-                },
-                {
-                  "date": "2019-09-12",
-                  "value": 2.5
-                },
-                {
-                  "date": "2019-09-20",
-                  "value": 2.5
-                },
-                {
-                  "date": "2019-09-27",
-                  "value": 2.0
-                },
-                {
-                  "date": "2019-10-11",
-                  "value": 2.5
-                },
-                {
-                  "date": "2019-10-18",
-                  "value": 2.5
-                },
-                {
-                  "date": "2019-10-25",
-                  "value": 2.0
-                },
-                {
-                  "date": "2019-11-01",
-                  "value": 2.0
-                },
-                {
-                  "date": "2019-11-08",
-                  "value": 2.5
-                },
-                {
-                  "date": "2019-11-15",
-                  "value": 2.0
-                },
-                {
-                  "date": "2019-11-22",
-                  "value": 2.0
-                },
-                {
-                  "date": "2019-11-29",
-                  "value": 2.5
-                },
-                {
-                  "date": "2019-12-06",
-                  "value": 2.5
-                },
-                {
-                  "date": "2019-12-13",
-                  "value": 3.0
-                },
-                {
-                  "date": "2019-12-20",
-                  "value": 3.0
-                },
-                {
-                  "date": "2019-12-27",
-                  "value": 3.0
-                },
-                {
-                  "date": "2020-01-03",
-                  "value": 3.0
-                },
-                {
-                  "date": "2020-01-10",
-                  "value": 3.75
-                },
-                {
-                  "date": "2020-01-17",
-                  "value": 3.5
-                },
-                {
-                  "date": "2020-02-07",
-                  "value": 9.0
-                },
-                {
-                  "date": "2020-02-14",
-                  "value": 9.0
-                },
-                {
-                  "date": "2020-02-21",
+                  "date": "1970-01-01",
                   "value": 9.5
                 },
                 {
-                  "date": "2020-02-28",
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 8.5
                 },
                 {
-                  "date": "2020-03-06",
-                  "value": 9.0
-                },
-                {
-                  "date": "2020-03-13",
-                  "value": 9.0
-                },
-                {
-                  "date": "2020-03-20",
-                  "value": 7.5
-                },
-                {
-                  "date": "2020-03-27",
-                  "value": 6.5
-                },
-                {
-                  "date": "2020-04-03",
-                  "value": 6.5
-                },
-                {
-                  "date": "2020-04-10",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-04-17",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-04-24",
-                  "value": 7.5
-                },
-                {
-                  "date": "2020-04-30",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-05-08",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-05-15",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-05-22",
-                  "value": 6.5
-                },
-                {
-                  "date": "2020-05-29",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-06-05",
-                  "value": 6.5
-                },
-                {
-                  "date": "2020-06-12",
-                  "value": 6.0
-                },
-                {
-                  "date": "2020-06-19",
-                  "value": 6.0
-                },
-                {
-                  "date": "2020-06-26",
-                  "value": 6.5
-                },
-                {
-                  "date": "2020-07-03",
-                  "value": 6.5
-                },
-                {
-                  "date": "2020-07-10",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-07-17",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-07-24",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-07-31",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-08-14",
-                  "value": 7.5
-                },
-                {
-                  "date": "2020-08-21",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-08-28",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-09-04",
-                  "value": 7.5
-                },
-                {
-                  "date": "2020-09-11",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-09-18",
-                  "value": 7.5
-                },
-                {
-                  "date": "2020-09-25",
-                  "value": 7.5
-                },
-                {
-                  "date": "2020-10-16",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-10-23",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-10-30",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-11-06",
-                  "value": 6.5
-                },
-                {
-                  "date": "2020-11-13",
-                  "value": 6.5
-                },
-                {
-                  "date": "2020-11-20",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-11-27",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-12-04",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-12-11",
-                  "value": 7.2
-                },
-                {
-                  "date": "2020-12-18",
-                  "value": 7.0
-                },
-                {
-                  "date": "2020-12-25",
-                  "value": 7.3
-                },
-                {
-                  "date": "2020-12-31",
-                  "value": 6.0
-                },
-                {
-                  "date": "2021-01-08",
-                  "value": 4.2
-                },
-                {
-                  "date": "2021-01-15",
-                  "value": 4.4
-                },
-                {
-                  "date": "2021-01-22",
-                  "value": 4.5
-                },
-                {
-                  "date": "2021-01-29",
-                  "value": 4.3
-                },
-                {
-                  "date": "2021-02-05",
-                  "value": 3.5
-                },
-                {
-                  "date": "2021-02-19",
+                  "date": "1970-01-01",
                   "value": 5.5
                 },
                 {
-                  "date": "2021-02-26",
-                  "value": 5.8
-                },
-                {
-                  "date": "2021-03-05",
+                  "date": "1970-01-01",
                   "value": 5.0
                 },
                 {
-                  "date": "2021-03-12",
+                  "date": "1970-01-01",
+                  "value": 3.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 2.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 4.5
                 },
                 {
-                  "date": "2021-03-19",
-                  "value": 4.3
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
-                  "date": "2021-03-26",
-                  "value": 4.2
+                  "date": "1970-01-01",
+                  "value": 10.0
                 },
                 {
-                  "date": "2021-04-02",
-                  "value": 4.0
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
-                  "date": "2021-04-09",
-                  "value": 4.0
+                  "date": "1970-01-01",
+                  "value": 10.0
                 },
                 {
-                  "date": "2021-04-16",
-                  "value": 3.5
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
-                  "date": "2021-04-23",
-                  "value": 3.5
+                  "date": "1970-01-01",
+                  "value": 13.0
                 },
                 {
-                  "date": "2021-04-30",
-                  "value": 3.9
+                  "date": "1970-01-01",
+                  "value": 15.0
                 },
                 {
-                  "date": "2021-05-07",
-                  "value": 4.2
+                  "date": "1970-01-01",
+                  "value": 7.0
                 },
                 {
-                  "date": "2021-05-14",
-                  "value": 4.7
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
-                  "date": "2021-05-21",
-                  "value": 4.8
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
-                  "date": "2021-05-28",
-                  "value": 4.3
+                  "date": "1970-01-01",
+                  "value": 15.0
                 },
                 {
-                  "date": "2021-06-04",
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 3.0
                 },
                 {
-                  "date": "2021-06-11",
-                  "value": 3.3
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
-                  "date": "2021-06-18",
-                  "value": 3.6
+                  "date": "1970-01-01",
+                  "value": 15.5
                 },
                 {
-                  "date": "2021-06-25",
-                  "value": 4.0
+                  "date": "1970-01-01",
+                  "value": 8.0
                 },
                 {
-                  "date": "2021-07-02",
-                  "value": 4.8
+                  "date": "1970-01-01",
+                  "value": 13.0
                 },
                 {
-                  "date": "2021-07-09",
-                  "value": 4.9
+                  "date": "1970-01-01",
+                  "value": 14.5
                 },
                 {
-                  "date": "2021-07-16",
-                  "value": 3.9
+                  "date": "1970-01-01",
+                  "value": 15.0
                 },
                 {
-                  "date": "2021-07-23",
-                  "value": 3.9
+                  "date": "1970-01-01",
+                  "value": 8.0
                 },
                 {
-                  "date": "2021-07-30",
-                  "value": 3.9
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
-                  "date": "2021-08-06",
-                  "value": 3.6
+                  "date": "1970-01-01",
+                  "value": 12.0
                 },
                 {
-                  "date": "2021-08-13",
-                  "value": 3.5
+                  "date": "1970-01-01",
+                  "value": 12.0
                 },
                 {
-                  "date": "2021-08-20",
-                  "value": 3.6
+                  "date": "1970-01-01",
+                  "value": 13.0
                 },
                 {
-                  "date": "2021-08-27",
-                  "value": 3.9
+                  "date": "1970-01-01",
+                  "value": 11.0
                 },
                 {
-                  "date": "2021-09-03",
-                  "value": 4.1
+                  "date": "1970-01-01",
+                  "value": 12.0
                 },
                 {
-                  "date": "2021-09-10",
-                  "value": 5.0
+                  "date": "1970-01-01",
+                  "value": 12.0
                 },
                 {
-                  "date": "2021-09-17",
-                  "value": 4.6
+                  "date": "1970-01-01",
+                  "value": 7.0
                 },
                 {
-                  "date": "2021-09-24",
-                  "value": 5.1
+                  "date": "1970-01-01",
+                  "value": 20.0
                 },
                 {
-                  "date": "2021-09-30",
-                  "value": 4.8
+                  "date": "1970-01-01",
+                  "value": 20.5
                 },
                 {
-                  "date": "2021-10-08",
-                  "value": 5.0
+                  "date": "1970-01-01",
+                  "value": 15.5
                 },
                 {
-                  "date": "2021-10-15",
-                  "value": 4.8
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
-                  "date": "2021-10-21",
-                  "value": 5.3
+                  "date": "1970-01-01",
+                  "value": 12.0
                 },
                 {
-                  "date": "2021-10-29",
-                  "value": 5.3
+                  "date": "1970-01-01",
+                  "value": 18.5
                 },
                 {
-                  "date": "2021-11-04",
-                  "value": 5.2
+                  "date": "1970-01-01",
+                  "value": 16.0
                 },
                 {
-                  "date": "2021-11-11",
-                  "value": 5.6
+                  "date": "1970-01-01",
+                  "value": 7.0
                 },
                 {
-                  "date": "2021-11-18",
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 6.0
                 },
                 {
-                  "date": "2021-11-25",
-                  "value": 5.7
+                  "date": "1970-01-01",
+                  "value": 10.5
                 },
                 {
-                  "date": "2021-12-02",
-                  "value": 5.4
+                  "date": "1970-01-01",
+                  "value": 15.0
                 },
                 {
-                  "date": "2021-12-09",
-                  "value": 4.8
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
-                  "date": "2021-12-16",
-                  "value": 4.9
+                  "date": "1970-01-01",
+                  "value": 11.0
                 },
                 {
-                  "date": "2021-12-23",
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.44
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 36.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 1.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 1.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 3.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 37.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 36.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 2.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 2.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 2.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.3
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 5.0
                 },
                 {
-                  "date": "2021-12-30",
-                  "value": 4.7
+                  "date": "1970-01-01",
+                  "value": 17.0
                 },
                 {
-                  "date": "2022-01-06",
-                  "value": 4.7
+                  "date": "1970-01-01",
+                  "value": 17.5
                 },
                 {
-                  "date": "2022-01-13",
-                  "value": 4.3
+                  "date": "1970-01-01",
+                  "value": 17.5
                 },
                 {
-                  "date": "2022-01-20",
-                  "value": 4.2
+                  "date": "1970-01-01",
+                  "value": 17.5
                 },
                 {
-                  "date": "2022-01-27",
-                  "value": 4.7
+                  "date": "1970-01-01",
+                  "value": 18.0
                 },
                 {
-                  "date": "2022-02-11",
-                  "value": 4.8
+                  "date": "1970-01-01",
+                  "value": 15.5
                 },
                 {
-                  "date": "2022-02-17",
-                  "value": 4.9
+                  "date": "1970-01-01",
+                  "value": 17.0
                 },
                 {
-                  "date": "2022-02-24",
-                  "value": 5.0
+                  "date": "1970-01-01",
+                  "value": 15.1
                 },
                 {
-                  "date": "2022-03-03",
-                  "value": 4.2
+                  "date": "1970-01-01",
+                  "value": 13.7
                 },
                 {
-                  "date": "2022-03-10",
-                  "value": 4.22
+                  "date": "1970-01-01",
+                  "value": 17.6
                 },
                 {
-                  "date": "2022-03-17",
-                  "value": 4.04
+                  "date": "1970-01-01",
+                  "value": 17.6
                 },
                 {
-                  "date": "2022-03-24",
-                  "value": 4.68
+                  "date": "1970-01-01",
+                  "value": 9.5
                 },
                 {
-                  "date": "2022-03-31",
-                  "value": 3.96
+                  "date": "1970-01-01",
+                  "value": 16.0
                 },
                 {
-                  "date": "2022-04-07",
-                  "value": 3.14
+                  "date": "1970-01-01",
+                  "value": 26.5
                 },
                 {
-                  "date": "2022-04-14",
-                  "value": 3.89
+                  "date": "1970-01-01",
+                  "value": 3.0
                 },
                 {
-                  "date": "2022-04-21",
-                  "value": 4.22
+                  "date": "1970-01-01",
+                  "value": 17.4
                 },
                 {
-                  "date": "2022-04-28",
-                  "value": 3.94
+                  "date": "1970-01-01",
+                  "value": 9.5
                 },
                 {
-                  "date": "2022-05-05",
-                  "value": 3.95
+                  "date": "1970-01-01",
+                  "value": 9.5
                 },
                 {
-                  "date": "2022-05-12",
-                  "value": 4.83
+                  "date": "1970-01-01",
+                  "value": 18.5
                 },
                 {
-                  "date": "2022-05-19",
-                  "value": 4.81
+                  "date": "1970-01-01",
+                  "value": 11.6
                 },
                 {
-                  "date": "2022-05-26",
-                  "value": 4.26
+                  "date": "1970-01-01",
+                  "value": 15.0
                 },
                 {
-                  "date": "2022-06-02",
-                  "value": 3.75
+                  "date": "1970-01-01",
+                  "value": 16.3
                 },
                 {
-                  "date": "2022-06-09",
-                  "value": 3.35
+                  "date": "1970-01-01",
+                  "value": 8.4
                 },
                 {
-                  "date": "2022-06-16",
-                  "value": 3.62
+                  "date": "1970-01-01",
+                  "value": 17.5
                 },
                 {
-                  "date": "2022-06-23",
-                  "value": 3.93
+                  "date": "1970-01-01",
+                  "value": 16.9
                 },
                 {
-                  "date": "2022-06-30",
-                  "value": 3.94
+                  "date": "1970-01-01",
+                  "value": 15.0
                 },
                 {
-                  "date": "2022-07-07",
-                  "value": 4.28
+                  "date": "1970-01-01",
+                  "value": 18.0
                 },
                 {
-                  "date": "2022-07-14",
-                  "value": 4.51
+                  "date": "1970-01-01",
+                  "value": 29.0
                 },
                 {
-                  "date": "2022-07-21",
-                  "value": 4.41
-                },
-                {
-                  "date": "2022-07-28",
-                  "value": 4.28
-                },
-                {
-                  "date": "2022-08-04",
-                  "value": 4.23
-                },
-                {
-                  "date": "2022-08-11",
-                  "value": 3.84
-                },
-                {
-                  "date": "2022-08-18",
-                  "value": 4.09
-                },
-                {
-                  "date": "2022-08-25",
-                  "value": 4.49
-                },
-                {
-                  "date": "2022-09-01",
-                  "value": 4.69
-                },
-                {
-                  "date": "2022-09-08",
-                  "value": 4.58
-                },
-                {
-                  "date": "2022-09-15",
-                  "value": 4.05
-                },
-                {
-                  "date": "2022-09-22",
-                  "value": 3.64
-                },
-                {
-                  "date": "2022-09-29",
-                  "value": 3.28
-                },
-                {
-                  "date": "2022-10-13",
-                  "value": 3.9
-                },
-                {
-                  "date": "2022-10-20",
-                  "value": 4.22
-                },
-                {
-                  "date": "2022-10-27",
-                  "value": 3.98
-                },
-                {
-                  "date": "2022-11-03",
-                  "value": 3.73
-                },
-                {
-                  "date": "2022-11-10",
-                  "value": 4.39
-                },
-                {
-                  "date": "2022-11-17",
-                  "value": 4.32
-                },
-                {
-                  "date": "2022-11-24",
-                  "value": 4.52
-                },
-                {
-                  "date": "2022-12-01",
-                  "value": 4.76
-                },
-                {
-                  "date": "2022-12-08",
-                  "value": 5.26
-                },
-                {
-                  "date": "2022-12-15",
-                  "value": 5.46
-                },
-                {
-                  "date": "2022-12-22",
-                  "value": 5.52
-                },
-                {
-                  "date": "2022-12-29",
-                  "value": 4.89
-                },
-                {
-                  "date": "2023-01-05",
-                  "value": 4.38
-                },
-                {
-                  "date": "2023-01-12",
-                  "value": 5.31
-                },
-                {
-                  "date": "2023-01-19",
-                  "value": 5.78
-                },
-                {
-                  "date": "2023-02-02",
-                  "value": 6.41
-                },
-                {
-                  "date": "2023-02-09",
-                  "value": 6.36
-                },
-                {
-                  "date": "2023-02-16",
-                  "value": 6.31
-                },
-                {
-                  "date": "2023-02-23",
-                  "value": 6.34
-                },
-                {
-                  "date": "2023-03-02",
-                  "value": 5.97
-                },
-                {
-                  "date": "2023-03-09",
-                  "value": 5.87
-                },
-                {
-                  "date": "2023-03-16",
-                  "value": 5.95
-                },
-                {
-                  "date": "2023-03-23",
-                  "value": 6.06
-                },
-                {
-                  "date": "2023-03-30",
-                  "value": 6.27
-                },
-                {
-                  "date": "2023-04-06",
-                  "value": 6.61
-                },
-                {
-                  "date": "2023-04-13",
-                  "value": 6.81
-                },
-                {
-                  "date": "2023-04-20",
-                  "value": 5.75
-                },
-                {
-                  "date": "2023-04-27",
-                  "value": 6.23
-                },
-                {
-                  "date": "2023-05-04",
-                  "value": 6.6
-                },
-                {
-                  "date": "2023-05-11",
-                  "value": 6.61
-                },
-                {
-                  "date": "2023-05-18",
-                  "value": 6.09
-                },
-                {
-                  "date": "2023-05-25",
-                  "value": 5.55
-                },
-                {
-                  "date": "2023-06-01",
-                  "value": 5.2
-                },
-                {
-                  "date": "2023-06-08",
-                  "value": 4.97
-                },
-                {
-                  "date": "2023-06-15",
-                  "value": 4.38
-                },
-                {
-                  "date": "2023-06-21",
-                  "value": 3.91
-                },
-                {
-                  "date": "2023-06-29",
-                  "value": 4.13
-                },
-                {
-                  "date": "2023-07-06",
-                  "value": 4.12
-                },
-                {
-                  "date": "2023-07-13",
-                  "value": 4.16
-                },
-                {
-                  "date": "2023-07-20",
-                  "value": 3.99
-                },
-                {
-                  "date": "2023-07-27",
-                  "value": 3.91
-                },
-                {
-                  "date": "2023-08-03",
-                  "value": 4.15
-                },
-                {
-                  "date": "2023-08-10",
-                  "value": 4.14
-                },
-                {
-                  "date": "2023-08-17",
-                  "value": 4.17
-                },
-                {
-                  "date": "2023-08-24",
-                  "value": 4.39
-                },
-                {
-                  "date": "2023-08-31",
-                  "value": 4.19
-                },
-                {
-                  "date": "2023-09-07",
-                  "value": 3.94
-                },
-                {
-                  "date": "2023-09-14",
-                  "value": 4.83
-                },
-                {
-                  "date": "2023-09-21",
-                  "value": 4.75
-                },
-                {
-                  "date": "2023-09-28",
-                  "value": 4.9
-                },
-                {
-                  "date": "2023-10-12",
-                  "value": 5.04
-                },
-                {
-                  "date": "2023-10-19",
-                  "value": 5.1
-                },
-                {
-                  "date": "2023-10-26",
-                  "value": 5.12
-                },
-                {
-                  "date": "2023-11-02",
-                  "value": 5.55
-                },
-                {
-                  "date": "2023-11-09",
-                  "value": 5.43
-                },
-                {
-                  "date": "2023-11-16",
-                  "value": 5.09
-                },
-                {
-                  "date": "2023-11-23",
-                  "value": 5.14
-                },
-                {
-                  "date": "2023-11-30",
-                  "value": 5.02
-                },
-                {
-                  "date": "2023-12-07",
-                  "value": 4.58
-                },
-                {
-                  "date": "2023-12-14",
-                  "value": 4.43
-                },
-                {
-                  "date": "2023-12-21",
-                  "value": 4.3
-                },
-                {
-                  "date": "2023-12-28",
-                  "value": 4.09
-                },
-                {
-                  "date": "2024-01-04",
-                  "value": 4.05
-                },
-                {
-                  "date": "2024-01-11",
-                  "value": 3.98
-                },
-                {
-                  "date": "2024-01-18",
-                  "value": 3.73
-                },
-                {
-                  "date": "2024-01-25",
-                  "value": 4.04
-                },
-                {
-                  "date": "2024-02-01",
-                  "value": 4.18
-                },
-                {
-                  "date": "2024-02-08",
-                  "value": 4.55
-                },
-                {
-                  "date": "2024-02-22",
-                  "value": 7.51
-                },
-                {
-                  "date": "2024-02-29",
-                  "value": 6.26
-                },
-                {
-                  "date": "2024-03-07",
-                  "value": 5.37
-                },
-                {
-                  "date": "2024-03-14",
-                  "value": 5.32
-                },
-                {
-                  "date": "2024-03-21",
-                  "value": 4.95
-                },
-                {
-                  "date": "2024-03-28",
-                  "value": 4.76
-                },
-                {
-                  "date": "2024-04-07",
-                  "value": 5.31
-                },
-                {
-                  "date": "2024-04-11",
-                  "value": 5.46
-                },
-                {
-                  "date": "2024-04-18",
-                  "value": 5.62
-                },
-                {
-                  "date": "2024-04-25",
-                  "value": 5.42
-                },
-                {
-                  "date": "2024-05-09",
-                  "value": 4.94
-                },
-                {
-                  "date": "2024-05-16",
-                  "value": 4.81
-                },
-                {
-                  "date": "2024-05-23",
-                  "value": 4.78
-                },
-                {
-                  "date": "2024-05-30",
-                  "value": 4.62
-                },
-                {
-                  "date": "2024-06-06",
-                  "value": 4.51
-                },
-                {
-                  "date": "2024-06-13",
-                  "value": 4.49
-                },
-                {
-                  "date": "2024-06-20",
-                  "value": 4.14
-                },
-                {
-                  "date": "2024-06-27",
-                  "value": 4.01
-                },
-                {
-                  "date": "2024-07-04",
-                  "value": 3.83
-                },
-                {
-                  "date": "2024-07-11",
-                  "value": 3.66
-                },
-                {
-                  "date": "2024-07-18",
-                  "value": 3.53
-                },
-                {
-                  "date": "2024-07-25",
-                  "value": 3.55
-                },
-                {
-                  "date": "2024-08-01",
-                  "value": 3.82
-                },
-                {
-                  "date": "2024-08-08",
-                  "value": 3.85
-                },
-                {
-                  "date": "2024-08-15",
-                  "value": 3.76
-                },
-                {
-                  "date": "2024-08-22",
-                  "value": 4.05
-                },
-                {
-                  "date": "2024-08-29",
-                  "value": 4.37
-                },
-                {
-                  "date": "2024-09-05",
-                  "value": 4.61
-                },
-                {
-                  "date": "2024-09-12",
-                  "value": 4.72
-                },
-                {
-                  "date": "2024-09-19",
-                  "value": 4.66
-                },
-                {
-                  "date": "2024-09-26",
-                  "value": 4.62
-                },
-                {
-                  "date": "2024-10-10",
-                  "value": 4.7
-                },
-                {
-                  "date": "2024-10-17",
-                  "value": 4.76
-                },
-                {
-                  "date": "2024-10-24",
-                  "value": 4.38
-                },
-                {
-                  "date": "2024-10-31",
-                  "value": 4.36
-                },
-                {
-                  "date": "2024-11-07",
-                  "value": 3.92
-                },
-                {
-                  "date": "2024-11-14",
-                  "value": 3.85
-                },
-                {
-                  "date": "2024-11-21",
-                  "value": 3.72
-                },
-                {
-                  "date": "2024-11-28",
-                  "value": 3.69
-                },
-                {
-                  "date": "2024-12-05",
-                  "value": 3.82
-                },
-                {
-                  "date": "2024-12-12",
-                  "value": 3.84
-                },
-                {
-                  "date": "2024-12-19",
-                  "value": 3.79
-                },
-                {
-                  "date": "2024-12-26",
-                  "value": 4.02
-                },
-                {
-                  "date": "2025-01-02",
-                  "value": 4.02
-                },
-                {
-                  "date": "2025-01-09",
-                  "value": 3.61
-                },
-                {
-                  "date": "2025-01-16",
-                  "value": 3.45
-                },
-                {
-                  "date": "2025-01-23",
-                  "value": 3.66
-                },
-                {
-                  "date": "2025-02-06",
-                  "value": 6.12
-                },
-                {
-                  "date": "2025-02-13",
-                  "value": 6.51
-                },
-                {
-                  "date": "2025-02-20",
-                  "value": 5.82
-                },
-                {
-                  "date": "2025-02-27",
-                  "value": 5.44
-                },
-                {
-                  "date": "2025-03-06",
-                  "value": 5.29
-                },
-                {
-                  "date": "2025-03-13",
-                  "value": 5.02
-                },
-                {
-                  "date": "2025-03-20",
-                  "value": 4.84
-                },
-                {
-                  "date": "2025-03-27",
-                  "value": 4.54
-                },
-                {
-                  "date": "2025-04-03",
-                  "value": 4.29
-                },
-                {
-                  "date": "2025-04-10",
-                  "value": 4.32
-                },
-                {
-                  "date": "2025-04-17",
-                  "value": 4.36
-                },
-                {
-                  "date": "2025-04-24",
-                  "value": 4.39
-                },
-                {
-                  "date": "2025-04-30",
-                  "value": 4.43
-                },
-                {
-                  "date": "2025-05-08",
-                  "value": 4.51
-                },
-                {
-                  "date": "2025-05-15",
-                  "value": 4.28
-                },
-                {
-                  "date": "2025-05-22",
-                  "value": 4.15
-                },
-                {
-                  "date": "2025-05-29",
-                  "value": 4.09
-                },
-                {
-                  "date": "2025-06-05",
-                  "value": 4.02
-                },
-                {
-                  "date": "2025-06-12",
-                  "value": 4.03
-                },
-                {
-                  "date": "2025-06-19",
-                  "value": 4.15
-                },
-                {
-                  "date": "2025-06-26",
-                  "value": 4.09
-                },
-                {
-                  "date": "2025-07-03",
-                  "value": 3.95
-                },
-                {
-                  "date": "2025-07-10",
-                  "value": 3.86
-                },
-                {
-                  "date": "2025-07-17",
-                  "value": 3.86
-                },
-                {
-                  "date": "2025-07-24",
-                  "value": 3.99
-                },
-                {
-                  "date": "2025-07-31",
-                  "value": 3.82
-                },
-                {
-                  "date": "2025-08-07",
-                  "value": 3.7
-                },
-                {
-                  "date": "2025-08-14",
-                  "value": 3.66
-                },
-                {
-                  "date": "2025-08-21",
-                  "value": 3.71
-                },
-                {
-                  "date": "2025-08-28",
-                  "value": 3.81
-                },
-                {
-                  "date": "2025-09-04",
-                  "value": 3.9
-                },
-                {
-                  "date": "2025-09-11",
-                  "value": 3.84
-                },
-                {
-                  "date": "2025-09-18",
-                  "value": 3.8
-                },
-                {
-                  "date": "2025-09-25",
-                  "value": 3.75
-                },
-                {
-                  "date": "2025-10-09",
-                  "value": 4.22
-                },
-                {
-                  "date": "2025-10-16",
-                  "value": 4.08
-                },
-                {
-                  "date": "2025-10-23",
-                  "value": 4.07
-                },
-                {
-                  "date": "2025-10-30",
-                  "value": 4.03
-                },
-                {
-                  "date": "2025-11-06",
-                  "value": 4.09
-                },
-                {
-                  "date": "2025-11-13",
-                  "value": 3.97
-                },
-                {
-                  "date": "2025-11-20",
-                  "value": 3.81
-                },
-                {
-                  "date": "2025-11-27",
-                  "value": 3.78
-                },
-                {
-                  "date": "2025-12-04",
-                  "value": 3.92
-                },
-                {
-                  "date": "2025-12-11",
-                  "value": 3.86
-                },
-                {
-                  "date": "2025-12-18",
-                  "value": 3.76
-                },
-                {
-                  "date": "2025-12-25",
-                  "value": 3.61
-                },
-                {
-                  "date": "2026-01-04",
-                  "value": 3.65
-                },
-                {
-                  "date": "2026-01-08",
-                  "value": 3.6
-                },
-                {
-                  "date": "2026-01-15",
-                  "value": 3.62
-                },
-                {
-                  "date": "2026-01-22",
-                  "value": 3.62
-                },
-                {
-                  "date": "2026-01-29",
-                  "value": 3.58
-                },
-                {
-                  "date": "2026-02-05",
-                  "value": 3.74
-                },
-                {
-                  "date": "2026-02-12",
-                  "value": 4.01
-                },
-                {
-                  "date": "2026-02-26",
-                  "value": 5.47
-                },
-                {
-                  "date": "2026-03-05",
-                  "value": 6.37
-                },
-                {
-                  "date": "2026-03-12",
-                  "value": 5.94
-                },
-                {
-                  "date": "2026-03-19",
-                  "value": 5.92
-                },
-                {
-                  "date": "2026-03-26",
-                  "value": 5.85
-                },
-                {
-                  "date": "2026-04-02",
-                  "value": 5.71
-                },
-                {
-                  "date": "2026-04-09",
-                  "value": 5.57
-                },
-                {
-                  "date": "2026-04-16",
+                  "date": "1970-01-01",
                   "value": 5.5
                 },
                 {
-                  "date": "2026-04-23",
-                  "value": 5.49
+                  "date": "1970-01-01",
+                  "value": 18.0
                 },
                 {
-                  "date": "2026-04-30",
-                  "value": 5.19
+                  "date": "1970-01-01",
+                  "value": 11.7
                 },
                 {
-                  "date": "2026-05-07",
-                  "value": 5.01
+                  "date": "1970-01-01",
+                  "value": 14.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.28
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.5
                 }
               ]
             }
@@ -254236,2328 +254672,2340 @@ const INDUSTRY_DATA = {
               "axis": "y1",
               "data": [
                 {
-                  "date": "2015-01-04",
+                  "date": "1970-01-01",
                   "value": 0.78
                 },
                 {
-                  "date": "2015-01-05",
+                  "date": "1970-01-01",
                   "value": 0.78
                 },
                 {
-                  "date": "2015-01-06",
+                  "date": "1970-01-01",
                   "value": 0.78
                 },
                 {
-                  "date": "2015-01-14",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-01-15",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-01-20",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-01-26",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-01-27",
-                  "value": 0.77
-                },
-                {
-                  "date": "2015-01-29",
-                  "value": 0.77
-                },
-                {
-                  "date": "2015-02-10",
-                  "value": 0.73
-                },
-                {
-                  "date": "2015-02-11",
-                  "value": 0.68
-                },
-                {
-                  "date": "2015-02-13",
-                  "value": 0.68
-                },
-                {
-                  "date": "2015-02-27",
-                  "value": 0.68
-                },
-                {
-                  "date": "2015-03-01",
-                  "value": 0.68
-                },
-                {
-                  "date": "2015-03-05",
-                  "value": 0.68
-                },
-                {
-                  "date": "2015-03-10",
-                  "value": 0.71
-                },
-                {
-                  "date": "2015-03-16",
-                  "value": 0.72
-                },
-                {
-                  "date": "2015-03-19",
-                  "value": 0.75
-                },
-                {
-                  "date": "2015-03-23",
-                  "value": 0.75
-                },
-                {
-                  "date": "2015-03-24",
-                  "value": 0.75
-                },
-                {
-                  "date": "2015-03-27",
-                  "value": 0.75
-                },
-                {
-                  "date": "2015-03-31",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-04-01",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-04-07",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-04-21",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-04-22",
-                  "value": 0.82
-                },
-                {
-                  "date": "2015-04-27",
-                  "value": 0.82
-                },
-                {
-                  "date": "2015-04-29",
-                  "value": 0.82
-                },
-                {
-                  "date": "2015-05-05",
-                  "value": 0.84
-                },
-                {
-                  "date": "2015-05-08",
-                  "value": 0.84
-                },
-                {
-                  "date": "2015-05-14",
-                  "value": 0.84
-                },
-                {
-                  "date": "2015-05-15",
-                  "value": 0.84
-                },
-                {
-                  "date": "2015-05-26",
-                  "value": 0.84
-                },
-                {
-                  "date": "2015-05-27",
-                  "value": 0.82
-                },
-                {
-                  "date": "2015-06-03",
-                  "value": 0.8
-                },
-                {
-                  "date": "2015-06-05",
-                  "value": 0.8
-                },
-                {
-                  "date": "2015-06-08",
-                  "value": 0.8
-                },
-                {
-                  "date": "2015-06-10",
-                  "value": 0.79
-                },
-                {
-                  "date": "2015-06-11",
-                  "value": 0.79
-                },
-                {
-                  "date": "2015-06-15",
-                  "value": 0.79
-                },
-                {
-                  "date": "2015-06-23",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-06-24",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-06-26",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-07-02",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-07-03",
-                  "value": 0.76
-                },
-                {
-                  "date": "2015-07-10",
-                  "value": 0.75
-                },
-                {
-                  "date": "2015-07-17",
-                  "value": 0.74
-                },
-                {
-                  "date": "2015-08-04",
-                  "value": 0.73
-                },
-                {
-                  "date": "2015-08-10",
-                  "value": 0.71
-                },
-                {
-                  "date": "2015-08-31",
-                  "value": 0.73
-                },
-                {
-                  "date": "2015-09-11",
-                  "value": 0.76
-                },
-                {
-                  "date": "2015-09-18",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-09-29",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-10-10",
-                  "value": 0.76
-                },
-                {
-                  "date": "2015-10-19",
-                  "value": 0.77
-                },
-                {
-                  "date": "2015-10-26",
-                  "value": 0.78
-                },
-                {
-                  "date": "2015-10-31",
-                  "value": 0.76
-                },
-                {
-                  "date": "2015-11-09",
-                  "value": 0.77
-                },
-                {
-                  "date": "2015-11-16",
-                  "value": 0.76
-                },
-                {
-                  "date": "2015-11-30",
-                  "value": 0.76
-                },
-                {
-                  "date": "2015-12-07",
-                  "value": 0.74
-                },
-                {
-                  "date": "2015-12-14",
-                  "value": 0.73
-                },
-                {
-                  "date": "2015-12-21",
-                  "value": 0.72
-                },
-                {
-                  "date": "2015-12-28",
+                  "date": "1970-01-01",
                   "value": 0.7
                 },
                 {
-                  "date": "2016-01-04",
-                  "value": 0.69
+                  "date": "1970-01-01",
+                  "value": 0.67
                 },
                 {
-                  "date": "2016-01-11",
-                  "value": 0.68
+                  "date": "1970-01-01",
+                  "value": 0.67
                 },
                 {
-                  "date": "2016-01-19",
-                  "value": 0.66
-                },
-                {
-                  "date": "2016-01-26",
+                  "date": "1970-01-01",
                   "value": 0.63
                 },
                 {
-                  "date": "2016-02-01",
-                  "value": 0.53
+                  "date": "1970-01-01",
+                  "value": 0.58
                 },
                 {
-                  "date": "2016-02-16",
-                  "value": 0.62
+                  "date": "1970-01-01",
+                  "value": 0.56
                 },
                 {
-                  "date": "2016-02-23",
-                  "value": 0.66
+                  "date": "1970-01-01",
+                  "value": 0.4
                 },
                 {
-                  "date": "2016-03-01",
-                  "value": 0.73
+                  "date": "1970-01-01",
+                  "value": 0.37
                 },
                 {
-                  "date": "2016-03-08",
-                  "value": 0.74
+                  "date": "1970-01-01",
+                  "value": 0.35
                 },
                 {
-                  "date": "2016-03-11",
-                  "value": 0.75
+                  "date": "1970-01-01",
+                  "value": 0.35
                 },
                 {
-                  "date": "2016-03-18",
-                  "value": 0.78
+                  "date": "1970-01-01",
+                  "value": 0.35
                 },
                 {
-                  "date": "2016-05-06",
-                  "value": 0.75
+                  "date": "1970-01-01",
+                  "value": 0.35
                 },
                 {
-                  "date": "2016-05-13",
-                  "value": 0.75
+                  "date": "1970-01-01",
+                  "value": 0.4
                 },
                 {
-                  "date": "2016-05-20",
-                  "value": 0.75
-                },
-                {
-                  "date": "2016-05-27",
-                  "value": 0.75
-                },
-                {
-                  "date": "2016-06-03",
-                  "value": 0.75
-                },
-                {
-                  "date": "2016-06-13",
-                  "value": 0.745
-                },
-                {
-                  "date": "2016-06-17",
-                  "value": 0.758
-                },
-                {
-                  "date": "2016-06-24",
-                  "value": 0.758
-                },
-                {
-                  "date": "2016-07-01",
-                  "value": 0.758
-                },
-                {
-                  "date": "2016-07-08",
-                  "value": 0.758
-                },
-                {
-                  "date": "2016-07-15",
-                  "value": 0.758
-                },
-                {
-                  "date": "2016-07-18",
-                  "value": 0.758
-                },
-                {
-                  "date": "2016-07-22",
-                  "value": 0.758
-                },
-                {
-                  "date": "2016-07-25",
-                  "value": 0.758
-                },
-                {
-                  "date": "2016-07-29",
-                  "value": 0.758
-                },
-                {
-                  "date": "2016-08-05",
-                  "value": 0.758
-                },
-                {
-                  "date": "2016-08-08",
-                  "value": 0.758
-                },
-                {
-                  "date": "2016-08-12",
-                  "value": 0.758
-                },
-                {
-                  "date": "2016-08-15",
-                  "value": 0.758
-                },
-                {
-                  "date": "2016-08-19",
-                  "value": 0.755
-                },
-                {
-                  "date": "2016-08-22",
-                  "value": 0.755
-                },
-                {
-                  "date": "2016-08-26",
+                  "date": "1970-01-01",
                   "value": 0.5
                 },
                 {
-                  "date": "2016-08-29",
-                  "value": 0.5
+                  "date": "1970-01-01",
+                  "value": 0.6
                 },
                 {
-                  "date": "2016-09-02",
-                  "value": 0.5
+                  "date": "1970-01-01",
+                  "value": 0.65
                 },
                 {
-                  "date": "2016-09-09",
-                  "value": 0.55
+                  "date": "1970-01-01",
+                  "value": 0.65
                 },
                 {
-                  "date": "2016-09-23",
-                  "value": 0.78
+                  "date": "1970-01-01",
+                  "value": 0.65
                 },
                 {
-                  "date": "2016-09-29",
-                  "value": 0.7829999999999999
-                },
-                {
-                  "date": "2016-10-13",
-                  "value": 0.7829999999999999
-                },
-                {
-                  "date": "2016-10-20",
-                  "value": 0.7829999999999999
-                },
-                {
-                  "date": "2016-10-27",
-                  "value": 0.7829999999999999
-                },
-                {
-                  "date": "2016-11-03",
-                  "value": 0.785
-                },
-                {
-                  "date": "2016-11-10",
-                  "value": 0.785
-                },
-                {
-                  "date": "2016-11-17",
-                  "value": 0.785
-                },
-                {
-                  "date": "2016-11-24",
-                  "value": 0.785
-                },
-                {
-                  "date": "2016-12-01",
-                  "value": 0.785
-                },
-                {
-                  "date": "2016-12-08",
-                  "value": 0.785
-                },
-                {
-                  "date": "2016-12-15",
-                  "value": 0.785
-                },
-                {
-                  "date": "2016-12-22",
-                  "value": 0.785
-                },
-                {
-                  "date": "2016-12-29",
-                  "value": 0.785
-                },
-                {
-                  "date": "2017-01-05",
-                  "value": 0.765
-                },
-                {
-                  "date": "2017-01-12",
-                  "value": 0.737
-                },
-                {
-                  "date": "2017-01-19",
-                  "value": 0.617
-                },
-                {
-                  "date": "2017-02-09",
-                  "value": 0.636
-                },
-                {
-                  "date": "2017-02-16",
+                  "date": "1970-01-01",
                   "value": 0.7
                 },
                 {
-                  "date": "2017-02-23",
-                  "value": 0.74
+                  "date": "1970-01-01",
+                  "value": 0.7
                 },
                 {
-                  "date": "2017-03-02",
-                  "value": 0.77
+                  "date": "1970-01-01",
+                  "value": 0.75
                 },
                 {
-                  "date": "2017-03-09",
-                  "value": 0.765
+                  "date": "1970-01-01",
+                  "value": 0.75
                 },
                 {
-                  "date": "2017-03-16",
-                  "value": 0.7709999999999999
-                },
-                {
-                  "date": "2017-03-23",
-                  "value": 0.7829999999999999
-                },
-                {
-                  "date": "2017-03-30",
-                  "value": 0.7609999999999999
-                },
-                {
-                  "date": "2017-04-06",
-                  "value": 0.7609999999999999
-                },
-                {
-                  "date": "2017-04-13",
-                  "value": 0.7759999999999999
-                },
-                {
-                  "date": "2017-04-20",
-                  "value": 0.7759999999999999
-                },
-                {
-                  "date": "2017-04-27",
-                  "value": 0.769
-                },
-                {
-                  "date": "2017-05-04",
-                  "value": 0.769
-                },
-                {
-                  "date": "2017-05-11",
-                  "value": 0.7559999999999999
-                },
-                {
-                  "date": "2017-05-18",
-                  "value": 0.772
-                },
-                {
-                  "date": "2017-05-25",
-                  "value": 0.785
-                },
-                {
-                  "date": "2017-06-02",
-                  "value": 0.785
-                },
-                {
-                  "date": "2017-06-08",
-                  "value": 0.779
-                },
-                {
-                  "date": "2017-06-15",
-                  "value": 0.772
-                },
-                {
-                  "date": "2017-06-22",
-                  "value": 0.7909999999999999
-                },
-                {
-                  "date": "2017-06-29",
-                  "value": 0.779
-                },
-                {
-                  "date": "2017-07-06",
-                  "value": 0.779
-                },
-                {
-                  "date": "2017-07-13",
-                  "value": 0.779
-                },
-                {
-                  "date": "2017-07-20",
-                  "value": 0.779
-                },
-                {
-                  "date": "2017-07-27",
-                  "value": 0.779
-                },
-                {
-                  "date": "2017-08-03",
-                  "value": 0.779
-                },
-                {
-                  "date": "2017-08-10",
-                  "value": 0.779
-                },
-                {
-                  "date": "2017-08-17",
-                  "value": 0.764
-                },
-                {
-                  "date": "2017-08-24",
-                  "value": 0.764
-                },
-                {
-                  "date": "2017-08-31",
-                  "value": 0.759
-                },
-                {
-                  "date": "2017-09-07",
-                  "value": 0.768
-                },
-                {
-                  "date": "2017-09-14",
-                  "value": 0.768
-                },
-                {
-                  "date": "2017-09-21",
-                  "value": 0.7809999999999999
-                },
-                {
-                  "date": "2017-09-28",
-                  "value": 0.7879999999999999
-                },
-                {
-                  "date": "2017-10-12",
-                  "value": 0.7879999999999999
-                },
-                {
-                  "date": "2017-10-19",
-                  "value": 0.784
-                },
-                {
-                  "date": "2017-10-26",
-                  "value": 0.787
-                },
-                {
-                  "date": "2017-11-02",
-                  "value": 0.787
-                },
-                {
-                  "date": "2017-11-09",
-                  "value": 0.787
-                },
-                {
-                  "date": "2017-11-16",
-                  "value": 0.787
-                },
-                {
-                  "date": "2017-11-23",
-                  "value": 0.787
-                },
-                {
-                  "date": "2017-11-30",
-                  "value": 0.787
-                },
-                {
-                  "date": "2017-12-07",
-                  "value": 0.787
-                },
-                {
-                  "date": "2017-12-14",
-                  "value": 0.787
-                },
-                {
-                  "date": "2017-12-21",
-                  "value": 0.784
-                },
-                {
-                  "date": "2017-12-28",
-                  "value": 0.784
-                },
-                {
-                  "date": "2018-01-04",
-                  "value": 0.784
-                },
-                {
-                  "date": "2018-01-11",
-                  "value": 0.784
-                },
-                {
-                  "date": "2018-01-18",
-                  "value": 0.779
-                },
-                {
-                  "date": "2018-01-25",
-                  "value": 0.737
-                },
-                {
-                  "date": "2018-02-01",
-                  "value": 0.737
-                },
-                {
-                  "date": "2018-02-08",
-                  "value": 0.737
-                },
-                {
-                  "date": "2018-02-24",
-                  "value": 0.7839
-                },
-                {
-                  "date": "2018-03-01",
-                  "value": 0.8228
-                },
-                {
-                  "date": "2018-03-08",
-                  "value": 0.8611
-                },
-                {
-                  "date": "2018-03-15",
-                  "value": 0.8768
-                },
-                {
-                  "date": "2018-03-22",
-                  "value": 0.8917
-                },
-                {
-                  "date": "2018-03-29",
-                  "value": 0.8903
-                },
-                {
-                  "date": "2018-04-04",
-                  "value": 0.8903
-                },
-                {
-                  "date": "2018-04-12",
-                  "value": 0.7909999999999999
-                },
-                {
-                  "date": "2018-04-19",
-                  "value": 0.797
-                },
-                {
-                  "date": "2018-04-26",
-                  "value": 0.809
-                },
-                {
-                  "date": "2018-05-04",
-                  "value": 0.809
-                },
-                {
-                  "date": "2018-05-10",
-                  "value": 0.809
-                },
-                {
-                  "date": "2018-05-18",
-                  "value": 0.8140000000000001
-                },
-                {
-                  "date": "2018-05-25",
-                  "value": 0.809
-                },
-                {
-                  "date": "2018-06-01",
-                  "value": 0.804
-                },
-                {
-                  "date": "2018-06-08",
-                  "value": 0.8079999999999999
-                },
-                {
-                  "date": "2018-06-15",
-                  "value": 0.8079999999999999
-                },
-                {
-                  "date": "2018-06-21",
-                  "value": 0.805
-                },
-                {
-                  "date": "2018-06-29",
-                  "value": 0.778
-                },
-                {
-                  "date": "2018-07-06",
-                  "value": 0.7829999999999999
-                },
-                {
-                  "date": "2018-07-12",
-                  "value": 0.7859999999999999
-                },
-                {
-                  "date": "2018-07-19",
-                  "value": 0.802
-                },
-                {
-                  "date": "2018-07-26",
-                  "value": 0.802
-                },
-                {
-                  "date": "2018-08-03",
-                  "value": 0.8170000000000001
-                },
-                {
-                  "date": "2018-08-10",
-                  "value": 0.8170000000000001
-                },
-                {
-                  "date": "2018-08-16",
-                  "value": 0.8
-                },
-                {
-                  "date": "2018-08-23",
-                  "value": 0.78
-                },
-                {
-                  "date": "2018-08-31",
+                  "date": "1970-01-01",
                   "value": 0.79
                 },
                 {
-                  "date": "2018-09-06",
+                  "date": "1970-01-01",
+                  "value": 0.79
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.79
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 0.8
                 },
                 {
-                  "date": "2018-09-13",
-                  "value": 0.7824
+                  "date": "1970-01-01",
+                  "value": 0.8
                 },
                 {
-                  "date": "2018-09-20",
-                  "value": 0.7618
+                  "date": "1970-01-01",
+                  "value": 0.8
                 },
                 {
-                  "date": "2018-09-27",
-                  "value": 0.7492
+                  "date": "1970-01-01",
+                  "value": 0.8
                 },
                 {
-                  "date": "2018-10-11",
-                  "value": 0.7886
+                  "date": "1970-01-01",
+                  "value": 0.78
                 },
                 {
-                  "date": "2018-10-18",
-                  "value": 0.841
+                  "date": "1970-01-01",
+                  "value": 0.78
                 },
                 {
-                  "date": "2018-10-25",
-                  "value": 0.8502
+                  "date": "1970-01-01",
+                  "value": 0.72
                 },
                 {
-                  "date": "2018-11-01",
-                  "value": 0.8523999999999999
+                  "date": "1970-01-01",
+                  "value": 0.72
                 },
                 {
-                  "date": "2018-11-09",
-                  "value": 0.8724
+                  "date": "1970-01-01",
+                  "value": 0.72
                 },
                 {
-                  "date": "2018-11-15",
-                  "value": 0.8473999999999999
+                  "date": "1970-01-01",
+                  "value": 0.72
                 },
                 {
-                  "date": "2018-11-22",
-                  "value": 0.8489
+                  "date": "1970-01-01",
+                  "value": 0.72
                 },
                 {
-                  "date": "2018-11-29",
-                  "value": 0.8584999999999999
+                  "date": "1970-01-01",
+                  "value": 0.72
                 },
                 {
-                  "date": "2018-12-07",
-                  "value": 0.8593000000000001
+                  "date": "1970-01-01",
+                  "value": 0.72
                 },
                 {
-                  "date": "2018-12-13",
-                  "value": 0.8493
+                  "date": "1970-01-01",
+                  "value": 0.72
                 },
                 {
-                  "date": "2018-12-20",
-                  "value": 0.8402
+                  "date": "1970-01-01",
+                  "value": 0.72
                 },
                 {
-                  "date": "2018-12-27",
-                  "value": 0.8293
+                  "date": "1970-01-01",
+                  "value": 0.71
                 },
                 {
-                  "date": "2019-01-04",
-                  "value": 0.8315
+                  "date": "1970-01-01",
+                  "value": 0.7
                 },
                 {
-                  "date": "2019-01-08",
-                  "value": 0.8318000000000001
+                  "date": "1970-01-01",
+                  "value": 0.69
                 },
                 {
-                  "date": "2019-01-10",
-                  "value": 0.8318000000000001
+                  "date": "1970-01-01",
+                  "value": 0.67
                 },
                 {
-                  "date": "2019-01-17",
-                  "value": 0.8247
+                  "date": "1970-01-01",
+                  "value": 0.66
                 },
                 {
-                  "date": "2019-01-24",
-                  "value": 0.8120999999999999
+                  "date": "1970-01-01",
+                  "value": 0.66
                 },
                 {
-                  "date": "2019-01-31",
-                  "value": 0.7909999999999999
+                  "date": "1970-01-01",
+                  "value": 0.7
                 },
                 {
-                  "date": "2019-02-14",
-                  "value": 0.8162999999999999
+                  "date": "1970-01-01",
+                  "value": 0.72
                 },
                 {
-                  "date": "2019-02-21",
-                  "value": 0.8575
+                  "date": "1970-01-01",
+                  "value": 0.75
                 },
                 {
-                  "date": "2019-02-28",
-                  "value": 0.9192
+                  "date": "1970-01-01",
+                  "value": 0.76
                 },
                 {
-                  "date": "2019-03-07",
-                  "value": 0.9387000000000001
+                  "date": "1970-01-01",
+                  "value": 0.76
                 },
                 {
-                  "date": "2019-03-14",
-                  "value": 0.9468000000000001
+                  "date": "1970-01-01",
+                  "value": 0.76
                 },
                 {
-                  "date": "2019-03-21",
-                  "value": 0.9538
+                  "date": "1970-01-01",
+                  "value": 0.76
                 },
                 {
-                  "date": "2019-03-28",
-                  "value": 0.9813
+                  "date": "1970-01-01",
+                  "value": 0.75
                 },
                 {
-                  "date": "2019-04-04",
-                  "value": 0.993
+                  "date": "1970-01-01",
+                  "value": 0.75
                 },
                 {
-                  "date": "2019-04-11",
-                  "value": 0.978
+                  "date": "1970-01-01",
+                  "value": 0.75
                 },
                 {
-                  "date": "2019-04-18",
-                  "value": 0.9702
+                  "date": "1970-01-01",
+                  "value": 0.75
                 },
                 {
-                  "date": "2019-04-25",
-                  "value": 0.9861
+                  "date": "1970-01-01",
+                  "value": 0.74
                 },
                 {
-                  "date": "2019-04-30",
-                  "value": 0.9945
+                  "date": "1970-01-01",
+                  "value": 0.72
                 },
                 {
-                  "date": "2019-05-09",
-                  "value": 0.9863
+                  "date": "1970-01-01",
+                  "value": 0.71
                 },
                 {
-                  "date": "2019-05-16",
-                  "value": 0.9584999999999999
+                  "date": "1970-01-01",
+                  "value": 0.7
                 },
                 {
-                  "date": "2019-05-23",
-                  "value": 0.9289000000000001
+                  "date": "1970-01-01",
+                  "value": 0.69
                 },
                 {
-                  "date": "2019-05-30",
-                  "value": 0.9023
+                  "date": "1970-01-01",
+                  "value": 0.67
                 },
                 {
-                  "date": "2019-06-06",
-                  "value": 0.9223
+                  "date": "1970-01-01",
+                  "value": 0.63
                 },
                 {
-                  "date": "2019-06-13",
-                  "value": 0.9451999999999999
+                  "date": "1970-01-01",
+                  "value": 0.55
                 },
                 {
-                  "date": "2019-06-20",
-                  "value": 0.9517
+                  "date": "1970-01-01",
+                  "value": 0.53
                 },
                 {
-                  "date": "2019-06-27",
-                  "value": 0.9675
+                  "date": "1970-01-01",
+                  "value": 0.2
                 },
                 {
-                  "date": "2019-07-04",
-                  "value": 0.9772
+                  "date": "1970-01-01",
+                  "value": 0.25
                 },
                 {
-                  "date": "2019-07-11",
-                  "value": 0.9523999999999999
+                  "date": "1970-01-01",
+                  "value": 0.3
                 },
                 {
-                  "date": "2019-07-18",
-                  "value": 0.9220999999999999
+                  "date": "1970-01-01",
+                  "value": 0.58
                 },
                 {
-                  "date": "2019-07-25",
-                  "value": 0.9009
+                  "date": "1970-01-01",
+                  "value": 0.75
                 },
                 {
-                  "date": "2019-08-01",
-                  "value": 0.8863
+                  "date": "1970-01-01",
+                  "value": 0.85
                 },
                 {
-                  "date": "2019-08-08",
-                  "value": 0.9062
+                  "date": "1970-01-01",
+                  "value": 0.87
                 },
                 {
-                  "date": "2019-08-15",
-                  "value": 0.9054000000000001
+                  "date": "1970-01-01",
+                  "value": 0.735
                 },
                 {
-                  "date": "2019-08-22",
-                  "value": 0.9224
+                  "date": "1970-01-01",
+                  "value": 0.71
                 },
                 {
-                  "date": "2019-08-29",
-                  "value": 0.9224
+                  "date": "1970-01-01",
+                  "value": 0.745
                 },
                 {
-                  "date": "2019-09-05",
-                  "value": 0.9279999999999999
+                  "date": "1970-01-01",
+                  "value": 0.745
                 },
                 {
-                  "date": "2019-09-12",
-                  "value": 0.9309999999999999
+                  "date": "1970-01-01",
+                  "value": 0.745
                 },
                 {
-                  "date": "2019-09-19",
-                  "value": 0.9423999999999999
+                  "date": "1970-01-01",
+                  "value": 0.74
                 },
                 {
-                  "date": "2019-09-26",
-                  "value": 0.9423999999999999
+                  "date": "1970-01-01",
+                  "value": 0.715
                 },
                 {
-                  "date": "2019-10-10",
-                  "value": 0.9457
+                  "date": "1970-01-01",
+                  "value": 0.715
                 },
                 {
-                  "date": "2019-10-17",
-                  "value": 0.9361
+                  "date": "1970-01-01",
+                  "value": 0.715
                 },
                 {
-                  "date": "2019-10-24",
-                  "value": 0.9316
+                  "date": "1970-01-01",
+                  "value": 0.705
                 },
                 {
-                  "date": "2019-10-31",
-                  "value": 0.9131999999999999
+                  "date": "1970-01-01",
+                  "value": 0.685
                 },
                 {
-                  "date": "2019-11-07",
-                  "value": 0.9217
+                  "date": "1970-01-01",
+                  "value": 0.685
                 },
                 {
-                  "date": "2019-11-14",
-                  "value": 0.919
+                  "date": "1970-01-01",
+                  "value": 0.68
                 },
                 {
-                  "date": "2019-11-21",
-                  "value": 0.9185
+                  "date": "1970-01-01",
+                  "value": 0.68
                 },
                 {
-                  "date": "2019-11-28",
-                  "value": 0.9193000000000001
+                  "date": "1970-01-01",
+                  "value": 0.65
                 },
                 {
-                  "date": "2019-12-05",
-                  "value": 0.9201999999999999
+                  "date": "1970-01-01",
+                  "value": 0.61
                 },
                 {
-                  "date": "2019-12-12",
-                  "value": 0.9020999999999999
+                  "date": "1970-01-01",
+                  "value": 0.61
                 },
                 {
-                  "date": "2019-12-19",
-                  "value": 0.8812000000000001
+                  "date": "1970-01-01",
+                  "value": 0.64
                 },
                 {
-                  "date": "2019-12-26",
-                  "value": 0.8576
+                  "date": "1970-01-01",
+                  "value": 0.64
                 },
                 {
-                  "date": "2020-01-02",
-                  "value": 0.8453
+                  "date": "1970-01-01",
+                  "value": 0.68
                 },
                 {
-                  "date": "2020-01-09",
-                  "value": 0.8283
+                  "date": "1970-01-01",
+                  "value": 0.68
                 },
                 {
-                  "date": "2020-01-16",
-                  "value": 0.7414000000000001
+                  "date": "1970-01-01",
+                  "value": 0.63
                 },
                 {
-                  "date": "2020-01-23",
-                  "value": 0.7289
+                  "date": "1970-01-01",
+                  "value": 0.63
                 },
                 {
-                  "date": "2020-02-06",
-                  "value": 0.6643000000000001
-                },
-                {
-                  "date": "2020-02-13",
-                  "value": 0.612
-                },
-                {
-                  "date": "2020-02-20",
-                  "value": 0.6221
-                },
-                {
-                  "date": "2020-02-27",
-                  "value": 0.6503
-                },
-                {
-                  "date": "2020-03-05",
-                  "value": 0.6920999999999999
-                },
-                {
-                  "date": "2020-03-12",
-                  "value": 0.7595999999999999
-                },
-                {
-                  "date": "2020-03-19",
-                  "value": 0.8545
-                },
-                {
-                  "date": "2020-03-26",
-                  "value": 0.8523999999999999
-                },
-                {
-                  "date": "2020-04-02",
-                  "value": 0.8287
-                },
-                {
-                  "date": "2020-04-09",
-                  "value": 0.7813
-                },
-                {
-                  "date": "2020-04-16",
-                  "value": 0.8072
-                },
-                {
-                  "date": "2020-04-23",
-                  "value": 0.8403
-                },
-                {
-                  "date": "2020-04-30",
-                  "value": 0.8617
-                },
-                {
-                  "date": "2020-05-07",
-                  "value": 0.8784000000000001
-                },
-                {
-                  "date": "2020-05-14",
-                  "value": 0.887
-                },
-                {
-                  "date": "2020-05-21",
-                  "value": 0.887
-                },
-                {
-                  "date": "2020-05-28",
-                  "value": 0.8761
-                },
-                {
-                  "date": "2020-06-04",
-                  "value": 0.8748999999999999
-                },
-                {
-                  "date": "2020-06-11",
-                  "value": 0.8832
-                },
-                {
-                  "date": "2020-06-18",
-                  "value": 0.8804000000000001
-                },
-                {
-                  "date": "2020-06-24",
-                  "value": 0.8740000000000001
-                },
-                {
-                  "date": "2020-07-02",
-                  "value": 0.8813
-                },
-                {
-                  "date": "2020-07-09",
-                  "value": 0.8782
-                },
-                {
-                  "date": "2020-07-16",
-                  "value": 0.8726999999999999
-                },
-                {
-                  "date": "2020-07-23",
-                  "value": 0.8701000000000001
-                },
-                {
-                  "date": "2020-07-30",
-                  "value": 0.8686
-                },
-                {
-                  "date": "2020-08-06",
-                  "value": 0.8658
-                },
-                {
-                  "date": "2020-08-13",
-                  "value": 0.8637999999999999
-                },
-                {
-                  "date": "2020-08-20",
-                  "value": 0.8637999999999999
-                },
-                {
-                  "date": "2020-08-27",
-                  "value": 0.8637999999999999
-                },
-                {
-                  "date": "2020-09-03",
-                  "value": 0.8637999999999999
-                },
-                {
-                  "date": "2020-09-10",
-                  "value": 0.8754000000000001
-                },
-                {
-                  "date": "2020-09-17",
-                  "value": 0.8742
-                },
-                {
-                  "date": "2020-09-24",
-                  "value": 0.8715999999999999
-                },
-                {
-                  "date": "2020-09-30",
-                  "value": 0.8676999999999999
-                },
-                {
-                  "date": "2020-10-15",
-                  "value": 0.8482999999999999
-                },
-                {
-                  "date": "2020-10-22",
-                  "value": 0.8632
-                },
-                {
-                  "date": "2020-10-29",
-                  "value": 0.8692
-                },
-                {
-                  "date": "2020-11-05",
-                  "value": 0.8734999999999999
-                },
-                {
-                  "date": "2020-11-12",
-                  "value": 0.8744
-                },
-                {
-                  "date": "2020-11-19",
-                  "value": 0.8743000000000001
-                },
-                {
-                  "date": "2020-11-26",
-                  "value": 0.8772
-                },
-                {
-                  "date": "2020-12-03",
-                  "value": 0.8775
-                },
-                {
-                  "date": "2020-12-10",
-                  "value": 0.8775
-                },
-                {
-                  "date": "2020-12-17",
-                  "value": 0.8775
-                },
-                {
-                  "date": "2020-12-24",
-                  "value": 0.8658
-                },
-                {
-                  "date": "2020-12-31",
-                  "value": 0.8573000000000001
-                },
-                {
-                  "date": "2021-01-07",
-                  "value": 0.8826
-                },
-                {
-                  "date": "2021-01-14",
-                  "value": 0.8762000000000001
-                },
-                {
-                  "date": "2021-01-21",
-                  "value": 0.8212
-                },
-                {
-                  "date": "2021-01-28",
-                  "value": 0.7844
-                },
-                {
-                  "date": "2021-02-04",
-                  "value": 0.7844
-                },
-                {
-                  "date": "2021-02-10",
-                  "value": 0.7092
-                },
-                {
-                  "date": "2021-02-25",
-                  "value": 0.8097
-                },
-                {
-                  "date": "2021-03-04",
-                  "value": 0.8898999999999999
-                },
-                {
-                  "date": "2021-03-11",
-                  "value": 0.9135
-                },
-                {
-                  "date": "2021-03-18",
-                  "value": 0.9265000000000001
-                },
-                {
-                  "date": "2021-03-25",
-                  "value": 0.9396
-                },
-                {
-                  "date": "2021-04-01",
-                  "value": 0.9484
-                },
-                {
-                  "date": "2021-04-08",
-                  "value": 0.9521
-                },
-                {
-                  "date": "2021-04-15",
-                  "value": 0.9481999999999999
-                },
-                {
-                  "date": "2021-04-22",
-                  "value": 0.9537
-                },
-                {
-                  "date": "2021-04-29",
-                  "value": 0.9551000000000001
-                },
-                {
-                  "date": "2021-05-08",
-                  "value": 0.9588
-                },
-                {
-                  "date": "2021-05-13",
-                  "value": 0.9456
-                },
-                {
-                  "date": "2021-05-20",
-                  "value": 0.9124
-                },
-                {
-                  "date": "2021-05-27",
-                  "value": 0.9114
-                },
-                {
-                  "date": "2021-06-03",
-                  "value": 0.924
-                },
-                {
-                  "date": "2021-06-10",
-                  "value": 0.9251
-                },
-                {
-                  "date": "2021-06-17",
-                  "value": 0.9264
-                },
-                {
-                  "date": "2021-06-24",
-                  "value": 0.9298000000000001
-                },
-                {
-                  "date": "2021-07-01",
-                  "value": 0.9307
-                },
-                {
-                  "date": "2021-07-08",
-                  "value": 0.9429000000000001
-                },
-                {
-                  "date": "2021-07-15",
-                  "value": 0.9386
-                },
-                {
-                  "date": "2021-07-22",
-                  "value": 0.9455
-                },
-                {
-                  "date": "2021-07-29",
-                  "value": 0.955
-                },
-                {
-                  "date": "2021-08-05",
-                  "value": 0.9614
-                },
-                {
-                  "date": "2021-08-12",
-                  "value": 0.9615
-                },
-                {
-                  "date": "2021-08-19",
-                  "value": 0.9364
-                },
-                {
-                  "date": "2021-08-26",
-                  "value": 0.9118999999999999
-                },
-                {
-                  "date": "2021-09-02",
-                  "value": 0.9091
-                },
-                {
-                  "date": "2021-09-09",
-                  "value": 0.8992
-                },
-                {
-                  "date": "2021-09-16",
-                  "value": 0.8684000000000001
-                },
-                {
-                  "date": "2021-09-23",
-                  "value": 0.8305
-                },
-                {
-                  "date": "2021-09-30",
-                  "value": 0.7837000000000001
-                },
-                {
-                  "date": "2021-10-14",
-                  "value": 0.7248
-                },
-                {
-                  "date": "2021-10-21",
-                  "value": 0.7069
-                },
-                {
-                  "date": "2021-10-28",
-                  "value": 0.7081999999999999
-                },
-                {
-                  "date": "2021-11-04",
-                  "value": 0.736
-                },
-                {
-                  "date": "2021-11-11",
-                  "value": 0.7759
-                },
-                {
-                  "date": "2021-11-18",
-                  "value": 0.8706999999999999
-                },
-                {
-                  "date": "2021-11-25",
-                  "value": 0.8843000000000001
-                },
-                {
-                  "date": "2021-12-02",
-                  "value": 0.8183
-                },
-                {
-                  "date": "2021-12-09",
-                  "value": 0.7953
-                },
-                {
-                  "date": "2021-12-16",
-                  "value": 0.7973
-                },
-                {
-                  "date": "2021-12-23",
-                  "value": 0.7717
-                },
-                {
-                  "date": "2021-12-30",
-                  "value": 0.7653
-                },
-                {
-                  "date": "2022-01-06",
-                  "value": 0.7573000000000001
-                },
-                {
-                  "date": "2022-01-13",
-                  "value": 0.8339
-                },
-                {
-                  "date": "2022-01-20",
-                  "value": 0.8320000000000001
-                },
-                {
-                  "date": "2022-01-27",
-                  "value": 0.813
-                },
-                {
-                  "date": "2022-02-10",
-                  "value": 0.8022
-                },
-                {
-                  "date": "2022-02-24",
-                  "value": 0.851
-                },
-                {
-                  "date": "2022-03-03",
-                  "value": 0.861
-                },
-                {
-                  "date": "2022-03-10",
-                  "value": 0.9304000000000001
-                },
-                {
-                  "date": "2022-03-17",
-                  "value": 0.9272
-                },
-                {
-                  "date": "2022-03-24",
-                  "value": 0.929
-                },
-                {
-                  "date": "2022-03-31",
-                  "value": 0.9134
-                },
-                {
-                  "date": "2022-04-07",
-                  "value": 0.8859
-                },
-                {
-                  "date": "2022-04-14",
-                  "value": 0.8127
-                },
-                {
-                  "date": "2022-04-21",
-                  "value": 0.741
-                },
-                {
-                  "date": "2022-04-28",
-                  "value": 0.7379000000000001
-                },
-                {
-                  "date": "2022-05-05",
-                  "value": 0.7431
-                },
-                {
-                  "date": "2022-05-12",
-                  "value": 0.7526999999999999
-                },
-                {
-                  "date": "2022-05-19",
-                  "value": 0.7545999999999999
-                },
-                {
-                  "date": "2022-05-26",
-                  "value": 0.7665000000000001
-                },
-                {
-                  "date": "2022-06-02",
-                  "value": 0.7584000000000001
-                },
-                {
-                  "date": "2022-06-09",
-                  "value": 0.7553
-                },
-                {
-                  "date": "2022-06-16",
-                  "value": 0.7415999999999999
-                },
-                {
-                  "date": "2022-06-23",
-                  "value": 0.7345
-                },
-                {
-                  "date": "2022-06-30",
-                  "value": 0.7784
-                },
-                {
-                  "date": "2022-07-07",
-                  "value": 0.7384999999999999
-                },
-                {
-                  "date": "2022-07-14",
-                  "value": 0.6912999999999999
-                },
-                {
-                  "date": "2022-07-21",
-                  "value": 0.6437
-                },
-                {
-                  "date": "2022-07-28",
-                  "value": 0.6302
-                },
-                {
-                  "date": "2022-08-04",
-                  "value": 0.6416
-                },
-                {
-                  "date": "2022-08-11",
-                  "value": 0.6416
-                },
-                {
-                  "date": "2022-08-18",
-                  "value": 0.6413
-                },
-                {
-                  "date": "2022-08-25",
-                  "value": 0.6404000000000001
-                },
-                {
-                  "date": "2022-09-01",
-                  "value": 0.7084999999999999
-                },
-                {
-                  "date": "2022-09-08",
-                  "value": 0.7529
-                },
-                {
-                  "date": "2022-09-15",
-                  "value": 0.7622
-                },
-                {
-                  "date": "2022-09-22",
-                  "value": 0.7659
-                },
-                {
-                  "date": "2022-09-29",
-                  "value": 0.7620999999999999
-                },
-                {
-                  "date": "2022-10-13",
-                  "value": 0.7465999999999999
-                },
-                {
-                  "date": "2022-10-20",
-                  "value": 0.7322
-                },
-                {
-                  "date": "2022-10-27",
-                  "value": 0.7328
-                },
-                {
-                  "date": "2022-11-03",
-                  "value": 0.7281
-                },
-                {
-                  "date": "2022-11-10",
-                  "value": 0.6624
-                },
-                {
-                  "date": "2022-11-17",
-                  "value": 0.6313
-                },
-                {
-                  "date": "2022-11-24",
-                  "value": 0.6031
-                },
-                {
-                  "date": "2022-12-01",
-                  "value": 0.598
-                },
-                {
-                  "date": "2022-12-08",
-                  "value": 0.5786
-                },
-                {
-                  "date": "2022-12-15",
-                  "value": 0.5652
-                },
-                {
-                  "date": "2022-12-22",
-                  "value": 0.5376
-                },
-                {
-                  "date": "2022-12-29",
-                  "value": 0.5246999999999999
-                },
-                {
-                  "date": "2023-01-05",
-                  "value": 0.5003
-                },
-                {
-                  "date": "2023-01-12",
-                  "value": 0.47859999999999997
-                },
-                {
-                  "date": "2023-01-19",
-                  "value": 0.4698
-                },
-                {
-                  "date": "2023-02-02",
-                  "value": 0.4901
-                },
-                {
-                  "date": "2023-02-09",
-                  "value": 0.5777
-                },
-                {
-                  "date": "2023-02-16",
+                  "date": "1970-01-01",
                   "value": 0.615
                 },
                 {
-                  "date": "2023-02-23",
-                  "value": 0.6631
+                  "date": "1970-01-01",
+                  "value": 0.715
                 },
                 {
-                  "date": "2023-03-02",
-                  "value": 0.7444
+                  "date": "1970-01-01",
+                  "value": 0.8
                 },
                 {
-                  "date": "2023-03-09",
-                  "value": 0.752
-                },
-                {
-                  "date": "2023-03-16",
-                  "value": 0.7804000000000001
-                },
-                {
-                  "date": "2023-03-23",
-                  "value": 0.8001
-                },
-                {
-                  "date": "2023-03-30",
-                  "value": 0.8081
-                },
-                {
-                  "date": "2023-04-06",
-                  "value": 0.8216
-                },
-                {
-                  "date": "2023-04-13",
-                  "value": 0.83
-                },
-                {
-                  "date": "2023-04-20",
-                  "value": 0.8223
-                },
-                {
-                  "date": "2023-04-27",
-                  "value": 0.7929999999999999
-                },
-                {
-                  "date": "2023-05-04",
-                  "value": 0.7781999999999999
-                },
-                {
-                  "date": "2023-05-11",
-                  "value": 0.7856000000000001
-                },
-                {
-                  "date": "2023-05-18",
-                  "value": 0.8029000000000001
-                },
-                {
-                  "date": "2023-05-25",
-                  "value": 0.8223999999999999
-                },
-                {
-                  "date": "2023-06-01",
-                  "value": 0.8183
-                },
-                {
-                  "date": "2023-06-08",
-                  "value": 0.8365
-                },
-                {
-                  "date": "2023-06-15",
-                  "value": 0.8540000000000001
-                },
-                {
-                  "date": "2023-06-21",
-                  "value": 0.8559
-                },
-                {
-                  "date": "2023-06-29",
-                  "value": 0.8615
-                },
-                {
-                  "date": "2023-07-06",
-                  "value": 0.8619
-                },
-                {
-                  "date": "2023-07-13",
-                  "value": 0.8608
-                },
-                {
-                  "date": "2023-07-20",
-                  "value": 0.8608
-                },
-                {
-                  "date": "2023-07-27",
-                  "value": 0.8615
-                },
-                {
-                  "date": "2023-08-03",
-                  "value": 0.8632
-                },
-                {
-                  "date": "2023-08-10",
-                  "value": 0.8609
-                },
-                {
-                  "date": "2023-08-17",
-                  "value": 0.8595
-                },
-                {
-                  "date": "2023-08-24",
-                  "value": 0.8595
-                },
-                {
-                  "date": "2023-08-31",
-                  "value": 0.8595
-                },
-                {
-                  "date": "2023-09-07",
-                  "value": 0.8588
-                },
-                {
-                  "date": "2023-09-14",
-                  "value": 0.8623999999999999
-                },
-                {
-                  "date": "2023-09-21",
-                  "value": 0.8328
-                },
-                {
-                  "date": "2023-09-28",
-                  "value": 0.8151
-                },
-                {
-                  "date": "2023-10-12",
-                  "value": 0.8287
-                },
-                {
-                  "date": "2023-10-19",
-                  "value": 0.8565
-                },
-                {
-                  "date": "2023-10-26",
-                  "value": 0.8687
-                },
-                {
-                  "date": "2023-11-02",
-                  "value": 0.8722
-                },
-                {
-                  "date": "2023-11-09",
-                  "value": 0.8722
-                },
-                {
-                  "date": "2023-11-16",
-                  "value": 0.8467
-                },
-                {
-                  "date": "2023-11-23",
-                  "value": 0.843
-                },
-                {
-                  "date": "2023-11-30",
-                  "value": 0.8549
-                },
-                {
-                  "date": "2023-12-07",
-                  "value": 0.8584
-                },
-                {
-                  "date": "2023-12-14",
-                  "value": 0.8540000000000001
-                },
-                {
-                  "date": "2023-12-21",
-                  "value": 0.845
-                },
-                {
-                  "date": "2023-12-28",
-                  "value": 0.8493
-                },
-                {
-                  "date": "2024-01-04",
-                  "value": 0.8492000000000001
-                },
-                {
-                  "date": "2024-01-11",
-                  "value": 0.8517
-                },
-                {
-                  "date": "2024-01-18",
-                  "value": 0.8504999999999999
-                },
-                {
-                  "date": "2024-01-25",
-                  "value": 0.8358
-                },
-                {
-                  "date": "2024-02-01",
-                  "value": 0.7865000000000001
-                },
-                {
-                  "date": "2024-02-08",
-                  "value": 0.7676000000000001
-                },
-                {
-                  "date": "2024-02-22",
-                  "value": 0.8112
-                },
-                {
-                  "date": "2024-02-29",
-                  "value": 0.8571
-                },
-                {
-                  "date": "2024-03-07",
-                  "value": 0.8906999999999999
-                },
-                {
-                  "date": "2024-03-14",
-                  "value": 0.9037999999999999
-                },
-                {
-                  "date": "2024-03-21",
-                  "value": 0.9054000000000001
-                },
-                {
-                  "date": "2024-03-28",
-                  "value": 0.9015000000000001
-                },
-                {
-                  "date": "2024-04-04",
-                  "value": 0.9043000000000001
-                },
-                {
-                  "date": "2024-04-11",
-                  "value": 0.9043000000000001
-                },
-                {
-                  "date": "2024-04-18",
-                  "value": 0.907
-                },
-                {
-                  "date": "2024-04-25",
-                  "value": 0.9091
-                },
-                {
-                  "date": "2024-05-09",
-                  "value": 0.8906000000000001
-                },
-                {
-                  "date": "2024-05-16",
-                  "value": 0.868
-                },
-                {
-                  "date": "2024-05-23",
-                  "value": 0.8604
-                },
-                {
-                  "date": "2024-05-30",
-                  "value": 0.8634999999999999
-                },
-                {
-                  "date": "2024-06-06",
-                  "value": 0.8679000000000001
-                },
-                {
-                  "date": "2024-06-13",
-                  "value": 0.8674
-                },
-                {
-                  "date": "2024-06-20",
-                  "value": 0.8674
-                },
-                {
-                  "date": "2024-06-27",
-                  "value": 0.8691
-                },
-                {
-                  "date": "2024-07-04",
-                  "value": 0.8773000000000001
-                },
-                {
-                  "date": "2024-07-11",
-                  "value": 0.8761
-                },
-                {
-                  "date": "2024-07-18",
-                  "value": 0.8690000000000001
-                },
-                {
-                  "date": "2024-07-25",
-                  "value": 0.8676999999999999
-                },
-                {
-                  "date": "2024-08-01",
-                  "value": 0.8842
-                },
-                {
-                  "date": "2024-08-08",
-                  "value": 0.8829
-                },
-                {
-                  "date": "2024-08-15",
-                  "value": 0.8829
-                },
-                {
-                  "date": "2024-08-22",
-                  "value": 0.8831
-                },
-                {
-                  "date": "2024-08-29",
-                  "value": 0.8858
-                },
-                {
-                  "date": "2024-09-05",
-                  "value": 0.8793000000000001
-                },
-                {
-                  "date": "2024-09-12",
-                  "value": 0.8804000000000001
-                },
-                {
-                  "date": "2024-09-19",
-                  "value": 0.8892
-                },
-                {
-                  "date": "2024-09-26",
-                  "value": 0.8931999999999999
-                },
-                {
-                  "date": "2024-10-10",
-                  "value": 0.8931999999999999
-                },
-                {
-                  "date": "2024-10-17",
-                  "value": 0.8931999999999999
-                },
-                {
-                  "date": "2024-10-24",
-                  "value": 0.8931999999999999
-                },
-                {
-                  "date": "2024-10-31",
-                  "value": 0.8945000000000001
-                },
-                {
-                  "date": "2024-11-07",
-                  "value": 0.8961
-                },
-                {
-                  "date": "2024-11-14",
-                  "value": 0.8908
-                },
-                {
-                  "date": "2024-11-21",
-                  "value": 0.8887
-                },
-                {
-                  "date": "2024-11-28",
-                  "value": 0.8887
-                },
-                {
-                  "date": "2024-12-05",
-                  "value": 0.8925
-                },
-                {
-                  "date": "2024-12-12",
-                  "value": 0.8906999999999999
-                },
-                {
-                  "date": "2024-12-19",
-                  "value": 0.8969
-                },
-                {
-                  "date": "2024-12-26",
-                  "value": 0.8873000000000001
-                },
-                {
-                  "date": "2025-01-02",
-                  "value": 0.8824
-                },
-                {
-                  "date": "2025-01-09",
-                  "value": 0.8567
-                },
-                {
-                  "date": "2025-01-16",
-                  "value": 0.8567
-                },
-                {
-                  "date": "2025-01-23",
-                  "value": 0.8043
-                },
-                {
-                  "date": "2025-02-06",
-                  "value": 0.8029000000000001
-                },
-                {
-                  "date": "2025-02-13",
-                  "value": 0.8687999999999999
-                },
-                {
-                  "date": "2025-02-20",
-                  "value": 0.9035
-                },
-                {
-                  "date": "2025-02-27",
-                  "value": 0.9148999999999999
-                },
-                {
-                  "date": "2025-03-06",
-                  "value": 0.9277
-                },
-                {
-                  "date": "2025-03-13",
-                  "value": 0.941
-                },
-                {
-                  "date": "2025-03-20",
-                  "value": 0.955
-                },
-                {
-                  "date": "2025-03-27",
-                  "value": 0.955
-                },
-                {
-                  "date": "2025-04-03",
-                  "value": 0.955
-                },
-                {
-                  "date": "2025-04-10",
-                  "value": 0.953
-                },
-                {
-                  "date": "2025-04-17",
-                  "value": 0.9434999999999999
-                },
-                {
-                  "date": "2025-04-24",
-                  "value": 0.9334
-                },
-                {
-                  "date": "2025-05-01",
-                  "value": 0.9228000000000001
-                },
-                {
-                  "date": "2025-05-08",
-                  "value": 0.92
-                },
-                {
-                  "date": "2025-05-15",
-                  "value": 0.9015000000000001
-                },
-                {
-                  "date": "2025-05-22",
-                  "value": 0.9015000000000001
-                },
-                {
-                  "date": "2025-05-29",
-                  "value": 0.8895000000000001
-                },
-                {
-                  "date": "2025-06-05",
-                  "value": 0.8941
-                },
-                {
-                  "date": "2025-06-12",
-                  "value": 0.9015000000000001
-                },
-                {
-                  "date": "2025-06-19",
-                  "value": 0.9055
-                },
-                {
-                  "date": "2025-06-26",
-                  "value": 0.9062
-                },
-                {
-                  "date": "2025-07-03",
-                  "value": 0.919
-                },
-                {
-                  "date": "2025-07-10",
-                  "value": 0.9177
-                },
-                {
-                  "date": "2025-07-17",
-                  "value": 0.9294
-                },
-                {
-                  "date": "2025-07-24",
-                  "value": 0.9209
-                },
-                {
-                  "date": "2025-07-31",
-                  "value": 0.9151
-                },
-                {
-                  "date": "2025-08-07",
-                  "value": 0.9066
-                },
-                {
-                  "date": "2025-08-14",
-                  "value": 0.9048999999999999
-                },
-                {
-                  "date": "2025-08-21",
-                  "value": 0.9136
-                },
-                {
-                  "date": "2025-08-28",
-                  "value": 0.9163
-                },
-                {
-                  "date": "2025-09-04",
-                  "value": 0.9128000000000001
-                },
-                {
-                  "date": "2025-09-11",
-                  "value": 0.9143000000000001
-                },
-                {
-                  "date": "2025-09-18",
-                  "value": 0.9154000000000001
-                },
-                {
-                  "date": "2025-09-25",
-                  "value": 0.9154000000000001
-                },
-                {
-                  "date": "2025-10-09",
-                  "value": 0.9109
-                },
-                {
-                  "date": "2025-10-16",
-                  "value": 0.9104000000000001
-                },
-                {
-                  "date": "2025-10-23",
-                  "value": 0.9104000000000001
-                },
-                {
-                  "date": "2025-10-30",
-                  "value": 0.9067000000000001
-                },
-                {
-                  "date": "2025-11-06",
-                  "value": 0.9081999999999999
-                },
-                {
-                  "date": "2025-11-13",
-                  "value": 0.9123
-                },
-                {
-                  "date": "2025-11-20",
-                  "value": 0.9133
-                },
-                {
-                  "date": "2025-11-27",
-                  "value": 0.9126000000000001
-                },
-                {
-                  "date": "2025-12-04",
-                  "value": 0.9031
-                },
-                {
-                  "date": "2025-12-11",
-                  "value": 0.8905
-                },
-                {
-                  "date": "2025-12-18",
-                  "value": 0.8926999999999999
-                },
-                {
-                  "date": "2025-12-25",
-                  "value": 0.8970999999999999
-                },
-                {
-                  "date": "2026-01-01",
-                  "value": 0.9004000000000001
-                },
-                {
-                  "date": "2026-01-08",
-                  "value": 0.9045000000000001
-                },
-                {
-                  "date": "2026-01-15",
-                  "value": 0.8983
-                },
-                {
-                  "date": "2026-01-22",
-                  "value": 0.8667
-                },
-                {
-                  "date": "2026-01-29",
-                  "value": 0.8421
-                },
-                {
-                  "date": "2026-02-05",
+                  "date": "1970-01-01",
                   "value": 0.815
                 },
                 {
-                  "date": "2026-02-12",
-                  "value": 0.7714
+                  "date": "1970-01-01",
+                  "value": 0.85
                 },
                 {
-                  "date": "2026-02-26",
-                  "value": 0.7903
+                  "date": "1970-01-01",
+                  "value": 0.85
                 },
                 {
-                  "date": "2026-03-05",
-                  "value": 0.8449
+                  "date": "1970-01-01",
+                  "value": 0.84
                 },
                 {
-                  "date": "2026-03-12",
-                  "value": 0.8879
+                  "date": "1970-01-01",
+                  "value": 0.84
                 },
                 {
-                  "date": "2026-03-19",
-                  "value": 0.8843000000000001
+                  "date": "1970-01-01",
+                  "value": 0.84
                 },
                 {
-                  "date": "2026-03-26",
-                  "value": 0.8749
+                  "date": "1970-01-01",
+                  "value": 0.84
                 },
                 {
-                  "date": "2026-04-02",
-                  "value": 0.8673
+                  "date": "1970-01-01",
+                  "value": 0.81
                 },
                 {
-                  "date": "2026-04-09",
-                  "value": 0.8517
+                  "date": "1970-01-01",
+                  "value": 0.79
                 },
                 {
-                  "date": "2026-04-16",
-                  "value": 0.8506
+                  "date": "1970-01-01",
+                  "value": 0.78
                 },
                 {
-                  "date": "2026-04-23",
-                  "value": 0.8271
+                  "date": "1970-01-01",
+                  "value": 0.73
                 },
                 {
-                  "date": "2026-04-30",
-                  "value": 0.8188
+                  "date": "1970-01-01",
+                  "value": 0.7
                 },
                 {
-                  "date": "2026-05-07",
-                  "value": 0.8238
+                  "date": "1970-01-01",
+                  "value": 0.66
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.55
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.35
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.15
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.47
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.66
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.76
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.81
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.785
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.785
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.785
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.825
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.825
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.825
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.785
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.785
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.785
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.79
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.76
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.76
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.76
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.76
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.76
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.74
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.56
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.74
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.74
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.72
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.74
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.78
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.72
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.74
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.73
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.77
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.72
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.78
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.75
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.78
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.76
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.76
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.74
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.66
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.68
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.66
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.63
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.61
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.41
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.41
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.41
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.49
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.72
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.72
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.82
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.86
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.86
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.88
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.86
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.86
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.86
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.84
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.83
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.83
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.82
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.82
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.74
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.74
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.72
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.77
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.75
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.75
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.65
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.66
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.68
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.63
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.61
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.78
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.758
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.72
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.69
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.608
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.67
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.67
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.69
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.69
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.69
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.64
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.63
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.63
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.55
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.18
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.58
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.67
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.68
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.79
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.78
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.785
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7887000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7752
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.758
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7419
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7356
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7021999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6678000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6243
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.597
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.574
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.557
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.551
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.532
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5217
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.524
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5273
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.504
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.509
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.54
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5507
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.623
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.67
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.696
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7082999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.73
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.65
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.76
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.74
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.72
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.72
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.71
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.68
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.66
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.64
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.55
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.43
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.25
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.13
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.05
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.07
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.16
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.38
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6552
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6757
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5375
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5588000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5542
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5454
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5119
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5863
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6235
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6747
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7029000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6603
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6466
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6365999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6319
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6199
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6107
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5271
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5871999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5943999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.626
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6768000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6663
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6842
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5936
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6989
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7121
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7112
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7273000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.812
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.8295
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.8320000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.8244
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.8031
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7972
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7847
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7583
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7767000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7687999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7642
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7565000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7076
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6629
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5035000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.3368
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.1449
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.0434
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6232
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6456999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7027
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7404999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7561
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7654000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7605
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7498
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7365999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7312000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7234999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7295
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7106999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7092
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7064
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7015
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6962
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6994
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7217
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7602
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.762
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7646999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7624
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7629
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7284
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6866
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6781999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6767
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.685
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6703
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6829999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.34450000000000003
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5238
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5239
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6103000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6212
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6199
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6213000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6065
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5893
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5637
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.562
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5445
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5189
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5099
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4629
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4178
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.2151
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.311
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.49939999999999996
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5974
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6405
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6666
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6686
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6403
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6196
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4997
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5174
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5052
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4892
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.45
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4885
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.49
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.49829999999999997
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4768
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.48119999999999996
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4799
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4799
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.47950000000000004
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4744
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.46909999999999996
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4551
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.47159999999999996
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4817
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.48009999999999997
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.45439999999999997
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4578
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5418999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5864
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6286
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6286
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6246
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6189
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.618
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6133
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5958
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5826
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.557
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.544
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5023
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.489
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4993
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4685
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.3017
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.1777
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.1128
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.0375
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.2547
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.36840000000000006
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.45770000000000005
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5649000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6293
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6376
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6425
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6327
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6202000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5448
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.551
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5468999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5428999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.48229999999999995
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5794
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6046
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6046
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6045
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6038
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6293
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6256
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6305
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6361
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6386999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6347
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6284000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6314
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6283
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6302
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6428
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6459999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6529
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6581999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6559
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6516
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6401
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6483
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6598
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6585
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6603
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6603
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6577
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6884
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6884
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6868000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6808
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.677
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.669
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6616
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6551
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6184000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6872
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5468999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.22870000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.046799999999999994
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.3676
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5642
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6518999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.706
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7193999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7212999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7249
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7249
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7249
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7234999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7071
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.7071
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6962999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6951
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6822
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6808
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6751999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6745
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6687000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6516
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6419
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6379
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6328
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5895
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6085
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6274000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6537000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6575
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6575
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6618
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6618
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6853
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6872
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6872
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6872
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6904
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6904
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6853
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6679
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6568999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6555
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6411
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6273
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5543
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5127
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.42460000000000003
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.09230000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.1862
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.3443
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5788
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6264
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.636
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6248
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5825
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5594
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5515
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5509000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6082
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6344
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6344
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6232
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6126
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6102000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6067
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5901
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5809000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.562
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5583
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5559000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5550999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5575
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5804
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6009
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6198
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6242
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6242
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6219
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6312
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6406000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6406000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6645
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.69
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6945
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6799
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6769
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6693000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6551
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.6369
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.629
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.607
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5954999999999999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5789
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5494
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.512
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4241
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.22469999999999998
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.1176
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.2263
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4236
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5125
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5261
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5356000000000001
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5353
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5314
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5272
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5183
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.4999
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5182
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5182
                 }
               ]
             }
@@ -258701,6 +259149,10 @@ const INDUSTRY_DATA = {
                   "value": 288.77600000000007
                 },
                 {
+                  "date": "2026-02-21",
+                  "value": 302.77666666666664
+                },
+                {
                   "date": "2026-02-28",
                   "value": 295.548
                 },
@@ -258730,7 +259182,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "2026-04-18",
-                  "value": 55.0
+                  "value": 54.687999999999874
                 },
                 {
                   "date": "2026-04-25",
@@ -258743,6 +259195,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-09",
                   "value": 194.92399999999998
+                },
+                {
+                  "date": "2026-05-16",
+                  "value": 138.93000000000006
                 }
               ]
             },
@@ -260871,6 +261327,10 @@ const INDUSTRY_DATA = {
                   "value": 1419.3300000000002
                 },
                 {
+                  "date": "2026-02-21",
+                  "value": 1419.3300000000002
+                },
+                {
                   "date": "2026-02-28",
                   "value": 1386.0590000000002
                 },
@@ -260913,6 +261373,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-05-09",
                   "value": 1312.3174999999997
+                },
+                {
+                  "date": "2026-05-16",
+                  "value": 1347.7730000000001
                 }
               ]
             }
@@ -260921,216 +261385,216 @@ const INDUSTRY_DATA = {
       ],
       "scoreHistory": [
         {
-          "date": "2025-05-11",
-          "value": 55.107764565790575
-        },
-        {
           "date": "2025-05-18",
-          "value": 57.97476899424259
+          "value": 40.54054054054054
         },
         {
           "date": "2025-05-25",
-          "value": 70.31446474141681
+          "value": 51.351351351351354
         },
         {
           "date": "2025-06-01",
-          "value": 55.453185349840695
+          "value": 36.67953667953668
         },
         {
           "date": "2025-06-08",
-          "value": 51.58235018158804
+          "value": 31.274131274131275
         },
         {
           "date": "2025-06-15",
-          "value": 51.93367888850069
+          "value": 29.343629343629345
         },
         {
           "date": "2025-06-22",
-          "value": 50.09636698864479
+          "value": 29.343629343629345
         },
         {
           "date": "2025-06-29",
-          "value": 53.114101490182875
+          "value": 33.78378378378378
         },
         {
           "date": "2025-07-06",
-          "value": 55.074155860985385
+          "value": 31.853281853281853
         },
         {
           "date": "2025-07-13",
-          "value": 47.687433687737006
+          "value": 22.00772200772201
         },
         {
           "date": "2025-07-20",
-          "value": 50.31274291377742
+          "value": 15.444015444015445
         },
         {
           "date": "2025-07-27",
-          "value": 48.44230217019058
+          "value": 20.849420849420852
         },
         {
           "date": "2025-08-03",
-          "value": 41.58575881754516
+          "value": 26.061776061776065
         },
         {
           "date": "2025-08-10",
-          "value": 41.7398643204625
+          "value": 30.88803088803089
         },
         {
           "date": "2025-08-17",
-          "value": 42.73312781712946
+          "value": 34.36293436293437
         },
         {
           "date": "2025-08-24",
-          "value": 42.79824629345789
+          "value": 26.254826254826256
         },
         {
           "date": "2025-08-31",
-          "value": 52.52464105788529
+          "value": 38.030888030888036
         },
         {
           "date": "2025-09-07",
-          "value": 48.477360531231085
+          "value": 30.501930501930502
         },
         {
           "date": "2025-09-14",
-          "value": 42.430984752880285
+          "value": 21.042471042471043
         },
         {
           "date": "2025-09-21",
-          "value": 39.178850335956675
+          "value": 22.2007722007722
         },
         {
           "date": "2025-09-28",
-          "value": 45.461701158884644
+          "value": 36.293436293436294
         },
         {
           "date": "2025-10-05",
-          "value": 52.081293292705
+          "value": 45.173745173745175
         },
         {
           "date": "2025-10-12",
-          "value": 39.47666742531247
+          "value": 30.308880308880312
         },
         {
           "date": "2025-10-19",
-          "value": 37.427178187321836
+          "value": 27.220077220077222
         },
         {
           "date": "2025-10-26",
-          "value": 34.40534804297511
+          "value": 25.868725868725868
         },
         {
           "date": "2025-11-02",
-          "value": 29.885088653827207
+          "value": 22.972972972972975
         },
         {
           "date": "2025-11-09",
-          "value": 34.22622835213514
+          "value": 30.694980694980693
         },
         {
           "date": "2025-11-16",
-          "value": 39.336894877064076
+          "value": 34.94208494208494
         },
         {
           "date": "2025-11-23",
-          "value": 48.142054099146144
+          "value": 40.92664092664093
         },
         {
           "date": "2025-11-30",
-          "value": 49.16549507065466
+          "value": 45.75289575289575
         },
         {
           "date": "2025-12-07",
-          "value": 37.88877939545832
+          "value": 42.85714285714286
         },
         {
           "date": "2025-12-14",
-          "value": 34.41949706474927
+          "value": 38.996138996138995
         },
         {
           "date": "2025-12-21",
-          "value": 27.965321624943858
+          "value": 28.957528957528957
         },
         {
           "date": "2025-12-28",
-          "value": 24.623390966981933
+          "value": 21.042471042471043
         },
         {
           "date": "2026-01-04",
-          "value": 28.572797269120887
+          "value": 20.27027027027027
         },
         {
           "date": "2026-01-11",
-          "value": 43.96030253284701
+          "value": 22.586872586872587
         },
         {
           "date": "2026-01-18",
-          "value": 45.28450312734
+          "value": 28.37837837837838
         },
         {
           "date": "2026-01-25",
-          "value": 52.828679015142264
+          "value": 32.432432432432435
         },
         {
           "date": "2026-02-01",
-          "value": 42.340284679669544
+          "value": 32.818532818532816
         },
         {
           "date": "2026-02-08",
-          "value": 41.79058882445154
+          "value": 43.24324324324324
         },
         {
           "date": "2026-02-15",
-          "value": 34.206544222299264
+          "value": 44.20849420849421
         },
         {
           "date": "2026-02-22",
-          "value": 31.230655218775677
+          "value": 42.85714285714286
         },
         {
           "date": "2026-03-01",
-          "value": 21.750483483358423
+          "value": 37.06563706563706
         },
         {
           "date": "2026-03-08",
-          "value": 17.419964053828
+          "value": 44.01544401544402
         },
         {
           "date": "2026-03-15",
-          "value": 44.40733089484206
+          "value": 84.94208494208493
         },
         {
           "date": "2026-03-22",
-          "value": 41.876182881509266
+          "value": 83.39768339768341
         },
         {
           "date": "2026-03-29",
-          "value": 41.67382485875816
+          "value": 85.32818532818533
         },
         {
           "date": "2026-04-05",
-          "value": 41.82897558987138
+          "value": 89.76833976833976
         },
         {
           "date": "2026-04-12",
-          "value": 40.62424556710465
+          "value": 89.57528957528957
         },
         {
           "date": "2026-04-19",
-          "value": 43.31626811011666
+          "value": 91.6988416988417
         },
         {
           "date": "2026-04-26",
-          "value": 40.129072969803254
+          "value": 89.38223938223939
         },
         {
           "date": "2026-05-03",
-          "value": 23.2743618400766
+          "value": 62.93436293436294
         },
         {
           "date": "2026-05-10",
-          "value": 38.0970754095526
+          "value": 81.66023166023166
+        },
+        {
+          "date": "2026-05-17",
+          "value": 82.43243243243242
         }
       ]
     }
