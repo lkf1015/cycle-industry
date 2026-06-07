@@ -104,7 +104,10 @@ def extract_summaries_from_pdf(pdf_path):
             prev_was_empty = False
             for line in lines[1:] if first_line in INDUSTRY_NAMES or any(name in first_line for name in INDUSTRY_NAMES) else lines:
                 # 遇到图表或资料来源则停止
-                if line.startswith('图表') or line.startswith('资料来源') or line.startswith('表'):
+                if line.startswith('图表') or line.startswith('资料来源'):
+                    break
+                # 遇到表格表头则停止（整行完全匹配，避免误伤以"表"字开头的正文）
+                if line in ['表', '表格', '表：']:
                     break
                 # 跳过页码
                 if line.isdigit():
