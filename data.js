@@ -11,46 +11,46 @@ const INDUSTRY_DATA = {
       "name": "煤炭",
       "color": "#4e8fd4",
       "summaryText": "本周秦港现货煤环比下降2.1%至729元/吨。最新一期旬度发电量（2月下旬）火电发电量同比下降11.2%，与春节错位有一定关系。淡季已至，电厂补库尚未开启，节后价格反弹告一段落。",
-      "currentScore": 49.7,
-      "scoreWow": 17.9,
-      "prosperityLevel": "中性",
-      "levelColor": "#61afef",
+      "currentScore": 60.1,
+      "scoreWow": 16.6,
+      "prosperityLevel": "景气",
+      "levelColor": "#98c379",
       "kpiCards": [
         {
           "label": "秦港动力煤",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 793.0,
-          "wow": -0.0503,
-          "yoy": 0.1766
+          "currentValue": 817.0,
+          "wow": 0.0187,
+          "yoy": 0.1755
         },
         {
           "label": "秦皇岛港库存",
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 690.0,
-          "wow": -0.0254,
-          "yoy": 0.2455
+          "currentValue": 680.0,
+          "wow": -0.0423,
+          "yoy": 0.1993
         },
         {
           "label": "25省电厂库存",
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 12277.3,
-          "wow": 0.0002,
-          "yoy": 0.0216
+          "currentValue": 12063.1,
+          "wow": -0.0228,
+          "yoy": 0.0043
         },
         {
           "label": "25省电厂日耗",
           "unit": "万吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 580.1,
-          "wow": 0.1533,
-          "yoy": -0.1295
+          "currentValue": 601.7,
+          "wow": 0.1736,
+          "yoy": -0.0144
         }
       ],
       "tableMetrics": [
@@ -60,11 +60,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 793.0,
-          "wow": -0.0503,
-          "yoy": 0.1766,
-          "vs5YearAvg": -0.1304,
-          "updateTime": "2026-07-08",
+          "currentValue": 817.0,
+          "wow": 0.0187,
+          "yoy": 0.1755,
+          "vs5YearAvg": -0.1076,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         },
         {
@@ -74,10 +74,10 @@ const INDUSTRY_DATA = {
           "direction": 1,
           "scale": 1,
           "currentValue": 1715.0,
-          "wow": -0.0035,
-          "yoy": 0.3579,
-          "vs5YearAvg": 0.0124,
-          "updateTime": "2026-07-09",
+          "wow": 0.0,
+          "yoy": 0.3709,
+          "vs5YearAvg": -0.008,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         },
         {
@@ -99,11 +99,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 7817.0,
-          "wow": 0.0397,
-          "yoy": 0.1357,
-          "vs5YearAvg": 0.1197,
-          "updateTime": "2026-07-06",
+          "currentValue": 7663.9,
+          "wow": -0.0001,
+          "yoy": 0.1204,
+          "vs5YearAvg": 0.1097,
+          "updateTime": "2026-07-13",
           "frequency": "周度"
         },
         {
@@ -112,11 +112,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 690.0,
-          "wow": -0.0254,
-          "yoy": 0.2455,
-          "vs5YearAvg": 0.2764,
-          "updateTime": "2026-07-09",
+          "currentValue": 680.0,
+          "wow": -0.0423,
+          "yoy": 0.1993,
+          "vs5YearAvg": 0.2768,
+          "updateTime": "2026-07-17",
           "frequency": "日度"
         },
         {
@@ -125,11 +125,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 12277.3,
-          "wow": 0.0002,
-          "yoy": 0.0216,
-          "vs5YearAvg": 0.0918,
-          "updateTime": "2026-07-08",
+          "currentValue": 12063.1,
+          "wow": -0.0228,
+          "yoy": 0.0043,
+          "vs5YearAvg": 0.0923,
+          "updateTime": "2026-07-15",
           "frequency": "日度"
         },
         {
@@ -138,11 +138,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 580.1,
-          "wow": 0.1533,
-          "yoy": -0.1295,
-          "vs5YearAvg": -0.0151,
-          "updateTime": "2026-07-08",
+          "currentValue": 601.7,
+          "wow": 0.1736,
+          "yoy": -0.0144,
+          "vs5YearAvg": -0.0112,
+          "updateTime": "2026-07-15",
           "frequency": "日度"
         }
       ],
@@ -11489,6 +11489,30 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-08",
                   "value": 793.0
+                },
+                {
+                  "date": "2026-07-09",
+                  "value": 792.0
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": 792.0
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 799.0
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": 803.0
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": 810.0
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": 817.0
                 }
               ]
             }
@@ -22452,6 +22476,34 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-08",
                   "value": 12277.3
+                },
+                {
+                  "date": "2026-07-09",
+                  "value": 12292.2
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": 12259.869999999999
+                },
+                {
+                  "date": "2026-07-11",
+                  "value": 12185.77
+                },
+                {
+                  "date": "2026-07-12",
+                  "value": 12144.2
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 12102.3
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": 12080.0
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": 12063.1
                 }
               ]
             }
@@ -39267,6 +39319,38 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-09",
                   "value": 690.0
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": 680.0
+                },
+                {
+                  "date": "2026-07-11",
+                  "value": 670.0
+                },
+                {
+                  "date": "2026-07-12",
+                  "value": 650.0
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 655.0
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": 650.0
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": 655.0
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": 658.0
+                },
+                {
+                  "date": "2026-07-17",
+                  "value": 680.0
                 }
               ]
             }
@@ -50234,6 +50318,34 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-08",
                   "value": 580.1
+                },
+                {
+                  "date": "2026-07-09",
+                  "value": 585.5
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": 592.6
+                },
+                {
+                  "date": "2026-07-11",
+                  "value": 588.7
+                },
+                {
+                  "date": "2026-07-12",
+                  "value": 535.0
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 561.7
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": 598.3
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": 601.7
                 }
               ]
             }
@@ -50241,10 +50353,6 @@ const INDUSTRY_DATA = {
         }
       ],
       "scoreHistory": [
-        {
-          "date": "2025-07-13",
-          "value": 54.6975546975547
-        },
         {
           "date": "2025-07-20",
           "value": 38.86743886743887
@@ -50451,7 +50559,11 @@ const INDUSTRY_DATA = {
         },
         {
           "date": "2026-07-12",
-          "value": 49.67824967824968
+          "value": 43.50064350064349
+        },
+        {
+          "date": "2026-07-19",
+          "value": 60.102960102960104
         }
       ]
     },
@@ -50459,8 +50571,8 @@ const INDUSTRY_DATA = {
       "name": "钢铁",
       "color": "#e06c75",
       "summaryText": "价格方面，本周钢材价格有所回升，螺纹3250元/吨，热卷3280元/吨。旺季逐步开启，五大材表需提升15.4%，表观需求回升。五大材社会和厂库库存提升1.2%，库存提速放缓，但去库拐点尚未到来。当前黑色供需基本平衡，矛盾不大，价格震荡运行。",
-      "currentScore": 36.7,
-      "scoreWow": -7.3,
+      "currentScore": 33.6,
+      "scoreWow": -10.0,
       "prosperityLevel": "低迷",
       "levelColor": "#e06c75",
       "kpiCards": [
@@ -50469,9 +50581,9 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 3320.0,
-          "wow": -0.006,
-          "yoy": -0.0405
+          "currentValue": 3340.0,
+          "wow": 0.0091,
+          "yoy": -0.0347
         },
         {
           "label": "上海螺纹",
@@ -50479,26 +50591,26 @@ const INDUSTRY_DATA = {
           "direction": 1,
           "scale": 1,
           "currentValue": 3180.0,
-          "wow": -0.0063,
-          "yoy": -0.0536
+          "wow": -0.0031,
+          "yoy": -0.0422
         },
         {
           "label": "五大材库存",
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 1633.92,
-          "wow": 0.0206,
-          "yoy": 0.188
+          "currentValue": 1616.06,
+          "wow": -0.0043,
+          "yoy": 0.1413
         },
         {
           "label": "高炉开工率",
           "unit": "%",
           "direction": 1,
           "scale": 1,
-          "currentValue": 83.84,
-          "wow": -0.0068,
-          "yoy": 0.0011
+          "currentValue": 82.73,
+          "wow": -0.015,
+          "yoy": -0.0103
         }
       ],
       "tableMetrics": [
@@ -50508,11 +50620,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 3320.0,
-          "wow": -0.006,
-          "yoy": -0.0405,
-          "vs5YearAvg": -0.1981,
-          "updateTime": "2026-07-09",
+          "currentValue": 3340.0,
+          "wow": 0.0091,
+          "yoy": -0.0347,
+          "vs5YearAvg": -0.1838,
+          "updateTime": "2026-07-17",
           "frequency": "日度"
         },
         {
@@ -50522,10 +50634,10 @@ const INDUSTRY_DATA = {
           "direction": 1,
           "scale": 1,
           "currentValue": 3180.0,
-          "wow": -0.0063,
-          "yoy": -0.0536,
-          "vs5YearAvg": -0.19,
-          "updateTime": "2026-07-09",
+          "wow": -0.0031,
+          "yoy": -0.0422,
+          "vs5YearAvg": -0.1821,
+          "updateTime": "2026-07-17",
           "frequency": "日度"
         },
         {
@@ -50534,11 +50646,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 99.1,
-          "wow": 0.002,
-          "yoy": -0.0236,
-          "vs5YearAvg": -0.2268,
-          "updateTime": "2026-07-09",
+          "currentValue": 99.6,
+          "wow": 0.0127,
+          "yoy": -0.0216,
+          "vs5YearAvg": -0.2208,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         },
         {
@@ -50547,11 +50659,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 1633.92,
-          "wow": 0.0206,
-          "yoy": 0.188,
-          "vs5YearAvg": -0.091,
-          "updateTime": "2026-07-13",
+          "currentValue": 1616.06,
+          "wow": -0.0043,
+          "yoy": 0.1413,
+          "vs5YearAvg": -0.0935,
+          "updateTime": "2026-07-20",
           "frequency": "周度"
         },
         {
@@ -50560,11 +50672,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 1628.2,
-          "wow": -0.0904,
-          "yoy": 0.0399,
-          "vs5YearAvg": 0.0764,
-          "updateTime": "2026-06-30",
+          "currentValue": 1677.0,
+          "wow": 0.03,
+          "yoy": 0.1348,
+          "vs5YearAvg": 0.0684,
+          "updateTime": "2026-07-10",
           "frequency": "旬度"
         },
         {
@@ -50573,11 +50685,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 241.27,
-          "wow": -0.0069,
-          "yoy": 0.004,
-          "vs5YearAvg": 0.0177,
-          "updateTime": "2026-07-10",
+          "currentValue": 239.21,
+          "wow": -0.0166,
+          "yoy": -0.006,
+          "vs5YearAvg": 0.0058,
+          "updateTime": "2026-07-17",
           "frequency": "周度"
         },
         {
@@ -50586,11 +50698,11 @@ const INDUSTRY_DATA = {
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 8384.0,
-          "wow": -0.0068,
-          "yoy": 0.0011,
-          "vs5YearAvg": 0.0125,
-          "updateTime": "2026-07-10",
+          "currentValue": 8273.0,
+          "wow": -0.015,
+          "yoy": -0.0103,
+          "vs5YearAvg": 0.0058,
+          "updateTime": "2026-07-17",
           "frequency": "周度"
         },
         {
@@ -50599,11 +50711,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 847.03,
-          "wow": -0.0138,
-          "yoy": -0.0255,
-          "vs5YearAvg": -0.0923,
-          "updateTime": "2026-07-13",
+          "currentValue": 825.82,
+          "wow": -0.0444,
+          "yoy": -0.0526,
+          "vs5YearAvg": -0.1151,
+          "updateTime": "2026-07-20",
           "frequency": "周度"
         },
         {
@@ -50612,11 +50724,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 847.03,
-          "wow": -0.0138,
-          "yoy": -0.0255,
-          "vs5YearAvg": -0.0923,
-          "updateTime": "2026-07-13",
+          "currentValue": 825.82,
+          "wow": -0.0444,
+          "yoy": -0.0526,
+          "vs5YearAvg": -0.1151,
+          "updateTime": "2026-07-20",
           "frequency": "周度"
         },
         {
@@ -50625,11 +50737,11 @@ const INDUSTRY_DATA = {
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 4026.0,
-          "wow": -0.2118,
-          "yoy": -0.4114,
-          "vs5YearAvg": -0.1983,
-          "updateTime": "2026-07-10",
+          "currentValue": 3723.0,
+          "wow": -0.1314,
+          "yoy": -0.4342,
+          "vs5YearAvg": -0.2636,
+          "updateTime": "2026-07-17",
           "frequency": "周度"
         },
         {
@@ -50638,11 +50750,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": -69.0,
-          "wow": -2.8333,
-          "yoy": -1.3898,
-          "vs5YearAvg": -2.2105,
-          "updateTime": "2026-07-09",
+          "currentValue": -83.0,
+          "wow": -0.1528,
+          "yoy": -1.6336,
+          "vs5YearAvg": -3.0494,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         },
         {
@@ -50651,11 +50763,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": -19.0,
-          "wow": -1.3065,
-          "yoy": -1.1011,
-          "vs5YearAvg": -1.6281,
-          "updateTime": "2026-07-09",
+          "currentValue": -18.0,
+          "wow": -10.0,
+          "yoy": -1.1169,
+          "vs5YearAvg": 0.4667,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         }
       ],
@@ -62222,6 +62334,38 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-09",
                   "value": 3320.0
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": 3310.0
+                },
+                {
+                  "date": "2026-07-11",
+                  "value": 3310.0
+                },
+                {
+                  "date": "2026-07-12",
+                  "value": 3310.0
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 3290.0
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": 3310.0
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": 3330.0
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": 3330.0
+                },
+                {
+                  "date": "2026-07-17",
+                  "value": 3340.0
                 }
               ]
             },
@@ -73776,6 +73920,38 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-09",
                   "value": 3180.0
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": 3180.0
+                },
+                {
+                  "date": "2026-07-11",
+                  "value": 3180.0
+                },
+                {
+                  "date": "2026-07-12",
+                  "value": 3180.0
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 3160.0
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": 3160.0
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": 3170.0
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": 3170.0
+                },
+                {
+                  "date": "2026-07-17",
+                  "value": 3180.0
                 }
               ]
             }
@@ -75575,6 +75751,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-13",
                   "value": 847.03
+                },
+                {
+                  "date": "2026-07-20",
+                  "value": 825.8199999999999
                 }
               ]
             }
@@ -77374,6 +77554,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-13",
                   "value": 1633.92
+                },
+                {
+                  "date": "2026-07-20",
+                  "value": 1616.0600000000002
                 }
               ]
             }
@@ -81858,6 +82042,34 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-09",
                   "value": -69.0
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": -74.0
+                },
+                {
+                  "date": "2026-07-11",
+                  "value": -74.0
+                },
+                {
+                  "date": "2026-07-12",
+                  "value": -74.0
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": -92.0
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": -96.0
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": -88.0
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": -83.0
                 }
               ]
             },
@@ -86316,6 +86528,34 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-09",
                   "value": -19.0
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": -26.0
+                },
+                {
+                  "date": "2026-07-11",
+                  "value": -26.0
+                },
+                {
+                  "date": "2026-07-12",
+                  "value": -26.0
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": -35.0
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": -31.0
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": -20.0
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": -18.0
                 }
               ]
             }
@@ -86323,10 +86563,6 @@ const INDUSTRY_DATA = {
         }
       ],
       "scoreHistory": [
-        {
-          "date": "2025-07-13",
-          "value": 61.904761904761905
-        },
         {
           "date": "2025-07-20",
           "value": 63.191763191763194
@@ -86533,7 +86769,11 @@ const INDUSTRY_DATA = {
         },
         {
           "date": "2026-07-12",
-          "value": 36.74019452707977
+          "value": 43.62934362934363
+        },
+        {
+          "date": "2026-07-19",
+          "value": 33.60384841363102
         }
       ]
     },
@@ -86541,8 +86781,8 @@ const INDUSTRY_DATA = {
       "name": "有色",
       "color": "#98c379",
       "summaryText": "价格方面，1#铜现货环比下降0.2%至100945元/吨，铝价抬升2.7%为25115元/吨，铜社会库存下降0.6%，为57.4万吨但交易所库存继续大幅增加。有色板块走势分化，铜受美元走强与需求预期冲击影响，价格环比回落。中东地缘冲突加剧，影响区域产能开工率，市场预期铝供应收紧，成为价格核心推手。",
-      "currentScore": 71.9,
-      "scoreWow": -3.2,
+      "currentScore": 76.9,
+      "scoreWow": -2.6,
       "prosperityLevel": "景气",
       "levelColor": "#98c379",
       "kpiCards": [
@@ -86551,36 +86791,36 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 22955.0,
-          "wow": 0.0009,
-          "yoy": 0.1097
+          "currentValue": 23165.0,
+          "wow": 0.0145,
+          "yoy": 0.1188
         },
         {
           "label": "1#铜价",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 102745.0,
-          "wow": 0.003,
-          "yoy": 0.3093
+          "currentValue": 104455.0,
+          "wow": 0.0108,
+          "yoy": 0.3139
         },
         {
           "label": "铜社会库存",
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 16.5,
-          "wow": -0.2044,
-          "yoy": 0.25
+          "currentValue": 12.34,
+          "wow": -0.358,
+          "yoy": -0.0175
         },
         {
           "label": "电解铝利润",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 6747.67,
-          "wow": 0.0359,
-          "yoy": 0.7074
+          "currentValue": 6987.4,
+          "wow": 0.0604,
+          "yoy": 0.7592
         }
       ],
       "tableMetrics": [
@@ -86590,11 +86830,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 22955.0,
-          "wow": 0.0009,
-          "yoy": 0.1097,
-          "vs5YearAvg": 0.1886,
-          "updateTime": "2026-07-09",
+          "currentValue": 23165.0,
+          "wow": 0.0145,
+          "yoy": 0.1188,
+          "vs5YearAvg": 0.213,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         },
         {
@@ -86603,11 +86843,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 102745.0,
-          "wow": 0.003,
-          "yoy": 0.3093,
-          "vs5YearAvg": 0.4432,
-          "updateTime": "2026-07-09",
+          "currentValue": 104455.0,
+          "wow": 0.0108,
+          "yoy": 0.3139,
+          "vs5YearAvg": 0.4855,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         },
         {
@@ -86616,11 +86856,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/盎司",
           "direction": 1,
           "scale": 1,
-          "currentValue": 4123.55,
-          "wow": 0.0268,
-          "yoy": 0.2129,
-          "vs5YearAvg": 0.8481,
-          "updateTime": "2026-07-09",
+          "currentValue": 3977.41,
+          "wow": -0.0449,
+          "yoy": 0.1925,
+          "vs5YearAvg": 0.7617,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         },
         {
@@ -86629,11 +86869,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 16.5,
-          "wow": -0.2044,
-          "yoy": 0.25,
-          "vs5YearAvg": -0.1649,
-          "updateTime": "2026-07-09",
+          "currentValue": 12.34,
+          "wow": -0.358,
+          "yoy": -0.0175,
+          "vs5YearAvg": -0.3555,
+          "updateTime": "2026-07-16",
           "frequency": "周度"
         },
         {
@@ -86642,11 +86882,11 @@ const INDUSTRY_DATA = {
           "unit": "万吨",
           "direction": -1,
           "scale": 1,
-          "currentValue": 107.8,
-          "wow": -0.0747,
-          "yoy": 0.9113,
-          "vs5YearAvg": 0.6004,
-          "updateTime": "2026-07-09",
+          "currentValue": 102.4,
+          "wow": -0.0674,
+          "yoy": 0.7415,
+          "vs5YearAvg": 0.5279,
+          "updateTime": "2026-07-16",
           "frequency": "周度"
         },
         {
@@ -86655,11 +86895,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 6747.67,
-          "wow": 0.0359,
-          "yoy": 0.7074,
-          "vs5YearAvg": 1.4027,
-          "updateTime": "2026-07-09",
+          "currentValue": 6987.4,
+          "wow": 0.0604,
+          "yoy": 0.7592,
+          "vs5YearAvg": 1.8093,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         },
         {
@@ -86668,11 +86908,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/干吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": -128.2,
-          "wow": -0.0175,
-          "yoy": -2.1268,
-          "vs5YearAvg": -4.7016,
-          "updateTime": "2026-07-09",
+          "currentValue": -135.0,
+          "wow": -0.053,
+          "yoy": -2.5526,
+          "vs5YearAvg": -4.7661,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         },
         {
@@ -86681,11 +86921,11 @@ const INDUSTRY_DATA = {
           "unit": "美分/磅",
           "direction": 1,
           "scale": 1,
-          "currentValue": -12.82,
-          "wow": -0.0175,
-          "yoy": -2.1268,
-          "vs5YearAvg": -4.7016,
-          "updateTime": "2026-07-09",
+          "currentValue": -13.5,
+          "wow": -0.053,
+          "yoy": -2.5526,
+          "vs5YearAvg": -4.7661,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         }
       ],
@@ -98860,6 +99100,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-09",
                   "value": 102745.0
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": 104205.0
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 103315.0
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": 104345.0
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": 105165.0
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": 104455.0
                 }
               ]
             }
@@ -101019,6 +101279,14 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-09",
                   "value": 16.5
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 14.0
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": 12.34
                 }
               ]
             }
@@ -103182,6 +103450,14 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-09",
                   "value": 107.8
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 104.7
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": 102.4
                 }
               ]
             }
@@ -115278,6 +115554,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-09",
                   "value": -128.2
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": -135.0
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": -135.0
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": -135.0
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": -135.0
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": -135.0
                 }
               ]
             }
@@ -115285,10 +115581,6 @@ const INDUSTRY_DATA = {
         }
       ],
       "scoreHistory": [
-        {
-          "date": "2025-07-13",
-          "value": 36.486486486486484
-        },
         {
           "date": "2025-07-20",
           "value": 42.27799227799228
@@ -115495,7 +115787,11 @@ const INDUSTRY_DATA = {
         },
         {
           "date": "2026-07-12",
-          "value": 71.88502788502788
+          "value": 79.53667953667954
+        },
+        {
+          "date": "2026-07-19",
+          "value": 76.93434585027507
         }
       ]
     },
@@ -115503,8 +115799,8 @@ const INDUSTRY_DATA = {
       "name": "石化",
       "color": "#c678dd",
       "summaryText": "价格方面，本周布伦特原油价格上涨11.3%至103.1美元/桶，NYMEX HH天然气价格下跌1.6%至3.13美元/百万英热。霍尔木兹海峡中断，全球原油产量受损近7%，油价继续上涨。美国炼厂开工率提升至90.8%，国内山东地炼开工率63.1%，短期内开工率受影响有限。",
-      "currentScore": 75.0,
-      "scoreWow": 37.1,
+      "currentScore": 76.7,
+      "scoreWow": 35.1,
       "prosperityLevel": "景气",
       "levelColor": "#98c379",
       "kpiCards": [
@@ -115513,36 +115809,36 @@ const INDUSTRY_DATA = {
           "unit": "美元/桶",
           "direction": 1,
           "scale": 1,
-          "currentValue": 76.3,
-          "wow": 0.0431,
-          "yoy": 0.1486
+          "currentValue": 84.23,
+          "wow": 0.17,
+          "yoy": 0.2602
         },
         {
           "label": "NYMEX天然气",
           "unit": "美元/百万英热",
           "direction": 1,
           "scale": 1,
-          "currentValue": 3.01,
-          "wow": -0.0504,
-          "yoy": -0.0227
+          "currentValue": 2.89,
+          "wow": -0.1112,
+          "yoy": 0.0158
         },
         {
           "label": "美国原油库存",
           "unit": "千桶",
           "direction": -1,
           "scale": 1,
-          "currentValue": 411357.0,
-          "wow": -0.0019,
-          "yoy": -0.029
+          "currentValue": 409665.0,
+          "wow": 0.0032,
+          "yoy": -0.0399
         },
         {
           "label": "汽油裂解价差",
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1016.67,
-          "wow": -0.1218,
-          "yoy": -0.221
+          "currentValue": 959.22,
+          "wow": -0.1033,
+          "yoy": -0.2286
         }
       ],
       "tableMetrics": [
@@ -115552,11 +115848,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/桶",
           "direction": 1,
           "scale": 1,
-          "currentValue": 76.3,
-          "wow": 0.0431,
-          "yoy": 0.1486,
-          "vs5YearAvg": -0.081,
-          "updateTime": "2026-07-09",
+          "currentValue": 84.23,
+          "wow": 0.17,
+          "yoy": 0.2602,
+          "vs5YearAvg": 0.0386,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         },
         {
@@ -115565,11 +115861,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/百万英热",
           "direction": 1,
           "scale": 1,
-          "currentValue": 3.01,
-          "wow": -0.0504,
-          "yoy": -0.0227,
-          "vs5YearAvg": -0.1617,
-          "updateTime": "2026-07-09",
+          "currentValue": 2.89,
+          "wow": -0.1112,
+          "yoy": 0.0158,
+          "vs5YearAvg": -0.2417,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         },
         {
@@ -115578,11 +115874,11 @@ const INDUSTRY_DATA = {
           "unit": "千桶",
           "direction": -1,
           "scale": 1,
-          "currentValue": 411357.0,
-          "wow": -0.0019,
-          "yoy": -0.029,
-          "vs5YearAvg": -0.0619,
-          "updateTime": "2026-07-03",
+          "currentValue": 409665.0,
+          "wow": 0.0032,
+          "yoy": -0.0399,
+          "vs5YearAvg": -0.0626,
+          "updateTime": "2026-07-10",
           "frequency": "周度"
         },
         {
@@ -115591,11 +115887,11 @@ const INDUSTRY_DATA = {
           "unit": "千桶",
           "direction": -1,
           "scale": 1,
-          "currentValue": 212062.0,
-          "wow": -0.0196,
-          "yoy": -0.0661,
-          "vs5YearAvg": -0.0643,
-          "updateTime": "2026-07-03",
+          "currentValue": 210529.0,
+          "wow": -0.0161,
+          "yoy": -0.0696,
+          "vs5YearAvg": -0.0821,
+          "updateTime": "2026-07-10",
           "frequency": "周度"
         },
         {
@@ -115604,11 +115900,11 @@ const INDUSTRY_DATA = {
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 5050.0,
-          "wow": 0.0344,
-          "yoy": 0.0406,
-          "vs5YearAvg": -0.17,
-          "updateTime": "2026-07-08",
+          "currentValue": 5379.0,
+          "wow": 0.1464,
+          "yoy": 0.0739,
+          "vs5YearAvg": -0.1223,
+          "updateTime": "2026-07-15",
           "frequency": "周度"
         },
         {
@@ -115617,11 +115913,11 @@ const INDUSTRY_DATA = {
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 9580.0,
-          "wow": -0.0031,
-          "yoy": -0.0114,
-          "vs5YearAvg": 0.0237,
-          "updateTime": "2026-07-03",
+          "currentValue": 9620.0,
+          "wow": -0.0041,
+          "yoy": -0.0021,
+          "vs5YearAvg": 0.0278,
+          "updateTime": "2026-07-10",
           "frequency": "周度"
         },
         {
@@ -115643,11 +115939,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1016.67,
-          "wow": -0.1218,
-          "yoy": -0.221,
-          "vs5YearAvg": -0.0524,
-          "updateTime": "2026-07-09",
+          "currentValue": 959.22,
+          "wow": -0.1033,
+          "yoy": -0.2286,
+          "vs5YearAvg": -0.141,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         },
         {
@@ -115656,11 +115952,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 690.1,
-          "wow": -0.2493,
-          "yoy": -0.34,
-          "vs5YearAvg": -0.091,
-          "updateTime": "2026-07-09",
+          "currentValue": 687.27,
+          "wow": -0.1233,
+          "yoy": -0.306,
+          "vs5YearAvg": -0.1773,
+          "updateTime": "2026-07-16",
           "frequency": "日度"
         },
         {
@@ -115669,11 +115965,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 117.41,
-          "wow": -0.783,
-          "yoy": -0.6774,
-          "vs5YearAvg": 1.2174,
-          "updateTime": "2026-07-10",
+          "currentValue": -292.33,
+          "wow": -2.1609,
+          "yoy": -1.6901,
+          "vs5YearAvg": 0.4637,
+          "updateTime": "2026-07-17",
           "frequency": "日度"
         }
       ],
@@ -154602,6 +154898,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-09",
                   "value": 76.3
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": 76.01
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 83.3
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": 84.73
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": 84.95
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": 84.23
                 }
               ]
             },
@@ -177554,6 +177870,10 @@ const INDUSTRY_DATA = {
                   "value": 3.415
                 },
                 {
+                  "date": "2013-02-27",
+                  "value": 3.434
+                },
+                {
                   "date": "2013-02-28",
                   "value": 3.486
                 },
@@ -177584,6 +177904,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2013-03-11",
                   "value": 3.638
+                },
+                {
+                  "date": "2013-03-12",
+                  "value": 3.645
                 },
                 {
                   "date": "2013-03-13",
@@ -177632,6 +177956,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2013-03-28",
                   "value": 4.045
+                },
+                {
+                  "date": "2013-04-01",
+                  "value": 4.015
                 },
                 {
                   "date": "2013-04-02",
@@ -177730,6 +178058,10 @@ const INDUSTRY_DATA = {
                   "value": 4.045
                 },
                 {
+                  "date": "2013-05-06",
+                  "value": 4.011
+                },
+                {
                   "date": "2013-05-07",
                   "value": 3.919
                 },
@@ -177820,6 +178152,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2013-06-07",
                   "value": 3.823
+                },
+                {
+                  "date": "2013-06-10",
+                  "value": 3.8
                 },
                 {
                   "date": "2013-06-11",
@@ -178118,6 +178454,10 @@ const INDUSTRY_DATA = {
                   "value": 3.506
                 },
                 {
+                  "date": "2013-09-25",
+                  "value": 3.493
+                },
+                {
                   "date": "2013-09-26",
                   "value": 3.5
                 },
@@ -178136,6 +178476,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2013-10-02",
                   "value": 3.54
+                },
+                {
+                  "date": "2013-10-03",
+                  "value": 3.499
                 },
                 {
                   "date": "2013-10-04",
@@ -178238,6 +178582,10 @@ const INDUSTRY_DATA = {
                   "value": 3.516
                 },
                 {
+                  "date": "2013-11-08",
+                  "value": 3.559
+                },
+                {
                   "date": "2013-11-11",
                   "value": 3.565
                 },
@@ -178288,6 +178636,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2013-11-27",
                   "value": 3.908
+                },
+                {
+                  "date": "2013-11-29",
+                  "value": 3.954
                 },
                 {
                   "date": "2013-12-02",
@@ -178438,6 +178790,10 @@ const INDUSTRY_DATA = {
                   "value": 5.156
                 },
                 {
+                  "date": "2014-01-27",
+                  "value": 4.847
+                },
+                {
                   "date": "2014-01-28",
                   "value": 4.995
                 },
@@ -178460,6 +178816,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2014-02-04",
                   "value": 5.291
+                },
+                {
+                  "date": "2014-02-05",
+                  "value": 5.03
                 },
                 {
                   "date": "2014-02-06",
@@ -178626,6 +178986,10 @@ const INDUSTRY_DATA = {
                   "value": 4.417
                 },
                 {
+                  "date": "2014-04-07",
+                  "value": 4.476
+                },
+                {
                   "date": "2014-04-08",
                   "value": 4.51
                 },
@@ -178774,6 +179138,14 @@ const INDUSTRY_DATA = {
                   "value": 4.555
                 },
                 {
+                  "date": "2014-06-02",
+                  "value": 4.612
+                },
+                {
+                  "date": "2014-06-03",
+                  "value": 4.629
+                },
+                {
                   "date": "2014-06-04",
                   "value": 4.61
                 },
@@ -178800,6 +179172,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2014-06-12",
                   "value": 4.75
+                },
+                {
+                  "date": "2014-06-13",
+                  "value": 4.739
                 },
                 {
                   "date": "2014-06-16",
@@ -178900,6 +179276,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2014-07-21",
                   "value": 3.88
+                },
+                {
+                  "date": "2014-07-22",
+                  "value": 3.772
                 },
                 {
                   "date": "2014-07-23",
@@ -179458,6 +179838,10 @@ const INDUSTRY_DATA = {
                   "value": 2.616
                 },
                 {
+                  "date": "2015-02-10",
+                  "value": 2.677
+                },
+                {
                   "date": "2015-02-11",
                   "value": 2.822
                 },
@@ -179700,6 +180084,14 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2015-05-08",
                   "value": 2.864
+                },
+                {
+                  "date": "2015-05-11",
+                  "value": 2.802
+                },
+                {
+                  "date": "2015-05-12",
+                  "value": 2.897
                 },
                 {
                   "date": "2015-05-13",
@@ -190944,6 +191336,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-09",
                   "value": 3.012
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": 2.948
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 2.902
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": 2.923
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": 2.921
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": 2.892
                 }
               ]
             }
@@ -200099,6 +200511,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-03",
                   "value": 411357.0
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": 409665.0
                 }
               ]
             }
@@ -202634,6 +203050,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-08",
                   "value": 50.5
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": 53.79
                 }
               ]
             },
@@ -210092,6 +210512,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-03",
                   "value": 95.8
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": 96.2
                 }
               ]
             }
@@ -216576,6 +217000,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-09",
                   "value": 1016.67
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": 999.34
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 657.34
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": 737.7
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": 910.09
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": 959.22
                 }
               ]
             },
@@ -223046,6 +223490,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-09",
                   "value": 690.1
+                },
+                {
+                  "date": "2026-07-10",
+                  "value": 661.14
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 344.4
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": 411.82
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": 630.21
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": 687.27
                 }
               ]
             },
@@ -229552,6 +230016,26 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-10",
                   "value": 117.41
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": -332.89
+                },
+                {
+                  "date": "2026-07-14",
+                  "value": -242.91
+                },
+                {
+                  "date": "2026-07-15",
+                  "value": -251.65
+                },
+                {
+                  "date": "2026-07-16",
+                  "value": 2.9
+                },
+                {
+                  "date": "2026-07-17",
+                  "value": -292.33
                 }
               ]
             }
@@ -229560,100 +230044,96 @@ const INDUSTRY_DATA = {
       ],
       "scoreHistory": [
         {
-          "date": "2025-07-13",
-          "value": 53.43542699608842
-        },
-        {
           "date": "2025-07-20",
-          "value": 49.96392265909546
+          "value": 48.87080259017399
         },
         {
           "date": "2025-07-27",
-          "value": 43.483781230041906
+          "value": 42.582396675477575
         },
         {
           "date": "2025-08-03",
-          "value": 52.509692506223615
+          "value": 51.341247770947554
         },
         {
           "date": "2025-08-10",
-          "value": 37.00363980098837
+          "value": 36.29399076078118
         },
         {
           "date": "2025-08-17",
-          "value": 42.32661311771092
+          "value": 41.45946704785322
         },
         {
           "date": "2025-08-24",
-          "value": 48.80675454676445
+          "value": 47.747872962549614
         },
         {
           "date": "2025-08-31",
-          "value": 46.029551077170076
+          "value": 45.052841856251156
         },
         {
           "date": "2025-09-07",
-          "value": 48.806754546764466
+          "value": 47.74787296254963
         },
         {
           "date": "2025-09-14",
-          "value": 58.75840031281095
+          "value": 57.405067760119074
         },
         {
           "date": "2025-09-21",
-          "value": 55.286895975817984
+          "value": 54.03627887724601
         },
         {
           "date": "2025-09-28",
-          "value": 65.93284260926309
+          "value": 64.3672314513901
         },
         {
           "date": "2025-10-05",
-          "value": 44.40951571990669
+          "value": 43.48074037757706
         },
         {
           "date": "2025-10-12",
-          "value": 38.62367515825176
+          "value": 37.86609223945528
         },
         {
           "date": "2025-10-19",
-          "value": 38.855108780717956
+          "value": 38.090678164980154
         },
         {
           "date": "2025-10-26",
-          "value": 56.44406408814899
+          "value": 55.159208504870385
         },
         {
           "date": "2025-11-02",
-          "value": 54.36116148595321
+          "value": 53.137935175146545
         },
         {
           "date": "2025-11-09",
-          "value": 48.343887301832055
+          "value": 47.298701111499874
         },
         {
           "date": "2025-11-16",
-          "value": 58.98983393527715
+          "value": 57.62965368564395
         },
         {
           "date": "2025-11-23",
-          "value": 47.18671918950108
+          "value": 46.17577148387553
         },
         {
           "date": "2025-11-30",
-          "value": 45.335250209771495
+          "value": 44.37908407967655
         },
         {
           "date": "2025-12-07",
-          "value": 51.35252439389264
+          "value": 50.21831814332321
         },
         {
           "date": "2025-12-14",
-          "value": 43.020913985109516
+          "value": 42.133224824427835
         },
         {
           "date": "2025-12-21",
-          "value": 2.6260423902596615
+          "value": 2.5941403197023942
         },
         {
           "date": "2025-12-28",
@@ -229661,71 +230141,71 @@ const INDUSTRY_DATA = {
         },
         {
           "date": "2026-01-04",
-          "value": 2.9632037454242504
+          "value": 3.03971034475203
         },
         {
           "date": "2026-01-11",
-          "value": 12.424809955497583
+          "value": 12.891931940738399
         },
         {
           "date": "2026-01-18",
-          "value": 17.872493963789907
+          "value": 18.66035309846607
         },
         {
           "date": "2026-01-25",
-          "value": 24.988070706473042
+          "value": 25.618361712989223
         },
         {
           "date": "2026-02-01",
-          "value": 39.705784705398564
+          "value": 39.75102219684629
         },
         {
           "date": "2026-02-08",
-          "value": 38.88071228388787
+          "value": 39.124565264628345
         },
         {
           "date": "2026-02-15",
-          "value": 32.19891358829708
+          "value": 31.829536832657407
         },
         {
           "date": "2026-02-22",
-          "value": 47.26805539026944
+          "value": 47.48865597293383
         },
         {
           "date": "2026-03-01",
-          "value": 53.82557467392852
+          "value": 54.09999548530783
         },
         {
           "date": "2026-03-08",
-          "value": 75.37948009106906
+          "value": 75.52918036249274
         },
         {
           "date": "2026-03-15",
-          "value": 76.45598783400402
+          "value": 76.50628652155508
         },
         {
           "date": "2026-03-22",
-          "value": 83.36347053788657
+          "value": 83.52756145275274
         },
         {
           "date": "2026-03-29",
-          "value": 75.88702525035815
+          "value": 75.76756025944087
         },
         {
           "date": "2026-04-05",
-          "value": 83.87459423428331
+          "value": 83.68787389463765
         },
         {
           "date": "2026-04-12",
-          "value": 71.70928490512513
+          "value": 71.54941373168931
         },
         {
           "date": "2026-04-19",
-          "value": 70.88180522053192
+          "value": 70.96675414603615
         },
         {
           "date": "2026-04-26",
-          "value": 88.88215446068445
+          "value": 89.0487299679333
         },
         {
           "date": "2026-05-03",
@@ -229733,43 +230213,47 @@ const INDUSTRY_DATA = {
         },
         {
           "date": "2026-05-10",
-          "value": 87.68161255684316
+          "value": 87.65174205460708
         },
         {
           "date": "2026-05-17",
-          "value": 91.42248743376597
+          "value": 91.00520984297079
         },
         {
           "date": "2026-05-24",
-          "value": 85.88721757119524
+          "value": 85.42781003823028
         },
         {
           "date": "2026-05-31",
-          "value": 73.36302255034106
+          "value": 72.81011067149012
         },
         {
           "date": "2026-06-07",
-          "value": 69.9719772023132
+          "value": 69.17752229162122
         },
         {
           "date": "2026-06-14",
-          "value": 57.52948630111047
+          "value": 56.693444763687694
         },
         {
           "date": "2026-06-21",
-          "value": 37.678290739903254
+          "value": 36.57999245416355
         },
         {
           "date": "2026-06-28",
-          "value": 40.136796439878744
+          "value": 38.74253027582522
         },
         {
           "date": "2026-07-05",
-          "value": 37.89685037574827
+          "value": 36.16187357628025
         },
         {
           "date": "2026-07-12",
-          "value": 74.9587538854448
+          "value": 41.619268515927885
+        },
+        {
+          "date": "2026-07-19",
+          "value": 76.71945735525802
         }
       ]
     },
@@ -229777,8 +230261,8 @@ const INDUSTRY_DATA = {
       "name": "基础化工",
       "color": "#e5c07b",
       "summaryText": "原油供应紧张预期加强，炼厂预防性减产和成品油保供，炼油和衍生品利润大幅提升。由于霍尔木兹海峡通行能力大幅下降，中东的原油供应减少预计接近2000万桶/日。PX-PTA-涤纶长丝产业链：POY/FDY/DTY价格分别上涨4.7%/4.5%/4.4%，长丝价差收窄9.9%/8.8%/4.5%至1249/1469/2369元/吨。",
-      "currentScore": 80.7,
-      "scoreWow": -1.2,
+      "currentScore": 83.4,
+      "scoreWow": 2.9,
       "prosperityLevel": "强景气",
       "levelColor": "#f8b739",
       "kpiCards": [
@@ -229787,9 +230271,9 @@ const INDUSTRY_DATA = {
           "unit": "",
           "direction": 1,
           "scale": 1,
-          "currentValue": 4586.0,
-          "wow": 0.0166,
-          "yoy": 0.1312
+          "currentValue": 4612.0,
+          "wow": 0.0411,
+          "yoy": 0.1371
         },
         {
           "label": "PTA库存天数",
@@ -229805,7 +230289,7 @@ const INDUSTRY_DATA = {
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 52.85,
+          "currentValue": 52.31,
           "wow": null,
           "yoy": null
         },
@@ -229814,9 +230298,9 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1494.71,
-          "wow": -0.1426,
-          "yoy": 0.2316
+          "currentValue": 1442.64,
+          "wow": -0.1685,
+          "yoy": 0.1796
         }
       ],
       "tableMetrics": [
@@ -229826,11 +230310,11 @@ const INDUSTRY_DATA = {
           "unit": "",
           "direction": 1,
           "scale": 1,
-          "currentValue": 4586.0,
-          "wow": 0.0166,
-          "yoy": 0.1312,
-          "vs5YearAvg": -0.0282,
-          "updateTime": "2026-07-10",
+          "currentValue": 4612.0,
+          "wow": 0.0411,
+          "yoy": 0.1371,
+          "vs5YearAvg": -0.0214,
+          "updateTime": "2026-07-13",
           "frequency": "日度"
         },
         {
@@ -229839,11 +230323,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1494.71,
-          "wow": -0.1426,
-          "yoy": 0.2316,
-          "vs5YearAvg": 0.1786,
-          "updateTime": "2026-07-11",
+          "currentValue": 1442.64,
+          "wow": -0.1685,
+          "yoy": 0.1796,
+          "vs5YearAvg": 0.1355,
+          "updateTime": "2026-07-18",
           "frequency": "日度"
         },
         {
@@ -229865,11 +230349,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 836.0,
-          "wow": 0.0308,
-          "yoy": 0.0183,
-          "vs5YearAvg": -0.0351,
-          "updateTime": "2026-07-10",
+          "currentValue": 876.0,
+          "wow": 0.0801,
+          "yoy": 0.0605,
+          "vs5YearAvg": 0.0169,
+          "updateTime": "2026-07-13",
           "frequency": "日度"
         },
         {
@@ -229878,11 +230362,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1820.0,
-          "wow": -0.0109,
-          "yoy": 0.0139,
-          "vs5YearAvg": -0.2317,
-          "updateTime": "2026-07-10",
+          "currentValue": 1815.0,
+          "wow": -0.0082,
+          "yoy": 0.0111,
+          "vs5YearAvg": -0.238,
+          "updateTime": "2026-07-13",
           "frequency": "日度"
         },
         {
@@ -229956,7 +230440,7 @@ const INDUSTRY_DATA = {
           "unit": "%",
           "direction": 1,
           "scale": 100,
-          "currentValue": 52.85,
+          "currentValue": 52.31,
           "wow": null,
           "yoy": null,
           "vs5YearAvg": null,
@@ -229969,11 +230453,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 306.4,
-          "wow": -0.1729,
-          "yoy": 0.1746,
-          "vs5YearAvg": -0.0748,
-          "updateTime": "2026-07-11",
+          "currentValue": 248.17,
+          "wow": -0.2406,
+          "yoy": -0.0534,
+          "vs5YearAvg": -0.1979,
+          "updateTime": "2026-07-18",
           "frequency": "日度"
         },
         {
@@ -229982,11 +230466,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1494.71,
-          "wow": -0.1426,
-          "yoy": 0.2316,
-          "vs5YearAvg": 0.1786,
-          "updateTime": "2026-07-11",
+          "currentValue": 1442.64,
+          "wow": -0.1685,
+          "yoy": 0.1796,
+          "vs5YearAvg": 0.1355,
+          "updateTime": "2026-07-18",
           "frequency": "日度"
         },
         {
@@ -229995,11 +230479,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 1744.71,
-          "wow": -0.144,
-          "yoy": 0.1642,
-          "vs5YearAvg": 0.0202,
-          "updateTime": "2026-07-11",
+          "currentValue": 1677.64,
+          "wow": -0.1441,
+          "yoy": 0.0665,
+          "vs5YearAvg": -0.0176,
+          "updateTime": "2026-07-18",
           "frequency": "日度"
         },
         {
@@ -230008,11 +230492,11 @@ const INDUSTRY_DATA = {
           "unit": "元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 2634.71,
-          "wow": -0.05,
-          "yoy": 0.0849,
-          "vs5YearAvg": 0.001,
-          "updateTime": "2026-07-11",
+          "currentValue": 2472.64,
+          "wow": -0.1459,
+          "yoy": 0.0142,
+          "vs5YearAvg": -0.0724,
+          "updateTime": "2026-07-18",
           "frequency": "日度"
         },
         {
@@ -230021,11 +230505,11 @@ const INDUSTRY_DATA = {
           "unit": "美元/吨",
           "direction": 1,
           "scale": 1,
-          "currentValue": 306.4,
-          "wow": -0.1729,
-          "yoy": 0.1746,
-          "vs5YearAvg": -0.0748,
-          "updateTime": "2026-07-11",
+          "currentValue": 248.17,
+          "wow": -0.2406,
+          "yoy": -0.0534,
+          "vs5YearAvg": -0.1979,
+          "updateTime": "2026-07-18",
           "frequency": "日度"
         }
       ],
@@ -242321,7 +242805,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "2026-07-10",
-                  "value": 4586.0
+                  "value": 4580.0
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 4612.0
                 }
               ]
             },
@@ -254608,6 +255096,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-10",
                   "value": 836.0
+                },
+                {
+                  "date": "2026-07-13",
+                  "value": 876.0
                 }
               ]
             }
@@ -254636,7 +255128,15 @@ const INDUSTRY_DATA = {
               "data": [
                 {
                   "date": "1970-01-01",
+                  "value": 30.3
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.7
                 },
                 {
                   "date": "1970-01-01",
@@ -254652,10 +255152,6 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 35.7
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 11.5
                 },
                 {
@@ -254664,15 +255160,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 30.4
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 19.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 28.5
                 },
                 {
                   "date": "1970-01-01",
@@ -254680,23 +255168,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.4
+                  "value": 28.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 22.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 36.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
+                  "value": 30.4
                 },
                 {
                   "date": "1970-01-01",
@@ -254704,11 +255180,39 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 22.2
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 12.5
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 36.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.4
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 20.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.8
                 },
                 {
                   "date": "1970-01-01",
@@ -254728,19 +255232,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
+                  "value": 12.5
                 },
                 {
                   "date": "1970-01-01",
                   "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
                 },
                 {
                   "date": "1970-01-01",
@@ -254748,71 +255244,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 34.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 30.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
+                  "value": 6.0
                 },
                 {
                   "date": "1970-01-01",
                   "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 25.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
                 },
                 {
                   "date": "1970-01-01",
@@ -254824,11 +255260,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 33.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
+                  "value": 9.0
                 },
                 {
                   "date": "1970-01-01",
@@ -254836,51 +255268,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 26.5
+                  "value": 10.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 24.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 31.1
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 5.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
+                  "value": 10.0
                 },
                 {
                   "date": "1970-01-01",
@@ -254892,123 +255284,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 25.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.7
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 22.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.1
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 3.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.1
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 3.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 31.94
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 3.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 25.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 34.2
                 },
                 {
                   "date": "1970-01-01",
@@ -255016,23 +255300,47 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.3
+                  "value": 19.5
                 },
                 {
                   "date": "1970-01-01",
                   "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255040,39 +255348,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 6.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 25.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 2.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
+                  "value": 17.0
                 },
                 {
                   "date": "1970-01-01",
@@ -255080,7 +255356,187 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.5
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 3.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 3.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 3.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.94
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 2.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255092,11 +255548,19 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 25.1
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
                 },
                 {
                   "date": "1970-01-01",
@@ -255104,19 +255568,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 23.0
+                  "value": 14.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
+                  "value": 34.2
                 },
                 {
                   "date": "1970-01-01",
@@ -255132,7 +255588,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.0
+                  "value": 9.0
                 },
                 {
                   "date": "1970-01-01",
@@ -255140,43 +255596,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 28.1
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
+                  "value": 25.1
                 },
                 {
                   "date": "1970-01-01",
@@ -255184,19 +255604,83 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 19.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 30.4
+                  "value": 19.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 4.0
+                  "value": 18.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 2.0
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
@@ -255204,11 +255688,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 29.2
+                  "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
                   "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 2.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.4
                 },
                 {
                   "date": "1970-01-01",
@@ -255220,19 +255716,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 19.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.6
+                  "value": 29.2
                 },
                 {
                   "date": "1970-01-01",
@@ -255244,43 +255736,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
                 },
                 {
                   "date": "1970-01-01",
@@ -255288,27 +255744,51 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 33.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 5.5
+                  "value": 24.6
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.5
+                  "value": 13.6
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.5
+                  "value": 21.7
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.5
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.6
                 },
                 {
                   "date": "1970-01-01",
@@ -255316,7 +255796,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.0
+                  "value": 15.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255324,15 +255804,27 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 11.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 5.5
+                  "value": 18.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.5
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
                 },
                 {
                   "date": "1970-01-01",
@@ -255340,11 +255832,35 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 21.8
+                  "value": 22.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
                 },
                 {
                   "date": "1970-01-01",
                   "value": 26.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255360,39 +255876,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 20.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 31.9
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 22.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 5.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.3
                 },
                 {
                   "date": "1970-01-01",
@@ -255404,6 +255904,14 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.1
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 15.0
                 },
                 {
@@ -255416,7 +255924,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.0
+                  "value": 5.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255424,7 +255932,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.5
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.8
                 },
                 {
                   "date": "1970-01-01",
@@ -255432,27 +255944,19 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 26.3
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
                 },
                 {
                   "date": "1970-01-01",
                   "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255460,15 +255964,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.1
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 25.1
+                  "value": 11.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255480,7 +255976,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.5
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255488,31 +255988,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 22.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 26.9
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.7
+                  "value": 16.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255520,27 +255996,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.9
                 },
                 {
                   "date": "1970-01-01",
@@ -255548,79 +256012,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 23.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 5.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 28.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 29.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
+                  "value": 12.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255628,19 +256020,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 22.1
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
+                  "value": 18.0
                 },
                 {
                   "date": "1970-01-01",
                   "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255648,11 +256044,31 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 23.9
+                  "value": 5.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 5.5
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.1
                 },
                 {
                   "date": "1970-01-01",
@@ -255660,11 +256076,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.5
+                  "value": 18.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.5
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255672,7 +256092,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.0
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255680,7 +256104,39 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.0
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255688,15 +256144,55 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 25.5
+                  "value": 4.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.7
+                  "value": 16.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.7
+                  "value": 29.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255704,15 +256200,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 19.5
+                  "value": 16.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.0
+                  "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 19.5
+                  "value": 4.0
                 },
                 {
                   "date": "1970-01-01",
@@ -255724,155 +256220,63 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 8.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.5
+                  "value": 18.7
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.8
+                  "value": 8.0
                 },
                 {
                   "date": "1970-01-01",
@@ -255880,7 +256284,75 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 19.4
+                  "value": 19.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255888,7 +256360,31 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.4
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
                 },
                 {
                   "date": "1970-01-01",
@@ -255904,7 +256400,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 9.5
+                  "value": 19.2
                 },
                 {
                   "date": "1970-01-01",
@@ -255916,31 +256412,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.6
+                  "value": 23.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 32.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
+                  "value": 24.3
                 },
                 {
                   "date": "1970-01-01",
@@ -255948,35 +256424,27 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 29.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.5
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 19.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.0
+                  "value": 25.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 24.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.8
+                  "value": 16.0
                 },
                 {
                   "date": "1970-01-01",
@@ -255985,22 +256453,54 @@ const INDUSTRY_DATA = {
                 {
                   "date": "1970-01-01",
                   "value": 18.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.5
                 },
                 {
                   "date": "1970-01-01",
                   "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
                 },
                 {
                   "date": "1970-01-01",
@@ -256012,7 +256512,19 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.3
+                  "value": 32.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
                 },
                 {
                   "date": "1970-01-01",
@@ -256020,27 +256532,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 27.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 29.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 29.5
+                  "value": 8.5
                 },
                 {
                   "date": "1970-01-01",
@@ -256048,11 +256540,95 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 25.5
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
                 },
                 {
                   "date": "1970-01-01",
                   "value": 18.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
@@ -256064,103 +256640,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 22.9
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 22.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 22.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 22.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
+                  "value": 19.0
                 },
                 {
                   "date": "1970-01-01",
@@ -256168,19 +256652,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.0
+                  "value": 20.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
+                  "value": 20.5
                 },
                 {
                   "date": "1970-01-01",
@@ -256188,71 +256664,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 19.5
+                  "value": 19.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 21.7
+                  "value": 7.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 22.6
+                  "value": 17.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 20.0
+                  "value": 17.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 20.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 5.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 26.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 26.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 26.9
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.8
+                  "value": 20.5
                 },
                 {
                   "date": "1970-01-01",
@@ -256264,95 +256692,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 32.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 32.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 35.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.1
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 30.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.4
+                  "value": 19.5
                 },
                 {
                   "date": "1970-01-01",
@@ -256360,31 +256700,27 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 27.5
+                  "value": 26.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.0
+                  "value": 16.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.0
+                  "value": 19.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.0
+                  "value": 17.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.5
+                  "value": 17.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 30.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
+                  "value": 15.5
                 },
                 {
                   "date": "1970-01-01",
@@ -256392,223 +256728,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 34.0
+                  "value": 5.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 22.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 30.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 25.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 22.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.1
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 28.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 32.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 29.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 31.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 26.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 26.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 32.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 22.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 22.5
+                  "value": 35.0
                 },
                 {
                   "date": "1970-01-01",
@@ -256616,119 +256740,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.0
+                  "value": 16.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.0
+                  "value": 23.1
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 32.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 34.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 33.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 33.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 29.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 30.1
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.6
+                  "value": 19.0
                 },
                 {
                   "date": "1970-01-01",
@@ -256740,7 +256760,27 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 22.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.8
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
                 },
                 {
                   "date": "1970-01-01",
@@ -256748,227 +256788,59 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 30.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 17.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.5
+                  "value": 21.8
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.8
+                  "value": 32.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.3
+                  "value": 21.8
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.0
+                  "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 29.8
+                  "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.9
+                  "value": 20.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.2
+                  "value": 20.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.0
+                  "value": 8.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.0
+                  "value": 26.9
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.0
+                  "value": 9.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 21.5
+                  "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 21.4
+                  "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 29.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 30.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.9
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 5.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 5.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 25.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 5.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 25.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 26.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 26.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 25.7
+                  "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
@@ -256976,7 +256848,27 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.5
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.0
                 },
                 {
                   "date": "1970-01-01",
@@ -256984,19 +256876,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.6
+                  "value": 11.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 31.2
+                  "value": 18.4
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 10.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
+                  "value": 8.5
                 },
                 {
                   "date": "1970-01-01",
@@ -257004,155 +256892,55 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.6
+                  "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 33.2
+                  "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 25.5
+                  "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 25.5
+                  "value": 30.2
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 22.6
+                  "value": 7.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 22.9
+                  "value": 32.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.0
+                  "value": 11.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 23.0
+                  "value": 11.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 22.0
+                  "value": 7.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 22.0
+                  "value": 25.6
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.6
+                  "value": 20.2
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 23.3
+                  "value": 20.8
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 20.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 28.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 35.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 33.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.1
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 27.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.7
+                  "value": 6.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257164,19 +256952,79 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 21.0
+                  "value": 7.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 32.7
+                  "value": 11.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 30.0
+                  "value": 17.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 36.5
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257184,11 +257032,667 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 35.7
+                  "value": 20.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 25.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.0
                 },
                 {
                   "date": "1970-01-01",
                   "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.7
                 },
                 {
                   "date": "1970-01-01",
@@ -257200,14 +257704,6 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.8
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 12.0
                 },
                 {
@@ -257216,15 +257712,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 21.2
+                  "value": 36.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 5.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
+                  "value": 30.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257236,15 +257728,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.2
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 23.3
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.9
+                  "value": 8.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257252,27 +257740,39 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.3
                 },
                 {
                   "date": "1970-01-01",
@@ -257280,11 +257780,35 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.8
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.8
                 },
                 {
                   "date": "1970-01-01",
                   "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.8
                 },
                 {
                   "date": "1970-01-01",
@@ -257296,63 +257820,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 30.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 5.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 3.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 31.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 31.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257360,15 +257832,47 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 25.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 22.7
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 31.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 3.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 3.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 9.0
                 },
                 {
                   "date": "1970-01-01",
                   "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 3.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257376,7 +257880,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.0
+                  "value": 31.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257388,19 +257892,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 3.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 3.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 25.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.8
                 },
                 {
                   "date": "1970-01-01",
@@ -257412,15 +257912,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.8
+                  "value": 16.9
                 },
                 {
                   "date": "1970-01-01",
                   "value": 21.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.6
                 },
                 {
                   "date": "1970-01-01",
@@ -257432,7 +257928,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.9
+                  "value": 24.6
                 },
                 {
                   "date": "1970-01-01",
@@ -257460,11 +257956,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 5.0
+                  "value": 43.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 43.0
+                  "value": 5.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257548,15 +258044,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 34.5
+                  "value": 19.6
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.0
+                  "value": 17.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.0
+                  "value": 42.5
                 },
                 {
                   "date": "1970-01-01",
@@ -257568,7 +258064,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 19.6
+                  "value": 31.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257576,11 +258076,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.0
+                  "value": 16.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.5
+                  "value": 34.5
                 },
                 {
                   "date": "1970-01-01",
@@ -257588,7 +258088,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.0
+                  "value": 11.5
                 },
                 {
                   "date": "1970-01-01",
@@ -257596,7 +258096,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 42.5
+                  "value": 33.5
                 },
                 {
                   "date": "1970-01-01",
@@ -257604,15 +258104,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 31.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 33.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.0
+                  "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257628,19 +258120,19 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 32.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 17.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 33.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 32.5
                 },
                 {
                   "date": "1970-01-01",
@@ -257652,6 +258144,14 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 33.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 15.0
                 },
                 {
@@ -257660,7 +258160,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 22.0
+                  "value": 17.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257668,15 +258168,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 12.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.0
+                  "value": 22.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.2
                 },
                 {
                   "date": "1970-01-01",
@@ -257708,10 +258208,6 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 22.2
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 12.0
                 },
                 {
@@ -257740,7 +258236,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.5
+                  "value": 17.4
                 },
                 {
                   "date": "1970-01-01",
@@ -257772,7 +258268,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.4
+                  "value": 15.5
                 },
                 {
                   "date": "1970-01-01",
@@ -257780,11 +258276,19 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 17.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.5
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257812,35 +258316,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257852,6 +258328,14 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 18.0
                 },
                 {
@@ -257861,6 +258345,18 @@ const INDUSTRY_DATA = {
                 {
                   "date": "1970-01-01",
                   "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
                 },
                 {
                   "date": "1970-01-01",
@@ -257868,15 +258364,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 23.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257884,6 +258376,10 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 12.5
                 },
                 {
@@ -257896,11 +258392,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.0
+                  "value": 12.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.5
+                  "value": 8.0
                 },
                 {
                   "date": "1970-01-01",
@@ -257932,11 +258428,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.5
+                  "value": 10.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 10.5
+                  "value": 13.5
                 },
                 {
                   "date": "1970-01-01",
@@ -257988,6 +258484,10 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 17.5
                 },
                 {
@@ -257997,10 +258497,6 @@ const INDUSTRY_DATA = {
                 {
                   "date": "1970-01-01",
                   "value": 29.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258016,10 +258512,6 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 28.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 29.5
                 },
                 {
@@ -258032,23 +258524,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 19.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 28.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 26.1
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.5
                 },
                 {
                   "date": "1970-01-01",
@@ -258068,15 +258560,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 23.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
+                  "value": 26.1
                 },
                 {
                   "date": "1970-01-01",
@@ -258084,11 +258568,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.0
+                  "value": 23.5
                 },
                 {
                   "date": "1970-01-01",
                   "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258132,10 +258628,6 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.3
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 15.0
                 },
                 {
@@ -258144,6 +258636,10 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 18.3
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 15.0
                 },
                 {
@@ -258161,10 +258657,6 @@ const INDUSTRY_DATA = {
                 {
                   "date": "1970-01-01",
                   "value": 27.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.1
                 },
                 {
                   "date": "1970-01-01",
@@ -258177,6 +258669,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "1970-01-01",
                   "value": 27.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.1
                 },
                 {
                   "date": "1970-01-01",
@@ -258294,7 +258790,15 @@ const INDUSTRY_DATA = {
               "data": [
                 {
                   "date": "1970-01-01",
+                  "value": 25.9
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 26.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258310,10 +258814,6 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 30.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 11.5
                 },
                 {
@@ -258322,11 +258822,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 28.2
+                  "value": 14.8
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.8
+                  "value": 28.9
                 },
                 {
                   "date": "1970-01-01",
@@ -258334,11 +258834,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 28.9
+                  "value": 28.2
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.3
+                  "value": 11.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258346,11 +258846,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 31.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
+                  "value": 12.5
                 },
                 {
                   "date": "1970-01-01",
@@ -258358,11 +258854,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.0
+                  "value": 9.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.5
+                  "value": 31.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.3
                 },
                 {
                   "date": "1970-01-01",
@@ -258370,6 +258870,14 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.7
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 12.0
                 },
                 {
@@ -258379,18 +258887,6 @@ const INDUSTRY_DATA = {
                 {
                   "date": "1970-01-01",
                   "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258402,31 +258898,19 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 32.1
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 34.7
+                  "value": 7.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 30.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 26.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.5
+                  "value": 13.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258434,15 +258918,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
+                  "value": 33.4
                 },
                 {
                   "date": "1970-01-01",
@@ -258458,7 +258934,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 28.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.4
                 },
                 {
                   "date": "1970-01-01",
@@ -258470,15 +258962,31 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 9.0
+                  "value": 12.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.0
+                  "value": 6.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 33.4
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258486,19 +258994,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 31.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.1
                 },
                 {
                   "date": "1970-01-01",
@@ -258506,11 +259002,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 5.5
+                  "value": 7.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.5
+                  "value": 5.5
                 },
                 {
                   "date": "1970-01-01",
@@ -258518,19 +259014,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.1
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
                 },
                 {
                   "date": "1970-01-01",
@@ -258538,7 +259038,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.0
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
                 },
                 {
                   "date": "1970-01-01",
@@ -258546,47 +259054,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 25.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
                 },
                 {
                   "date": "1970-01-01",
@@ -258594,91 +259062,19 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 4.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 29.44
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 30.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 8.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.0
+                  "value": 25.3
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 10.0
+                  "value": 23.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 32.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 33.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
+                  "value": 8.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258686,15 +259082,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 23.7
+                  "value": 9.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.0
+                  "value": 7.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 5.5
+                  "value": 4.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.4
                 },
                 {
                   "date": "1970-01-01",
@@ -258702,11 +259106,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 29.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 2.0
+                  "value": 7.5
                 },
                 {
                   "date": "1970-01-01",
@@ -258714,7 +259114,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.0
+                  "value": 4.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258722,15 +259122,31 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.0
+                  "value": 10.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.0
+                  "value": 4.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.0
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.44
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258738,7 +259154,51 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 10.5
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 2.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 32.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258750,51 +259210,35 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.0
+                  "value": 7.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 29.8
+                  "value": 18.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.0
+                  "value": 6.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 21.5
+                  "value": 11.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.5
+                  "value": 11.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.0
+                  "value": 10.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
+                  "value": 33.6
                 },
                 {
                   "date": "1970-01-01",
                   "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 22.6
                 },
                 {
                   "date": "1970-01-01",
@@ -258802,19 +259246,55 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 10.0
+                  "value": 7.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.0
+                  "value": 9.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.0
+                  "value": 22.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
                   "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258826,7 +259306,27 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 13.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258834,27 +259334,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 29.9
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 29.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 2.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258862,7 +259350,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 26.8
+                  "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258870,7 +259358,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 2.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.8
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 10.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
                 },
                 {
                   "date": "1970-01-01",
@@ -258882,15 +259386,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.0
+                  "value": 26.8
                 },
                 {
                   "date": "1970-01-01",
@@ -258902,43 +259398,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 10.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.9
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.0
                 },
                 {
                   "date": "1970-01-01",
@@ -258946,55 +259406,43 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 32.8
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.0
+                  "value": 24.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.0
+                  "value": 10.4
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.5
+                  "value": 17.9
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.0
+                  "value": 6.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 19.0
+                  "value": 6.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.0
+                  "value": 32.8
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.0
+                  "value": 11.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.0
+                  "value": 12.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
+                  "value": 20.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259002,7 +259450,79 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 22.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259018,39 +259538,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 20.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 30.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.5
                 },
                 {
                   "date": "1970-01-01",
@@ -259062,6 +259566,14 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.7
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 15.0
                 },
                 {
@@ -259074,7 +259586,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.5
+                  "value": 7.5
                 },
                 {
                   "date": "1970-01-01",
@@ -259086,11 +259598,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.0
+                  "value": 16.8
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 33.5
+                  "value": 15.5
                 },
                 {
                   "date": "1970-01-01",
@@ -259098,15 +259610,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.0
+                  "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
+                  "value": 15.5
                 },
                 {
                   "date": "1970-01-01",
@@ -259118,19 +259626,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.5
+                  "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 26.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 30.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
+                  "value": 13.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259138,23 +259638,27 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 12.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.0
+                  "value": 11.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.0
+                  "value": 10.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
+                  "value": 11.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259162,7 +259666,47 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.2
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 21.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259174,23 +259718,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.8
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 20.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259198,91 +259726,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 28.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 27.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 26.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259294,23 +259738,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 28.1
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
+                  "value": 13.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259318,11 +259746,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.0
+                  "value": 12.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259330,11 +259754,47 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 8.0
                 },
                 {
                   "date": "1970-01-01",
                   "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259346,15 +259806,47 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 21.5
+                  "value": 6.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.5
+                  "value": 13.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.5
+                  "value": 26.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259362,15 +259854,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.8
+                  "value": 15.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 6.5
+                  "value": 16.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.8
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259382,71 +259882,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 6.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
                 },
                 {
                   "date": "1970-01-01",
@@ -259462,223 +259898,59 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 22.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 22.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 28.9
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 23.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
                 },
                 {
                   "date": "1970-01-01",
                   "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
                 },
                 {
                   "date": "1970-01-01",
@@ -259686,23 +259958,147 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.8
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 16.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 23.1
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 26.8
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 26.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.0
+                  "value": 12.7
                 },
                 {
                   "date": "1970-01-01",
@@ -259710,7 +260106,191 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 23.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 11.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259722,103 +260302,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 20.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.1
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 5.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 11.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
+                  "value": 17.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259826,19 +260314,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.0
+                  "value": 12.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
+                  "value": 8.5
                 },
                 {
                   "date": "1970-01-01",
@@ -259846,71 +260326,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.5
+                  "value": 17.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.1
+                  "value": 5.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 19.8
+                  "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.5
+                  "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.9
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.9
+                  "value": 8.5
                 },
                 {
                   "date": "1970-01-01",
@@ -259922,15 +260354,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.5
+                  "value": 16.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.0
+                  "value": 24.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.0
+                  "value": 24.5
                 },
                 {
                   "date": "1970-01-01",
@@ -259938,39 +260370,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 28.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 31.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 34.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.0
                 },
                 {
                   "date": "1970-01-01",
@@ -259978,27 +260378,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.1
+                  "value": 16.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 27.7
+                  "value": 14.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
+                  "value": 31.8
                 },
                 {
                   "date": "1970-01-01",
@@ -260006,11 +260394,131 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.5
+                  "value": 34.7
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.6
+                  "value": 27.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.2
                 },
                 {
                   "date": "1970-01-01",
@@ -260022,15 +260530,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
+                  "value": 33.5
                 },
                 {
                   "date": "1970-01-01",
@@ -260038,39 +260538,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 27.2
+                  "value": 11.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.0
+                  "value": 13.6
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 28.9
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 33.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
+                  "value": 8.5
                 },
                 {
                   "date": "1970-01-01",
@@ -260082,7 +260558,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 9.5
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260090,7 +260570,43 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 25.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260098,7 +260614,63 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 6.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260110,63 +260682,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.9
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 27.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 5.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 29.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260178,15 +260694,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 13.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.8
                 },
                 {
                   "date": "1970-01-01",
@@ -260194,11 +260702,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 9.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
+                  "value": 17.5
                 },
                 {
                   "date": "1970-01-01",
@@ -260206,15 +260710,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 26.2
+                  "value": 10.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.5
+                  "value": 10.0
                 },
                 {
                   "date": "1970-01-01",
                   "value": 21.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 21.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260226,59 +260738,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 21.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 30.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 29.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
+                  "value": 20.8
                 },
                 {
                   "date": "1970-01-01",
@@ -260286,7 +260746,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 10.7
+                  "value": 30.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.5
                 },
                 {
                   "date": "1970-01-01",
@@ -260294,35 +260762,39 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 9.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.4
+                  "value": 18.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.5
+                  "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 34.5
+                  "value": 10.7
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 35.5
+                  "value": 19.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 32.2
+                  "value": 15.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
+                  "value": 9.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260338,6 +260810,26 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 32.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.4
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 35.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 34.5
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 8.0
                 },
                 {
@@ -260350,39 +260842,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.0
+                  "value": 7.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.9
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 25.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.5
+                  "value": 11.5
                 },
                 {
                   "date": "1970-01-01",
@@ -260391,6 +260855,34 @@ const INDUSTRY_DATA = {
                 {
                   "date": "1970-01-01",
                   "value": 19.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
                 },
                 {
                   "date": "1970-01-01",
@@ -260406,7 +260898,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.5
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.2
                 },
                 {
                   "date": "1970-01-01",
@@ -260418,7 +260918,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 26.7
+                  "value": 25.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260426,15 +260926,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.9
                 },
                 {
                   "date": "1970-01-01",
@@ -260446,11 +260946,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.5
+                  "value": 10.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 28.2
+                  "value": 10.5
                 },
                 {
                   "date": "1970-01-01",
@@ -260466,43 +260966,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.2
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 28.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.9
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 3.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.9
                 },
                 {
                   "date": "1970-01-01",
@@ -260510,7 +260974,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.8
+                  "value": 7.5
                 },
                 {
                   "date": "1970-01-01",
@@ -260518,7 +260982,19 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.5
+                  "value": 16.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 3.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260530,15 +261006,31 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 20.8
+                  "value": 18.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 28.8
+                  "value": 16.4
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 20.7
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.2
                 },
                 {
                   "date": "1970-01-01",
@@ -260546,19 +261038,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 20.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 5.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 5.5
+                  "value": 19.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 28.8
                 },
                 {
                   "date": "1970-01-01",
@@ -260566,7 +261054,27 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 20.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.7
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 18.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.8
                 },
                 {
                   "date": "1970-01-01",
@@ -260574,51 +261082,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
+                  "value": 8.5
                 },
                 {
                   "date": "1970-01-01",
                   "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 3.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260626,31 +261094,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 19.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 26.6
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
+                  "value": 3.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260658,7 +261102,67 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 26.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.6
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 24.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260666,23 +261170,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 27.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 27.4
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 22.5
                 },
                 {
                   "date": "1970-01-01",
@@ -260690,35 +261182,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 27.4
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 20.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 11.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.7
                 },
                 {
                   "date": "1970-01-01",
@@ -260726,11 +261198,27 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 7.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 8.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.0
+                  "value": 8.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.3
                 },
                 {
                   "date": "1970-01-01",
@@ -260738,7 +261226,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 32.5
+                  "value": 8.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
                 },
                 {
                   "date": "1970-01-01",
@@ -260746,15 +261238,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.3
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 3.0
+                  "value": 11.3
                 },
                 {
                   "date": "1970-01-01",
@@ -260762,19 +261246,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.5
+                  "value": 32.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 23.3
+                  "value": 15.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 8.0
+                  "value": 1.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260782,19 +261262,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 9.0
+                  "value": 8.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 1.5
+                  "value": 17.7
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 9.0
+                  "value": 3.0
                 },
                 {
                   "date": "1970-01-01",
                   "value": 1.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.5
                 },
                 {
                   "date": "1970-01-01",
@@ -260802,7 +261286,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 1.0
+                  "value": 23.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 8.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 1.5
                 },
                 {
                   "date": "1970-01-01",
@@ -260814,11 +261314,39 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.2
+                  "value": 9.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.7
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.6
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 7.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 36.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.8
                 },
                 {
                   "date": "1970-01-01",
@@ -260830,26 +261358,6 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 29.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 37.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 36.8
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 8.0
                 },
                 {
@@ -260858,14 +261366,6 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.7
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 11.0
                 },
                 {
@@ -260874,15 +261374,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.8
+                  "value": 37.8
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 5.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 7.0
+                  "value": 29.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260894,15 +261390,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.3
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 17.3
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.1
+                  "value": 7.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260910,11 +261402,35 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.6
+                  "value": 12.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.0
+                  "value": 13.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
                 },
                 {
                   "date": "1970-01-01",
@@ -260922,19 +261438,19 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 12.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 16.1
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 2.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 4.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 18.5
                 },
                 {
                   "date": "1970-01-01",
@@ -260942,7 +261458,19 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 18.5
+                  "value": 13.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.1
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 12.5
                 },
                 {
                   "date": "1970-01-01",
@@ -260954,63 +261482,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 29.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 4.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 5.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 9.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 3.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 29.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 29.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 6.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.0
                 },
                 {
                   "date": "1970-01-01",
@@ -261018,15 +261494,47 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 24.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 13.8
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 9.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 29.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 2.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 2.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 7.8
                 },
                 {
                   "date": "1970-01-01",
                   "value": 7.8
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.2
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 3.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 5.0
                 },
                 {
                   "date": "1970-01-01",
@@ -261034,7 +261542,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.0
+                  "value": 29.0
                 },
                 {
                   "date": "1970-01-01",
@@ -261046,19 +261554,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 2.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 2.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 24.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 11.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 6.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 9.5
                 },
                 {
                   "date": "1970-01-01",
@@ -261070,15 +261574,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 9.5
+                  "value": 11.8
                 },
                 {
                   "date": "1970-01-01",
                   "value": 18.2
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 29.3
                 },
                 {
                   "date": "1970-01-01",
@@ -261090,7 +261590,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.8
+                  "value": 29.3
                 },
                 {
                   "date": "1970-01-01",
@@ -261118,11 +261618,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 5.0
+                  "value": 35.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 35.0
+                  "value": 5.0
                 },
                 {
                   "date": "1970-01-01",
@@ -261206,7 +261706,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 35.4
+                  "value": 19.2
                 },
                 {
                   "date": "1970-01-01",
@@ -261214,7 +261714,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 10.0
+                  "value": 34.5
                 },
                 {
                   "date": "1970-01-01",
@@ -261226,7 +261726,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 19.2
+                  "value": 31.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
                 },
                 {
                   "date": "1970-01-01",
@@ -261234,11 +261738,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 9.0
+                  "value": 10.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 7.5
+                  "value": 35.4
                 },
                 {
                   "date": "1970-01-01",
@@ -261246,7 +261750,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 10.0
+                  "value": 7.5
                 },
                 {
                   "date": "1970-01-01",
@@ -261254,7 +261758,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 34.5
+                  "value": 33.7
                 },
                 {
                   "date": "1970-01-01",
@@ -261262,15 +261766,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 31.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 33.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 14.0
+                  "value": 9.0
                 },
                 {
                   "date": "1970-01-01",
@@ -261286,19 +261782,19 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 32.9
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 12.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 33.3
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 6.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 32.9
                 },
                 {
                   "date": "1970-01-01",
@@ -261307,6 +261803,14 @@ const INDUSTRY_DATA = {
                 {
                   "date": "1970-01-01",
                   "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 33.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 10.0
                 },
                 {
                   "date": "1970-01-01",
@@ -261318,7 +261822,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 14.0
+                  "value": 9.0
                 },
                 {
                   "date": "1970-01-01",
@@ -261326,15 +261830,15 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 10.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 11.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 9.0
+                  "value": 14.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.7
                 },
                 {
                   "date": "1970-01-01",
@@ -261366,10 +261870,6 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.7
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 8.5
                 },
                 {
@@ -261398,7 +261898,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.0
+                  "value": 12.8
                 },
                 {
                   "date": "1970-01-01",
@@ -261430,7 +261930,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.8
+                  "value": 16.0
                 },
                 {
                   "date": "1970-01-01",
@@ -261438,11 +261938,19 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 12.0
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 10.5
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 12.0
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
                 },
                 {
                   "date": "1970-01-01",
@@ -261470,35 +261978,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 18.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 15.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 17.5
                 },
                 {
                   "date": "1970-01-01",
@@ -261510,7 +261990,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.5
+                  "value": 15.5
                 },
                 {
                   "date": "1970-01-01",
@@ -261518,11 +261998,35 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 13.7
+                  "value": 18.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 15.5
                 },
                 {
                   "date": "1970-01-01",
                   "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 16.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 17.6
                 },
                 {
                   "date": "1970-01-01",
@@ -261530,15 +262034,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 17.6
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 17.6
+                  "value": 13.7
                 },
                 {
                   "date": "1970-01-01",
@@ -261551,14 +262051,14 @@ const INDUSTRY_DATA = {
                 {
                   "date": "1970-01-01",
                   "value": 16.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 3.0
                 },
                 {
                   "date": "1970-01-01",
                   "value": 11.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 3.0
                 },
                 {
                   "date": "1970-01-01",
@@ -261646,6 +262146,10 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 5.5
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 18.0
                 },
                 {
@@ -261655,10 +262159,6 @@ const INDUSTRY_DATA = {
                 {
                   "date": "1970-01-01",
                   "value": 29.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 5.5
                 },
                 {
                   "date": "1970-01-01",
@@ -261674,10 +262174,6 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 30.0
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 30.5
                 },
                 {
@@ -261690,23 +262186,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 11.7
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 22.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 22.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 30.0
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 16.8
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 22.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 11.7
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 30.0
                 },
                 {
                   "date": "1970-01-01",
@@ -261726,15 +262222,7 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 27.5
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 19.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 20.5
+                  "value": 16.8
                 },
                 {
                   "date": "1970-01-01",
@@ -261742,11 +262230,23 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 19.0
+                  "value": 27.5
                 },
                 {
                   "date": "1970-01-01",
                   "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 20.5
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 19.0
                 },
                 {
                   "date": "1970-01-01",
@@ -261794,10 +262294,6 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
-                  "value": 8.5
-                },
-                {
-                  "date": "1970-01-01",
                   "value": 11.8
                 },
                 {
@@ -261806,6 +262302,10 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "1970-01-01",
+                  "value": 8.5
+                },
+                {
+                  "date": "1970-01-01",
                   "value": 9.0
                 },
                 {
@@ -261819,10 +262319,6 @@ const INDUSTRY_DATA = {
                 {
                   "date": "1970-01-01",
                   "value": 27.0
-                },
-                {
-                  "date": "1970-01-01",
-                  "value": 13.6
                 },
                 {
                   "date": "1970-01-01",
@@ -261835,6 +262331,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "1970-01-01",
                   "value": 19.3
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 13.6
                 },
                 {
                   "date": "1970-01-01",
@@ -264230,6 +264730,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "1970-01-01",
                   "value": 0.5285
+                },
+                {
+                  "date": "1970-01-01",
+                  "value": 0.5231
                 }
               ]
             }
@@ -266454,7 +266958,11 @@ const INDUSTRY_DATA = {
                 },
                 {
                   "date": "2026-07-11",
-                  "value": 306.4
+                  "value": 299.88
+                },
+                {
+                  "date": "2026-07-18",
+                  "value": 248.16500000000008
                 }
               ]
             },
@@ -268665,6 +269173,10 @@ const INDUSTRY_DATA = {
                 {
                   "date": "2026-07-11",
                   "value": 1494.7089999999996
+                },
+                {
+                  "date": "2026-07-18",
+                  "value": 1442.6410000000005
                 }
               ]
             }
@@ -268672,10 +269184,6 @@ const INDUSTRY_DATA = {
         }
       ],
       "scoreHistory": [
-        {
-          "date": "2025-07-13",
-          "value": 22.00772200772201
-        },
         {
           "date": "2025-07-20",
           "value": 15.444015444015445
@@ -268882,7 +269390,11 @@ const INDUSTRY_DATA = {
         },
         {
           "date": "2026-07-12",
-          "value": 80.6949806949807
+          "value": 80.5019305019305
+        },
+        {
+          "date": "2026-07-19",
+          "value": 83.3976833976834
         }
       ]
     }
