@@ -20,10 +20,22 @@ def _ts(df, date_col, val_col, skip):
     return s[s.index.notna()].sort_index()
 
 
+def _mmdd_of(val):
+    """从单元格提取MM-DD：支持'MM-DD'字符串、Excel日期序列号、Timestamp"""
+    if isinstance(val, str):
+        return val if len(val) == 5 and val[2] == '-' else None
+    if isinstance(val, pd.Timestamp):
+        return f'{val.month:02d}-{val.day:02d}'
+    if isinstance(val, (int, float)) and not pd.isna(val):
+        d = pd.to_datetime(val, unit='D', origin='1899-12-30')
+        return f'{d.month:02d}-{d.day:02d}'
+    return None
+
+
 def _unpivot_seasonal(df, mmdd_col, year_header_row, data_start_row, val_col_offset=1):
     """
     反透视预透视季节表 -> 时间序列
-    mmdd_col: MM-DD列的索引
+    mmdd_col: 日期列的索引（'MM-DD'字符串或Excel序列号）
     year_header_row: 年份标题所在行（0-indexed from file start）
     data_start_row: 数据起始行
     val_col_offset: 值列相对于mmdd_col的偏移（默认1）
@@ -42,17 +54,14 @@ def _unpivot_seasonal(df, mmdd_col, year_header_row, data_start_row, val_col_off
 
     records = []
     for i in range(data_start_row, len(df)):
-        mmdd = df.iloc[i, mmdd_col]
-        if pd.isna(mmdd) or not isinstance(mmdd, str):
-            continue
-        # 过滤非日期格式的行
-        if len(mmdd) != 5 or mmdd[2] != '-':
+        md = _mmdd_of(df.iloc[i, mmdd_col])
+        if md is None:
             continue
         for j, year in year_cols.items():
             try:
                 val = float(df.iloc[i, j])
                 if not np.isnan(val):
-                    date = pd.Timestamp(f'{year}-{mmdd}')
+                    date = pd.Timestamp(f'{year}-{md}')
                     records.append((date, val))
             except Exception:
                 continue
@@ -260,31 +269,31 @@ def _read_chemicals():
 
     # === 价格 sheet ===
     # 行0=空，行1=名，行2=频率，行3=单位；数据从行4
-    # 左：col1=日期，col2=化工价格指数，col3=乙烯CFR，col4=尿素
-    # 右：col6=日期，col7=涤纶DTY价格，col8=除草剂价格指数
+    # 左：col1=日期，col2=化工产品价格指数，col3=乙烯CFR，col4=尿素，col5=纯碱
+    # 右：col17=日期，col18=涤纶DTY价格，col19=除草剂价格指数
     df_price = pd.read_excel(path, sheet_name='价格', header=None)
     chem_price_index = _ts(df_price, 1, 2, 4)
     ethylene_cfr = _ts(df_price, 1, 3, 4)
     urea_price = _ts(df_price, 1, 4, 4)
-    dty_price = _ts(df_price, 6, 7, 4)
-    herbicide_index = _ts(df_price, 6, 8, 4)
+    dty_price = _ts(df_price, 17, 18, 4)
+    herbicide_index = _ts(df_price, 17, 19, 4)
 
     # === 库存 sheet ===
     # 行0=空，行1=名，行2=频率，行3=单位；数据从行4
-    # 实际列顺序（根据探索确认）：
-    # 1=日期，2=甲醛库存天数（不用），3=PTA库存天数，4=POY库存天数，5=DTY库存天数，6=FDY库存天数
+    # 实际列顺序：
+    # 0=日期，1=甲醇库存（不用），2=PTA库存天数，3=POY库存天数，4=FDY库存天数，5=DTY库存天数
     df_inv = pd.read_excel(path, sheet_name='库存', header=None)
-    pta_inv_days = _ts(df_inv, 1, 3, 4)   # PTA库存天数
-    poy_inv_days = _ts(df_inv, 1, 4, 4)   # POY库存天数
-    dty_inv_days = _ts(df_inv, 1, 5, 4)   # DTY库存天数
-    fdy_inv_days = _ts(df_inv, 1, 6, 4)   # FDY库存天数
+    pta_inv_days = _ts(df_inv, 0, 2, 4)   # PTA库存天数
+    poy_inv_days = _ts(df_inv, 0, 3, 4)   # POY库存天数
+    fdy_inv_days = _ts(df_inv, 0, 4, 4)   # FDY库存天数
+    dty_inv_days = _ts(df_inv, 0, 5, 4)   # DTY库存天数
 
     # === 开工 sheet ===
-    # 行0=空，行1=名，行2=频率，行3=单位?；数据从行3（甲醛无数据，涤纶从此开始）
-    # 列：1=日期，2=甲醛开工率（不用），3=涤纶长丝开工率，4=江浙织机开工率
+    # 行0=空，行1=名，行2=频率，行3=单位；数据从行4
+    # 列：0=日期，1=尿素开工率（不用），2=涤纶长丝开工率，3=江浙织机开工率
     df_op = pd.read_excel(path, sheet_name='开工', header=None)
-    poy_op = _ts(df_op, 1, 3, 3)   # 涤纶长丝开工率（0-1小数形式）
-    loom_op = _ts(df_op, 1, 4, 3)  # 江浙织机开工率
+    poy_op = _ts(df_op, 0, 2, 4)   # 涤纶长丝开工率（0-1小数形式）
+    loom_op = _ts(df_op, 0, 3, 4)  # 江浙织机开工率
 
     # === 价差 sheet ===
     # 行0=空，行1=名，行2=频率，行3=单位；数据从行4

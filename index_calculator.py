@@ -41,9 +41,12 @@ def _rolling_percentile(yoy_series: pd.Series, window: int = 260) -> pd.Series:
     min_periods = min(52, window)
 
     def pct_score(x):
-        if len(x) < 10:
+        if np.isnan(x[-1]):
             return np.nan
-        return stats.percentileofscore(x[:-1], x[-1], kind='rank')
+        hist = x[:-1][~np.isnan(x[:-1])]
+        if len(hist) < 10:
+            return np.nan
+        return stats.percentileofscore(hist, x[-1], kind='rank')
 
     return yoy_series.rolling(window, min_periods=min_periods).apply(pct_score, raw=True)
 
